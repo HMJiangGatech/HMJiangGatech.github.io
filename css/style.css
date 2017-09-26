@@ -47,18 +47,25 @@ body{
 }
 .header-section {
   background: #deecdf;
-  text-align: center;
-    min-height: 500px;
+  background-image: url(../images/headbkimg.jpg);
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: cover;
+  min-height: 450px;
 }
 .header-section img {
   margin-top: 7em;
+  margin-left: 3em;
 }
+
 .header-section h1 {
-  font-family: 'Nunito-Bold';
+  font-family: 'Times-New-Roman';
+  font-style:italic;
+  text-align: center;
   font-size: 4em;
   text-transform: capitalize;
-  color: #393b3a;
-  padding: 0.5em 0 0 0;
+  color: #ffffff;
+  padding: 6em 0 0 0;
 }
 .header-section span {
   color: #00cfbd;
@@ -80,8 +87,11 @@ span.glyphicon.glyphicon-triangle-bottom {
 .study-section {
   padding: 4em 0;
 }
+.study-grid img {
+  text-align: left;
+}
 .study-grid h3 {
-  font-family: 'Nunito-Bold';
+  font-family: 'Helvetica';
   font-size: 2.5em;
   text-transform: capitalize;
   color: #393b3a;
@@ -92,7 +102,8 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 0.9em;
 }
 .study-grid p {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-family: 'Times-New-Roman';
   color: #393b3a;
   padding: 1.1em 0 0 0;
   }

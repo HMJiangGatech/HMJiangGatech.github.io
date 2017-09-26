@@ -89,6 +89,8 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .study-grid img {
   text-align: left;
+  width: 75%;
+  height: auto;
 }
 .study-grid h3 {
   font-family: 'Helvetica';

@@ -12,6 +12,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     font-family: 'OpenSans-Regular';
     src:url(../fonts/OpenSans-Regular.ttf) format('truetype');
 }
+@font-face {
+    font-family: 'TIMCYRI';
+    src:url(../fonts/TIMCYRI.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src:url(../fonts/Helvetica-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica-Light';
+    src:url(../fonts/Helvetica-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Helvetica';
+    src:url(../fonts/Helvetica.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Times-New-Roman';
+    src:url(../fonts/Times-New-Roman.ttf) format('truetype');
+}
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -42,7 +62,7 @@ ul{
 body{
 	padding:0 0;
 	margin:0 0; 
-	font-family: 'OpenSans-Regular';
+	font-family: 'Helvetica';
 
 }
 .header-section {
@@ -59,7 +79,7 @@ body{
 }
 
 .header-section h1 {
-  font-family: 'Times-New-Roman';
+  font-family: 'TIMCYRI';
   font-style:italic;
   text-align: center;
   font-size: 4em;
@@ -72,9 +92,10 @@ body{
   font-size: 1em;
 }
 .header-section p {
-  font-family: 'Nunito-Bold';
+  font-family: 'Helvetica-Light';
+  text-align: center;
   font-size: 1.3em;
-  color: #393b3a;
+  color: #ffffff;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 2em;
@@ -152,7 +173,7 @@ span.glyphicon.glyphicon-triangle-bottom {
 .service-grid h4 {
   font-size: 1.5em;
   margin: 0.9em 0;
-    font-family: 'Nunito-Bold';
+    font-family: 'Helvetica';
 }
 .service-grid p {
   font-size: 1em;
@@ -188,7 +209,7 @@ font-size: 2em;
 
 }
 .social-icons h3 {
-  font-family: 'Nunito-Bold';
+  font-family: 'Helvetica-Bold';
   font-size: 2.5em;
   text-transform: capitalize;
   color: #393b3a;
@@ -250,7 +271,7 @@ i.beh {
  
  }
 .contact-section h3 {
-    font-family: 'Nunito-Bold';
+    font-family: 'Helvetica';
   font-size: 2.5em;
   text-transform: capitalize;
   color: #393b3a;

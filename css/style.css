@@ -57,11 +57,11 @@ p{
 }
 ul{
 	padding:0 0;
-	margin:0 0;	
+	margin:0 0;
 }
 body{
 	padding:0 0;
-	margin:0 0; 
+	margin:0 0;
 	font-family: 'Helvetica';
 
 }
@@ -69,24 +69,24 @@ body{
   background: #deecdf;
   background-image: url(../images/headbkimg.jpg);
   background-repeat: repeat-x;
-  background-position: bottom center;
+  background-position: top right;
+  background-origin: right;
   background-size: cover;
-  min-height: 450px;
+  min-height: 0px;
   text-align: center;
+    padding: 0.2em 0;
 }
 .header-section img {
   width: 6em;
   height: auto;
-  margin-top: 15em;
 }
 .header-section h1 {
   font-family: 'TIMCYRI';
   font-style:italic;
-  text-align: center;
-  font-size: 4em;
+  text-align: left;
+  font-size: 2em;
   text-transform: capitalize;
   color: #ffffff;
-  padding: 0.5em 0 0 0;
 }
 .header-section span {
   color: #00cfbd;
@@ -94,7 +94,7 @@ body{
 }
 .header-section p {
   font-family: 'Helvetica-Light';
-  text-align: center;
+  text-align: left;
   font-size: 1.3em;
   color: #ffffff;
 }
@@ -107,7 +107,7 @@ span.glyphicon.glyphicon-triangle-bottom {
   margin-top: 2.5em;
   }
 .study-section {
-  padding: 4em 0;
+  padding: 1em 0;
 }
 .study-grid img {
   text-align: left;
@@ -116,10 +116,10 @@ span.glyphicon.glyphicon-triangle-bottom {
 }
 .study-grid h3 {
   font-family: 'Helvetica';
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: capitalize;
   color: #393b3a;
-  
+
 }
 .study-grid span {
   color: #00cfbd;
@@ -211,7 +211,7 @@ font-size: 2em;
 }
 .social-icons h3 {
   font-family: 'Helvetica-Bold';
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: capitalize;
   color: #393b3a;
   text-align: center;
@@ -222,7 +222,7 @@ font-size: 2em;
   color: #B4BEB9;
   font-weight: 500;
   margin: 0 9px;
- 
+
 }
 .face h4 {
   font-size: 0.9em;
@@ -269,11 +269,11 @@ i.beh {
 .contact-section {
   padding: 4em 0;
   background: #deecdf;
- 
+
  }
 .contact-section h3 {
     font-family: 'Helvetica';
-  font-size: 2.5em;
+  font-size: 2em;
   text-transform: capitalize;
   color: #393b3a;
   text-align: center;
@@ -365,13 +365,13 @@ i.beh {
 /*-- responsive-design --*/
 @media only screen and (max-width:1024px) {
 .header-section h1 {
-   font-size: 3em;
+   font-size: 2em;
  }
 .header-section p {
 	font-size: 1.2em;
 }
 .study-grid h3 {
-   font-size: 2em;
+   font-size: 1.5em;
  }
 .study-grid p {
   font-size: 1.1em;
@@ -386,7 +386,7 @@ i.beh {
   font-size: 0.965em;
  }
  .social-icons h3 {
-  font-size: 2em;
+  font-size: 1.5em;
  }
  .face p {
   font-size: 2.5em;
@@ -395,7 +395,7 @@ i.beh {
     margin-top: 2em;
 }
 .contact-section h3 {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .contact-details form input[type="text"], .contact-details form textarea {
     font-size: 1em;
@@ -412,10 +412,10 @@ i.beh {
 }
 @media only screen and (max-width: 768px){
 .header-section {
-   min-height: 472px;
+   min-height: 0px;
 }
 .header-section h1 {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .header-section p {
   font-size: 1.1em;
@@ -424,14 +424,14 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1.5em;
 }
 .study-section {
-  padding: 3em 0;
+  padding: 1em 0;
 }
 .study-grid {
   float: left;
   width: 50%;
 }
 .study-grid h3 {
-  font-size: 1.6em;
+  font-size: 1.2em;
 }
 .study-grid p {
   font-size: 1em;
@@ -458,7 +458,7 @@ span.glyphicon.glyphicon-triangle-bottom {
    padding: 3em 0;
   }
 .social-icons h3 {
-  font-size: 1.6em;
+  font-size: 1.2em;
     margin-bottom: 1.5em;
 }
 .face {
@@ -504,7 +504,7 @@ i.beh {
   padding: 3em 0;
 }
 .contact-section h3 {
-  font-size: 1.6em;
+  font-size: 1.2em;
   margin-bottom: 1.5em;
 }
 .contact-left {
@@ -528,19 +528,19 @@ i.beh {
 }
 @media only screen and (max-width: 640px){
 .header-section img {
-  margin-top: 5em;
+  margin-top: 0em;
 }
 .header-section {
-  min-height: 430px;
+  min-height: 0px;
 }
 .header-section h1 {
-  font-size: 2em;
+  font-size: 1em;
 }
 .header-section p {
   font-size: 1.05em;
 }
 .study-grid h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .study-grid {
   float: none;
@@ -567,7 +567,7 @@ i.beh {
   font-size: 1em;
 }
 .social-icons h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 i.facebook {
   width: 44px;
@@ -602,7 +602,7 @@ i.beh {
   margin: 0 1px;
 }
 .contact-section h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
  }
 .contact-details input[type="submit"] {
     font-size: 0.9em;
@@ -617,10 +617,10 @@ i.beh {
   width: 30%;
 }
 .header-section {
-  min-height: 345px;
+  min-height: 0px;
 }
 .header-section h1 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1.3em;
@@ -629,7 +629,7 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1em;
 }
 .study-grid h3 {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 .study-grid {
   margin-top: 1em;
@@ -653,7 +653,7 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 0.95em;
 }
 .social-icons h3 {
-  font-size: 1.3em;
+  font-size: 1em;
    margin-bottom: 1em;
 }
 .face p {
@@ -671,7 +671,7 @@ span.glyphicon.glyphicon-triangle-bottom {
   padding: 2em 0;
 }
 .contact-section h3 {
-  font-size: 1.3em;
+  font-size: 1em;
   margin-bottom: 1em;
 }
 .contact-details form textarea {
@@ -705,16 +705,16 @@ span.glyphicon.glyphicon-triangle-bottom {
   width: 40%;
 }
 .header-section h1 {
-  font-size: 1.8em;
+  font-size: 1.2em;
 }
 span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1em;
 }
 .header-section {
-  min-height: 300px;
+  min-height: 0px;
 }
 .study-grid h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .study-section {
   padding: 0em 0;
@@ -732,8 +732,8 @@ span.glyphicon.glyphicon-triangle-bottom {
   font-size: 1.15em;
 }
 .social-icons h3 {
-  font-size: 1.5em;
- 
+  font-size: 1.2em;
+
 }
 .face {
   float: left;
@@ -741,7 +741,7 @@ span.glyphicon.glyphicon-triangle-bottom {
   padding: 0;
 }
 .contact-section h3 {
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 .google-map iframe {
   height: 250px;

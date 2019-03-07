@@ -8,7 +8,6 @@ Specifically, we train the system
 
 $\min_{f_1} \max_{f_2'} D_{f_2'}(f_1(X_{user})||\rho_{X_{user}}) + \lambda \mathcal R(f_1(X_{user}))$
 
-where $\rho_{X_{user}}$ denotes the true training item distribution conditioning on given user information, and $D_{f_2'}$ denotes the neural distance defined by the discriminator $f_2'$. Compared to the traditional GAN loss, in order to contol the number of recommended items, we can add an sparse inducing regularization $\mathcal R$ with a tuning parameter $\lambda$.
-For example, $\mathcal R$ can be the entropy of $f_1(X_{user})$. By minimizing $\mathcal R$, we can expect that $f_1(X_{user})$ can output an item distribution with a small entropy, which means the probability concentrates on serveral items.
+where $\rho_{X_{user}}$ denotes the true training item distribution conditioning on given user information, and $D_{f_2'}$ denotes the neural distance defined by the discriminator $f_2'$. Compared to the traditional GAN loss, in order to contol the number of recommended items, we can add a sparse inducing regularization $\mathcal R$ with a tuning parameter $\lambda$. For example, $\mathcal R$ can be the entropy of $f_1(X_{user})$. By minimizing $\mathcal R$, we can expect that $f_1(X_{user})$ can output an item distribution with a small entropy, which means the probability concentrates on serveral items.
 
 The above adversarial training can be incorporated with the training of $f_2$ for the downstream application.

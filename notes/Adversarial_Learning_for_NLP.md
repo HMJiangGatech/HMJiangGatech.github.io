@@ -10,10 +10,9 @@ Next we consider the following scenario: only limited task-specific data is avai
 
 ### Adversarial Learning for limited task-specific data
 
-Consider a simple NLP model structure: Encoder-Decoder model. Denote $g()$ as encoder, $f()$ as decoder. If the model is used for classification, and then $f()$ is a classifier.
+Consider a simple NLP model structure: Encoder-Decoder model. Denote $g()$ as encoder, $f()$ as decoder. If the model is used for classification, then $f()$ is a classifier.
 
-The amount task-specific data ($X_{cls},Y_{cls}$) is very limited, while lots of auxiliary unlabeled data ($X_a$) is available.
-We can incorporate the classification training $\min_{f,g} \ell(f(g(X_{cls})),Y_{cls})$ with an additional adversarial training.
+The amount task-specific data ($X_{cls},Y_{cls}$) is very limited, while lots of auxiliary unlabeled data ($X_a$) is available. Besides using unsupervised learning (e.g. language model) on $X_a$ to pretrain $g$, we can also incorporate the classification training $\min_{f,g} \ell(f(g(X_{cls})),Y_{cls})$ with an additional adversarial training.
 We can expect if the encoding of $X_{cls}$ and $X_a$ are similar, the classifier $f()$ can be generalized to more data. Specifically, we construct an additional classifier $d()$ to identify if the embedding is from $X_{cls}$ or $X_a$:
 
 $\min_{g}\max_{d} D_d(g(X_{cls}), g(X_a))$, where $D_d$ is some kind of neural distance defined by $d$.

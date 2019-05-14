@@ -1,5 +1,34 @@
 # 2019 Internship Project
 
+[TOC]
+
+## Toolkit
+
+### Server
+```bash
+ssh v-hajia@v1012.westus2.cloudapp.azure.com
+```
+
+### Docker
+[Introduction from docker.com](https://docs.docker.com/get-started/)
+#### Run a docker image
+```bash
+docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
+```
+`-it`: interactive mode
+`--rm`: clean up after exit
+`-v`:
+
+#### Cheatsheet
+
+
+
+
+
+
+
+
+
 ## Project 1: DecaNLP
 
 [DecaNLP](https://github.com/salesforce/decaNLP) is a multitask challenge that spans ten tasks. Each task is cast as question answering, which makes the training the same as single task training.

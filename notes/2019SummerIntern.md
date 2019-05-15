@@ -5,21 +5,55 @@
 ## Toolkit
 
 ### Server
+
 ```bash
-ssh v-hajia@v1012.westus2.cloudapp.azure.com
+ssh v-hajia@v1011.westus2.cloudapp.azure.com
 ```
 
 ### Docker
+
 [Introduction from docker.com](https://docs.docker.com/get-started/)
+
+```bash
+docker run -it --rm  -v ~/project:/work/project biglm bash
+```
+
 #### Run a docker image
+
 ```bash
 docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
 ```
 `-it`: interactive mode
 `--rm`: clean up after exit
-`-v`:
+`-v`: volume (shared filesystems)
+
+#### Build a docker image
+1. Get folder with everything you need in it.
+2. Write a `Dockerfile`
+3. `docker build --tag=docker-image .`
 
 #### Cheatsheet
+```bash
+## List Docker CLI commands
+docker
+docker container --help
+
+## Display Docker version and info
+docker --version
+docker version
+docker info
+
+## Execute Docker image
+docker run hello-world
+
+## List Docker images
+docker image ls
+
+## List Docker containers (running, all, all in quiet mode)
+docker container ls
+docker container ls --all
+docker container ls -aq
+```
 
 
 

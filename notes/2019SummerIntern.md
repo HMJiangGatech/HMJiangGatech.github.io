@@ -17,6 +17,7 @@ ssh v-hajia@v1011.westus2.cloudapp.azure.com
 ```bash
 docker run -it --rm  -v ~/project:/work/project biglm bash
 docker run -it --rm  -v ~/project:/work/project fairseq bash
+docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 bash
 ```
 
 #### Run a docker image
@@ -67,27 +68,81 @@ docker container ls -aq
 
 
 
-## Project 1: Semi-supervised Learning Generate Labeled paired sample for MNLI
+## Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleGAN
+
+### Motivation
+Data vs Performance: Data $\uparrow$ $\Rightarrow$ Performance $\uparrow$.
+However, labeled data is limited.
+
+
+### Difficulty
+1. Pairing sentences: Conditional CycleGAN
+2. Diversity
+3. Domain mismatch
+4. How to use noisy generated data: [Gang Niu](https://niug1984.github.io/publication.html)
+
+### Ideas
+**Dual Learning**: do not find paring, generate paring!!!! Conditional generator: xxx,xxx,xxxxx + contradict --> yyy,yyy,yyyyy [Almost Unsupervised Text to Speech and Automatic Speech Recognition
+](https://mp.weixin.qq.com/s?__biz=MzAwMTA3MzM4Nw==&mid=2649447754&idx=1&sn=8ad44ffc9aad1079f8d58585d5aa58e0&chksm=82c0b4ceb5b73dd8334086200cf17685c565a97b7cf09ef046d1d6ddb40ba71a3a1159a6f6c9&mpshare=1&scene=1&srcid=&key=7009efb4b025cbdb67f09288c684aafc595e2741bfa80d5946feb44b33057940301941a2995dc9f1ee19f31832e430fa5df08f98916c741482c3c200d2ccd825a75d0779eabcbef59427a23891ee026a&ascene=1&uin=MjA1OTU0MjcwMg%3D%3D&devicetype=Windows+10&version=62060739&lang=en&pass_ticket=0Y%2F4Wenpbb1a5Mmkv6ITdzYVnPCjNwCSs%2B70la%2Fan8%2B1nMEqHLhsOW9rEw2xwERb)[paper](https://speechresearch.github.io/papers/almost_unsup_tts_asr_2019.pdf)
+View as machine teacher.
 
 ### Reading List
+**Models**
+[BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+[Improving Language Understanding by Generative Pre-Training](https://blog.openai.com/language-unsupervised/)
+[Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](http://arxiv.org/abs/1901.02860)
+[Language Models are Unsupervised Multitask Learners](https://blog.openai.com/better-language-models/)
+
+
 [Strong Baselines for Neural Semi-supervised Learning under Domain Shift](https://arxiv.org/abs/1804.09530)
 [Semi-supervised Learning by Entropy Minimization](http://www.iro.umontreal.ca/~lisa/pointeurs/semi-supervised-entropy-nips2004.pdf)
 [Unified Language Model Pre-training for Natural Language Understanding and Generation](https://arxiv.org/pdf/1905.03197.pdf)
+
+
+**Data Augmentation** (All of these are too heuristic)
+[A Surprisingly Robust Trick for the Winograd Schema Challenge](https://arxiv.org/pdf/1905.06290.pdf): select entities in a sentence -> random mask + filtering
+[Unsupervised Data Augmentation](https://arxiv.org/pdf/1904.12848): given x -> x'| Training Signal Annealing
+[QANET: COMBINING LOCAL CONVOLUTION WITH GLOBAL SELF-ATTENTION FOR READING COMPREHENSION](https://arxiv.org/pdf/1804.09541.pdf): back translation (1m->1.5m, however ours: 1m -> $+\infty$)
+[AutoAugment: Learning Augmentation Policies from Data](https://arxiv.org/pdf/1805.09501)
+
+**Semi-Supervised Learning or Weak Supervised Learning**
 [PASSAGE RANKING WITH WEAK SUPERVISION](https://128.84.21.199/pdf/1905.05910.pdf)
 [Data Programming: Creating Large Training Sets, Quickly](http://papers.nips.cc/paper/6523-data-programming-creating-large-training-sets-quickly.pdf)
-[A Surprisingly Robust Trick for the Winograd Schema Challenge](https://arxiv.org/pdf/1905.06290.pdf)
+
 ### Baselines
 **Bootstrapping Methods**
 [Self training](https://arxiv.org/abs/1804.09530): Train -> Collect high confident samples -> loop -> no more confident prediction.
 [Tri-training](https://arxiv.org/abs/1804.09530): Three models. For i-th model, if the other two agrees the label, then add that sample to the training set of i-th model. We can further share the some parameters between models.
 
 
-### Ddata
+### Data
 [Data](https://www.nyu.edu/projects/bowman/multinli/paper.pdf)
 
-### Ideas
-**Dual Learning**: do not find paring, generate paring!!!! Conditional generator: xxx,xxx,xxxxx + contradict --> yyy,yyy,yyyyy [Almost Unsupervised Text to Speech and Automatic Speech Recognition
-](https://mp.weixin.qq.com/s?__biz=MzAwMTA3MzM4Nw==&mid=2649447754&idx=1&sn=8ad44ffc9aad1079f8d58585d5aa58e0&chksm=82c0b4ceb5b73dd8334086200cf17685c565a97b7cf09ef046d1d6ddb40ba71a3a1159a6f6c9&mpshare=1&scene=1&srcid=&key=7009efb4b025cbdb67f09288c684aafc595e2741bfa80d5946feb44b33057940301941a2995dc9f1ee19f31832e430fa5df08f98916c741482c3c200d2ccd825a75d0779eabcbef59427a23891ee026a&ascene=1&uin=MjA1OTU0MjcwMg%3D%3D&devicetype=Windows+10&version=62060739&lang=en&pass_ticket=0Y%2F4Wenpbb1a5Mmkv6ITdzYVnPCjNwCSs%2B70la%2Fan8%2B1nMEqHLhsOW9rEw2xwERb)[paper](https://speechresearch.github.io/papers/almost_unsup_tts_asr_2019.pdf)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Project 2: Emsemble Model
 

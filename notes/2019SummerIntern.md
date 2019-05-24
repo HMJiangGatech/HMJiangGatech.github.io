@@ -9,6 +9,8 @@
 ```bash
 ssh v-hajia@v1011.westus2.cloudapp.azure.com
 ssh v-hajia@13.66.230.50
+
+ssh administrator@10.125.164.133
 ```
 
 ### Docker

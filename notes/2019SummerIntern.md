@@ -36,6 +36,14 @@ docker ps
 docker exec -it container_name bash
 ```
 
+#### File Permission Issue
+All files created by the docker is owned by root.
+Solution: [Using ACL](https://www.berthon.eu/2018/containers-volumes-and-file-permissions/)
+The following command grant use ACL to make read/write permissions of all files in `project` inherit from project and have the same access of the current host user.
+```bash
+setfacl -dm "u:username:rwx" ~/project
+```
+
 
 #### Build a docker image
 1. Get folder with everything you need in it.
@@ -93,7 +101,7 @@ View as machine teacher.
 [Improving Language Understanding by Generative Pre-Training](https://blog.openai.com/language-unsupervised/)
 [Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context](http://arxiv.org/abs/1901.02860)
 [Language Models are Unsupervised Multitask Learners](https://blog.openai.com/better-language-models/)
-
+[Cross-lingual Language Model Pretraining](https://arxiv.org/pdf/1901.07291.pdf)
 
 [Strong Baselines for Neural Semi-supervised Learning under Domain Shift](https://arxiv.org/abs/1804.09530)
 [Semi-supervised Learning by Entropy Minimization](http://www.iro.umontreal.ca/~lisa/pointeurs/semi-supervised-entropy-nips2004.pdf)

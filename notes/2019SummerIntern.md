@@ -2,84 +2,15 @@
 
 [TOC]
 
-## Toolkit
-
-### Server
-
-```bash
-ssh v-hajia@v1011.westus2.cloudapp.azure.com
-ssh v-hajia@13.66.230.50
-
-ssh administrator@10.125.164.133
-```
-
-### Docker
-
-[Introduction from docker.com](https://docs.docker.com/get-started/)
-
-```bash
-docker run -it --rm  -v ~/project:/work/project biglm bash
-docker run -it --rm  -v ~/project:/work/project fairseq bash
-docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 bash
-```
-
-#### Run a docker image
-
-```bash
-docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
-```
-`-it`: interactive mode
-`--rm`: clean up after exit
-`-v`: volume (shared filesystems)
-
-#### Attach to a running docker container
-```bash
-docker ps
-docker exec -it container_name bash
-```
-
-#### File Permission Issue
-All files created by the docker is owned by root.
-Solution: [Using ACL](https://www.berthon.eu/2018/containers-volumes-and-file-permissions/)
-The following command grant use ACL to make read/write permissions of all files in `project` inherit from project and have the same access of the current host user.
-```bash
-setfacl -dm "u:username:rwx" ~/project
-```
-
-
-#### Build a docker image
-1. Get folder with everything you need in it.
-2. Write a `Dockerfile`
-3. `docker build --tag=docker-image .`
-
-#### Cheatsheet
-```bash
-## List Docker CLI commands
-docker
-docker container --help
-
-## Display Docker version and info
-docker --version
-docker version
-docker info
-
-## Execute Docker image
-docker run hello-world
-
-## List Docker images
-docker image ls
-
-## List Docker containers (running, all, all in quiet mode)
-docker container ls
-docker container ls --all
-docker container ls -aq
-```
 
 
 
+## Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleULM
 
+### Plan
 
-## Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleGAN
+### Proposal
+See my [proposal](./mnli_proposal.pdf)
 
 ### Motivation
 Data vs Performance: Data $\uparrow$ $\Rightarrow$ Performance $\uparrow$.
@@ -205,3 +136,90 @@ Here $g1,g2,g3$ are task-specific gated weight. Like if the task always have the
 | [MQAN](https://arxiv.org/abs/1806.08730)(QA&#8209;first+[CoVe](http://papers.nips.cc/paper/7209-learned-in-translation-contextualized-word-vectors)) | 599.9 | 75.5 | 18.9 | 24.4 | 73.6 | 86.4 | 80.8 | 37.4 | 85.8 | 68.5 | 48.8 |
 | [MQAN](https://arxiv.org/abs/1806.08730)(QA&#8209;first) | 590.5 | 74.4 | 18.6 | 24.3 | 71.5 | 87.4 | 78.4 | 37.6 | 84.8 | 64.8 | 48.7 |
 | [S2S](https://arxiv.org/abs/1806.08730) | 513.6 | 47.5 | 14.2 | 25.7 | 60.9 | 85.9 | 68.7 | 28.5 | 84.0 | 45.8 | 52.4 |
+
+
+
+## Toolkit
+
+### Server
+
+```bash
+ssh v-hajia@v1011.westus2.cloudapp.azure.com
+ssh v-hajia@13.66.230.50
+
+ssh administrator@10.125.164.133
+```
+
+### Docker
+
+[Introduction from docker.com](https://docs.docker.com/get-started/)
+
+```bash
+docker run -it --rm \
+-v ~/project/MNLI:/work/MNLI \
+-v ~/.ssh:/root/.ssh \
+-v /mnt:/work/data \
+--privileged mnli bash
+
+docker run -it --rm  -v ~/project:/work/project biglm bash
+docker run -it --rm  -v ~/project:/work/project fairseq bash
+docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 bash
+```
+
+#### Run a docker image
+
+```bash
+docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
+```
+`-it`: interactive mode
+`--rm`: clean up after exit
+`-v`: volume (shared filesystems)
+
+#### Attach to a running docker container
+```bash
+docker ps
+docker exec -it container_name bash
+```
+
+#### File Permission Issue
+All files created by the docker is owned by root.
+Solution: [Using ACL](https://www.berthon.eu/2018/containers-volumes-and-file-permissions/)
+The following command grant use ACL to make read/write permissions of all files in `project` inherit from project and have the same access of the current host user.
+```bash
+setfacl -dm "u:username:rwx" ~/project
+```
+
+#### SSH in docker
+Add this line to use the ssh key as the host
+```bash
+-v ~/.ssh:/root/.ssh
+```
+
+
+#### Build a docker image
+1. Get folder with everything you need in it.
+2. Write a `Dockerfile`
+3. `docker build --tag=docker-image .`
+
+#### Cheatsheet
+```bash
+## List Docker CLI commands
+docker
+docker container --help
+
+## Display Docker version and info
+docker --version
+docker version
+docker info
+
+## Execute Docker image
+docker run hello-world
+
+## List Docker images
+docker image ls
+
+## List Docker containers (running, all, all in quiet mode)
+docker container ls
+docker container ls --all
+docker container ls -aq
+```

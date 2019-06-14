@@ -267,22 +267,10 @@ pre[data-line] .line-highlight[data-end]:after {
 <ul>
 <li><a href="#2019-internship-project">2019 Internship Project</a>
 <ul>
-<li><a href="#toolkit">Toolkit</a>
+<li><a href="#project-1-semi-supervised-learning-of-mnli-by-generating-labeled-paired-sample-using-conditional-cycleulm">Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleULM</a>
 <ul>
-<li><a href="#server">Server</a></li>
-<li><a href="#docker">Docker</a>
-<ul>
-<li><a href="#run-a-docker-image">Run a docker image</a></li>
-<li><a href="#attach-to-a-running-docker-container">Attach to a running docker container</a></li>
-<li><a href="#file-permission-issue">File Permission Issue</a></li>
-<li><a href="#build-a-docker-image">Build a docker image</a></li>
-<li><a href="#cheatsheet">Cheatsheet</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#project-1-semi-supervised-learning-of-mnli-by-generating-labeled-paired-sample-using-conditional-cyclegan">Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleGAN</a>
-<ul>
+<li><a href="#plan">Plan</a></li>
+<li><a href="#proposal">Proposal</a></li>
 <li><a href="#motivation">Motivation</a></li>
 <li><a href="#difficulty">Difficulty</a></li>
 <li><a href="#ideas">Ideas</a></li>
@@ -304,67 +292,31 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="#leaderboard">Leaderboard</a></li>
 </ul>
 </li>
+<li><a href="#toolkit">Toolkit</a>
+<ul>
+<li><a href="#server">Server</a></li>
+<li><a href="#docker">Docker</a>
+<ul>
+<li><a href="#run-a-docker-image">Run a docker image</a></li>
+<li><a href="#attach-to-a-running-docker-container">Attach to a running docker container</a></li>
+<li><a href="#file-permission-issue">File Permission Issue</a></li>
+<li><a href="#ssh-in-docker">SSH in docker</a></li>
+<li><a href="#build-a-docker-image">Build a docker image</a></li>
+<li><a href="#cheatsheet">Cheatsheet</a></li>
 </ul>
 </li>
 </ul>
-<h2 class="mume-header" id="toolkit">Toolkit</h2>
+</li>
+</ul>
+</li>
+</ul>
+<h2 class="mume-header" id="project-1-semi-supervised-learning-of-mnli-by-generating-labeled-paired-sample-using-conditional-cycleulm">Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleULM</h2>
 
-<h3 class="mume-header" id="server">Server</h3>
+<h3 class="mume-header" id="plan">Plan</h3>
 
-<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">ssh</span> v-hajia@v1011.westus2.cloudapp.azure.com
-<span class="token function">ssh</span> v-hajia@13.66.230.50
-</pre><h3 class="mume-header" id="docker">Docker</h3>
+<h3 class="mume-header" id="proposal">Proposal</h3>
 
-<p><a href="https://docs.docker.com/get-started/">Introduction from docker.com</a></p>
-<pre data-role="codeBlock" data-info="bash" class="language-bash">docker run -it --rm  -v ~/project:/work/project biglm <span class="token function">bash</span>
-docker run -it --rm  -v ~/project:/work/project fairseq <span class="token function">bash</span>
-docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 <span class="token function">bash</span>
-</pre><h4 class="mume-header" id="run-a-docker-image">Run a docker image</h4>
-
-<pre data-role="codeBlock" data-info="bash" class="language-bash">docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag <span class="token function">bash</span>
-</pre><p><code>-it</code>: interactive mode<br>
-<code>--rm</code>: clean up after exit<br>
-<code>-v</code>: volume (shared filesystems)</p>
-<h4 class="mume-header" id="attach-to-a-running-docker-container">Attach to a running docker container</h4>
-
-<pre data-role="codeBlock" data-info="bash" class="language-bash">docker <span class="token function">ps</span>
-docker <span class="token function">exec</span> -it container_name <span class="token function">bash</span>
-</pre><h4 class="mume-header" id="file-permission-issue">File Permission Issue</h4>
-
-<p>All files created by the docker is owned by root.<br>
-Solution: <a href="https://www.berthon.eu/2018/containers-volumes-and-file-permissions/">Using ACL</a><br>
-The following command grant use ACL to make read/write permissions of all files in <code>project</code> inherit from project and have the same access of the current host user.</p>
-<pre data-role="codeBlock" data-info="bash" class="language-bash">setfacl -dm <span class="token string">&quot;u:username:rwx&quot;</span> ~/project
-</pre><h4 class="mume-header" id="build-a-docker-image">Build a docker image</h4>
-
-<ol>
-<li>Get folder with everything you need in it.</li>
-<li>Write a <code>Dockerfile</code></li>
-<li><code>docker build --tag=docker-image .</code></li>
-</ol>
-<h4 class="mume-header" id="cheatsheet">Cheatsheet</h4>
-
-<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token comment">## List Docker CLI commands</span>
-docker
-docker container --help
-
-<span class="token comment">## Display Docker version and info</span>
-docker --version
-docker version
-docker info
-
-<span class="token comment">## Execute Docker image</span>
-docker run hello-world
-
-<span class="token comment">## List Docker images</span>
-docker image <span class="token function">ls</span>
-
-<span class="token comment">## List Docker containers (running, all, all in quiet mode)</span>
-docker container <span class="token function">ls</span>
-docker container <span class="token function">ls</span> --all
-docker container <span class="token function">ls</span> -aq
-</pre><h2 class="mume-header" id="project-1-semi-supervised-learning-of-mnli-by-generating-labeled-paired-sample-using-conditional-cyclegan">Project 1: Semi-supervised Learning of MNLI by Generating Labeled Paired Sample using Conditional CycleGAN</h2>
-
+<p>See my <a href="./mnli_proposal.pdf">proposal</a></p>
 <h3 class="mume-header" id="motivation">Motivation</h3>
 
 <p>Data vs Performance: Data <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&#x2191;</mo></mrow><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mrel">&#x2191;</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&#x21D2;</mo></mrow><annotation encoding="application/x-tex">\Rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">&#x21D2;</span></span></span></span> Performance <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>&#x2191;</mo></mrow><annotation encoding="application/x-tex">\uparrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mrel">&#x2191;</span></span></span></span>.<br>
@@ -430,11 +382,11 @@ View as machine teacher.</p>
 <h2 class="mume-header" id="project-3-decanlp">Project 3: DecaNLP</h2>
 
 <p><a href="https://github.com/salesforce/decaNLP">DecaNLP</a> is a multitask challenge that spans ten tasks. Each task is cast as question answering, which makes the training the same as single task training.</p>
-<img src="decanlp_example.PNG?0.0434476598833311" height="300px" title="Deca NLP">
+<img src="decanlp_example.PNG?0.30368898940917677" height="300px" title="Deca NLP">
 <p>Each sample consists of three parts: Question, Context, and Answer.</p>
 <p><strong>Idea</strong> The basic idea is to consider the heterogeneous encoding/decoding process of different tasks. Following the framework in <a href="https://arxiv.org/abs/1806.08730">MQAN</a>, we have 2 encoders for question and context, and one decoding process with an RNN.</p>
 <p><strong>Encoder</strong> There is little to say about the context encoder. However, we can see a significant difference in the question descriptions. For example, the summarization tasks always have the question: &quot;What is the summary&quot;. For the sentiment analysis and pronoun resolution, it is always something like &quot;XXXX A or B&quot;. However, the encoding process is using the same encoder. We can try to refine this part by an encoder with different bottoms. Each bottom roughly corresponds to a class of questions. An encoder with 3 bottoms will look like the following picture:<br>
-<img src="multibottomencoder.png?0.39360691705697115" height="200px" title="multimodule encoder"><br>
+<img src="multibottomencoder.png?0.05065173157757319" height="200px" title="multimodule encoder"><br>
 Here <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mn>1</mn><mo separator="true">,</mo><mi>g</mi><mn>2</mn><mo separator="true">,</mo><mi>g</mi><mn>3</mn></mrow><annotation encoding="application/x-tex">g1,g2,g3</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">3</span></span></span></span> are task-specific gated weight. Like if the task always have the question description as &quot;XXXX A or B&quot;, we may have <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mn>1</mn><mo>=</mo><mn>0.9</mn><mo separator="true">,</mo><mi>g</mi><mn>2</mn><mo>=</mo><mn>0.05</mn><mo separator="true">,</mo><mi>g</mi><mn>3</mn><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">g1=0.9,g2=0.05,g3=0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">9</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span>. If the task always has a fix description such as the summary task, we may have <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mn>1</mn><mo>=</mo><mn>0.05</mn><mo separator="true">,</mo><mi>g</mi><mn>2</mn><mo>=</mo><mn>0.9</mn><mo separator="true">,</mo><mi>g</mi><mn>3</mn><mo>=</mo><mn>0.05</mn></mrow><annotation encoding="application/x-tex">g1=0.05,g2=0.9,g3=0.05</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">9</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span></span></span></span>. For any other tasks with general task description we may have <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g</mi><mn>1</mn><mo>=</mo><mn>0.05</mn><mo separator="true">,</mo><mi>g</mi><mn>2</mn><mo>=</mo><mn>0.05</mn><mo separator="true">,</mo><mi>g</mi><mn>3</mn><mo>=</mo><mn>0.9</mn></mrow><annotation encoding="application/x-tex">g1=0.05,g2=0.05,g3=0.9</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">1</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">2</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">0</span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord">3</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span><span class="mord">.</span><span class="mord">9</span></span></span></span>.</p>
 <p><strong>Decoder</strong> The decoding processes, i.e., the answer generating processes are also quite different for different tasks. Roughly speaking, there are mainly three different generating processes: 1. Some pick important parts from Contexts, such as SQuAD and Summarization. 2. Some need to generate answer from vocabulary just like translation. 3. The others basically pick the important part from the Question. We thus can use 3 different parameter sets for the decoder. Just like the encoder part, each task has a soft membership over these 3 classes. We can mix three different decoders by the soft membership.</p>
 <h3 class="mume-header" id="leaderboard">Leaderboard</h3>
@@ -515,7 +467,75 @@ Here <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>g
 </tr>
 </tbody>
 </table>
+<h2 class="mume-header" id="toolkit">Toolkit</h2>
 
+<h3 class="mume-header" id="server">Server</h3>
+
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token function">ssh</span> v-hajia@v1011.westus2.cloudapp.azure.com
+<span class="token function">ssh</span> v-hajia@13.66.230.50
+
+<span class="token function">ssh</span> administrator@10.125.164.133
+</pre><h3 class="mume-header" id="docker">Docker</h3>
+
+<p><a href="https://docs.docker.com/get-started/">Introduction from docker.com</a></p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">docker run -it --rm \
+-v ~/project/MNLI:/work/MNLI \
+-v ~/.ssh:/root/.ssh \
+-v /mnt:/work/data \
+--privileged mnli <span class="token function">bash</span>
+
+docker run -it --rm  -v ~/project:/work/project biglm <span class="token function">bash</span>
+docker run -it --rm  -v ~/project:/work/project fairseq <span class="token function">bash</span>
+docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 <span class="token function">bash</span>
+</pre><h4 class="mume-header" id="run-a-docker-image">Run a docker image</h4>
+
+<pre data-role="codeBlock" data-info="bash" class="language-bash">docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag <span class="token function">bash</span>
+</pre><p><code>-it</code>: interactive mode<br>
+<code>--rm</code>: clean up after exit<br>
+<code>-v</code>: volume (shared filesystems)</p>
+<h4 class="mume-header" id="attach-to-a-running-docker-container">Attach to a running docker container</h4>
+
+<pre data-role="codeBlock" data-info="bash" class="language-bash">docker <span class="token function">ps</span>
+docker <span class="token function">exec</span> -it container_name <span class="token function">bash</span>
+</pre><h4 class="mume-header" id="file-permission-issue">File Permission Issue</h4>
+
+<p>All files created by the docker is owned by root.<br>
+Solution: <a href="https://www.berthon.eu/2018/containers-volumes-and-file-permissions/">Using ACL</a><br>
+The following command grant use ACL to make read/write permissions of all files in <code>project</code> inherit from project and have the same access of the current host user.</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">setfacl -dm <span class="token string">&quot;u:username:rwx&quot;</span> ~/project
+</pre><h4 class="mume-header" id="ssh-in-docker">SSH in docker</h4>
+
+<p>Add this line to use the ssh key as the host</p>
+<pre data-role="codeBlock" data-info="bash" class="language-bash">-v ~/.ssh:/root/.ssh
+</pre><h4 class="mume-header" id="build-a-docker-image">Build a docker image</h4>
+
+<ol>
+<li>Get folder with everything you need in it.</li>
+<li>Write a <code>Dockerfile</code></li>
+<li><code>docker build --tag=docker-image .</code></li>
+</ol>
+<h4 class="mume-header" id="cheatsheet">Cheatsheet</h4>
+
+<pre data-role="codeBlock" data-info="bash" class="language-bash"><span class="token comment">## List Docker CLI commands</span>
+docker
+docker container --help
+
+<span class="token comment">## Display Docker version and info</span>
+docker --version
+docker version
+docker info
+
+<span class="token comment">## Execute Docker image</span>
+docker run hello-world
+
+<span class="token comment">## List Docker images</span>
+docker image <span class="token function">ls</span>
+
+<span class="token comment">## List Docker containers (running, all, all in quiet mode)</span>
+docker container <span class="token function">ls</span>
+docker container <span class="token function">ls</span> --all
+docker container <span class="token function">ls</span> -aq
+</pre>
       </div>
       
       

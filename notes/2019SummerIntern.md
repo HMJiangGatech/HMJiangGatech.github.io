@@ -145,6 +145,7 @@ Here $g1,g2,g3$ are task-specific gated weight. Like if the task always have the
 
 ```bash
 ssh v-hajia@v1011.westus2.cloudapp.azure.com
+ssh v-hajia@v100eu6.eastus.cloudapp.azure.com
 ssh v-hajia@13.66.230.50
 
 ssh administrator@10.125.164.133

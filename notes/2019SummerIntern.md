@@ -163,7 +163,7 @@ docker run -it --rm \
 --privileged mnli bash
 
 # on lambda
-docker run -it --rm -v ~/Desktop/:/work/project -v ~/.ssh:/root/.ssh -v ~/Desktop/data/:/work/data --privileged mnli bash
+docker run --runtime=nvidia -it --rm -v ~/Desktop/:/work/project -v ~/.ssh:/root/.ssh -v ~/Desktop/data/:/work/data --privileged mnli bash
 
 docker run -it --rm  -v ~/project:/work/project biglm bash
 docker run -it --rm  -v ~/project:/work/project fairseq bash

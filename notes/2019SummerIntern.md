@@ -162,6 +162,9 @@ docker run -it --rm \
 -v /mnt:/work/data \
 --privileged mnli bash
 
+# on lambda
+docker run -it --rm -v ~/Desktop/:/work/project -v ~/.ssh:/root/.ssh -v ~/Desktop/data/:/work/data --privileged mnli bash
+
 docker run -it --rm  -v ~/project:/work/project biglm bash
 docker run -it --rm  -v ~/project:/work/project fairseq bash
 docker run -it --rm -v ~/project/MNLI:/work/MNLI --privileged tscience.azurecr.io/biglm/biglm:1.12-0.4.1-cuda9.2-py36 bash

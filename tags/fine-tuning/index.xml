@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fine-tuning on Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/tags/fine-tuning/</link>
+    <description>Recent content in fine-tuning on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>State-of-the-art Results on GLUE Benchmark</title>
+      <link>https://hmjianggatech.github.io/news/smart/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/smart/</guid>
+      <description> Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (paper, code) achieves state-of-the-art results in 5 of 9 GLUE benchmark tasks and an overall GLUE task performance 89.9, which outperforms all existing models.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

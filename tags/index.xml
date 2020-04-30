@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/tags/</link>
+    <description>Recent content in Tags on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>acl</title>
+      <link>https://hmjianggatech.github.io/tags/acl/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bert</title>
+      <link>https://hmjianggatech.github.io/tags/bert/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://hmjianggatech.github.io/tags/nlp/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nmt</title>
+      <link>https://hmjianggatech.github.io/tags/nmt/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/nmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smart</title>
+      <link>https://hmjianggatech.github.io/tags/smart/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fine-tuning</title>
+      <link>https://hmjianggatech.github.io/tags/fine-tuning/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLEU</title>
+      <link>https://hmjianggatech.github.io/tags/gleu/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/gleu/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -9,7 +9,7 @@
     <div class="home-sidebar">
 
           {{ with .Params.Cover }}
-          <img src="{{ . | absURL }}" class="post-cover" />
+          <img src="{{ . | absURL }}" class="post-cover nopadding-child" />
           {{ end }}
           <h1>{{.Title}}</h1>
           {{ with .Params.subtitle  }}
@@ -31,6 +31,19 @@
 
   </div>
 
+{{ range $.Site.Menus.main }}
+  {{ if (and (not .HasChildren) (in $.Site.Params.showSections .Identifier))}}
+    <h1 class="post-title"><a href="{{ .URL }}">{{ .Name | markdownify }}</a></h1>
+    {{ with $.Site.GetPage .URL }}
+    {{- with .Content -}}
+      <div class="post nopadding-child nomargin-child">
+        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+      </div>
+    {{- end -}}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}
 
@@ -39,8 +52,6 @@
   {{ if .Site.Params.showNews }}
   <h1 class="post-title">
     <a href="{{ .Site.Params.News.Url }}">{{ .Site.Params.News.Name | markdownify }}</a></h1>
-
-
   {{ range $paginator.Pages }}
   <div class="post on-list">
 

@@ -1,9 +1,11 @@
 ---
 title: "OTHERS"
-subtitle: "MISC."
 date: 2020-04-30T01:12:16-04:00
 draft: false
 ---
+
+
+### MISC
 
 - DeepMind Interview Questions [[Table](https://hmjianggatech.github.io/files/questionlist.xlsx)]
 - Risk Adjusted Surgeon Score Card Development for Emory Hospital

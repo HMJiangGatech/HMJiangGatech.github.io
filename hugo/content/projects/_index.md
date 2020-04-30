@@ -7,14 +7,14 @@ draft: false
 
 ### Software
 
-- **PICASSO**: PathwIse CalibrAted Sparse Shooting algOrithm [[R Package]("https://github.com/jasonge27/picasso/")] [[Python Package]("https://hmjianggatech.github.io/picasso/")]
+- **PICASSO**: PathwIse CalibrAted Sparse Shooting algOrithm [[R Package](https://github.com/jasonge27/picasso/)] [[Python Package](https://hmjianggatech.github.io/picasso/)]
 
-- **HUGE**: High-Dimensional Undirected Graph Estimation [[R Package]("https://github.com/HMJiangGatech/huge")]
+- **HUGE**: High-Dimensional Undirected Graph Estimation [[R Package](https://github.com/HMJiangGatech/huge)]
 
-- **SAM**: Sparse Additive Modelling [[R Package]("https://github.com/HMJiangGatech/sam")]
+- **SAM**: Sparse Additive Modelling [[R Package](https://github.com/HMJiangGatech/sam)]
 
-- **ESMOTE**: Efficient Synthetic Minority Over-sampling Technique [[R Package]("https://github.com/HMJiangGatech/ESmote")]
+- **ESMOTE**: Efficient Synthetic Minority Over-sampling Technique [[R Package](https://github.com/HMJiangGatech/ESmote)]
 
-- **Setup Toolkits**: A quick setup toolkit for vim,tmux,zsh on linux server [[zip]("files/atom_vim_zsh_tmux_configs.zip")]
+- **Setup Toolkits**: A quick setup toolkit for vim,tmux,zsh on linux server [[zip](/files/atom_vim_zsh_tmux_configs.zip)]
 
-- **FlashPythonToolbox**: A few ready-to use python tools for machine learning [[Github]("https://github.com/Gatech-Flash/FlashPythonToolbox")]
+- **FlashPythonToolbox**: A few ready-to use python tools for machine learning [[Github](https://github.com/Gatech-Flash/FlashPythonToolbox)]

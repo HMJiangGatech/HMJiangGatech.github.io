@@ -1,22 +1,30 @@
 {{ define "main" }}
-<div class="main">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle  }}
-        <span class="subtitle">{{.}}</span>
-        {{ end  }}
-        {{ with .Params.email  }}
-        <span class="subtitle"><b>Email: </b> <a href="mailto:{{.}}">{{.}}</a></span>
-        {{ end  }}
-</div>
 
 <div class="posts">
 
 
-    {{- with .Content -}}
-      <div>
-        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
-      </div>
-    {{- end -}}
+  <div class="post nopadding-child nomargin-child ">
+    <div class="home-sidebar">
+
+          {{ with .Params.Cover }}
+          <img src="{{ . | absURL }}" class="post-cover" />
+          {{ end }}
+          <h1>{{.Title}}</h1>
+          {{ with .Params.subtitle  }}
+          <span class="subtitle">{{.}}</span>
+          {{ end  }}
+          {{ with .Params.email  }}
+          <span class="subtitle"><b>Email: </b> <a href="mailto:{{.}}">{{.}}</a></span>
+          {{ end  }}
+    </div>
+    <div class="home-main">
+      {{- with .Content -}}
+        <div>
+          {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+        </div>
+      {{- end -}}
+    </div>
+  </div>
 
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
   {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }}

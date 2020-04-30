@@ -1,0 +1,3 @@
+{{ if .Get "src" }}
+  <img src="{{ .Get "src" | absURL }}" {{ with .Get "alt" }} alt="{{ . | plainify }}" {{ end }} class="post-cover column {{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" {{ with .Get "style" }} style="{{ . | safeCSS }}" {{ end }} />
+{{ end }}

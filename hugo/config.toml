@@ -1,4 +1,4 @@
-baseurl = "./"
+baseurl = "https://hmjianggatech.github.io/"
 languageCode = "en-us"
 theme = "terminal"
 paginate = 5
@@ -69,15 +69,10 @@ paginate = 5
         url = "/projects"
         weight = 3
       [[languages.en.menu.main]]
-        identifier = "contact"
-        name = "Contact Me"
-        url = "/contact"
-        weight = 4
-      [[languages.en.menu.main]]
         identifier = "news"
         name = "News"
         url = "/news"
-        weight = 5
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "others"
         name = "Others"

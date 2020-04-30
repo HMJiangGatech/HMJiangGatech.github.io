@@ -1,10 +1,9 @@
 {{ define "main" }}
 <div class="posts">
 
-  <div class="post nopadding-child nomargin-child">
-  <h1 class="list-title">
+<div class="post nopadding-child nomargin-child">
+  <h1 class="post-title list-title" style="font-size:170%">
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
-  <h1>  <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
   {{ with .Params.subtitle  }}
   <div class="post-meta">
   <span class="subtitle">{{.}}</span>
@@ -28,7 +27,7 @@
       {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
     </div>
   {{- end -}}
-  </div>
+</div>
 
   {{ range .Pages }}
   <div class="post on-list">

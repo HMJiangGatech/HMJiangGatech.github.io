@@ -1,0 +1,81 @@
+{{ define "main" }}
+<div class="posts">
+
+  <div class="post nopadding-child nomargin-child">
+  <h1 class="list-title">
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  <h1>  <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+  {{ with .Params.subtitle  }}
+  <div class="post-meta">
+  <span class="subtitle">{{.}}</span>
+  </div>
+  {{ end  }}
+
+  {{ if .Params.tags }}
+  <span class="post-tags">
+    {{ range .Params.tags }}
+    #<a href="{{ (urlize (printf "tags/%s/" .)) | absLangURL }}">{{ . }}</a>&nbsp;
+    {{ end }}
+  </span>
+  {{ end }}
+
+  {{ with .Params.Cover }}
+  <img src="{{ . | absURL }}" class="post-cover" />
+  {{ end }}
+
+  {{- with .Content -}}
+    <div>
+      {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+    </div>
+  {{- end -}}
+  </div>
+
+  {{ range .Pages }}
+  <div class="post on-list">
+    <h1 class="post-title">
+      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+    <div class="post-meta">
+      <span class="post-date">
+        {{ .Date.Format "2006-01-02" }}
+      </span>
+      {{ with .Params.Author }}<span class="post-author">::
+        {{ . }}</span>{{ end }}
+    </div>
+
+    {{ if .Params.tags }}
+    <span class="post-tags">
+      {{ range .Params.tags }}
+      #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+        {{- . -}}
+      </a>&nbsp;
+      {{ end }}
+    </span>
+    {{ end }}
+
+    {{ with .Params.Cover }}
+    <img src="{{ . | absURL }}" class="post-cover" />
+    {{ end }}
+
+    <div class="post-content">
+      {{ if .Params.showFullContent }}
+      {{ .Content | markdownify }}
+      {{ else if .Description }}
+      {{ .Description | markdownify }}
+      {{ else }}
+      {{ if .Truncated }}
+      {{ .Summary | markdownify }}
+      {{ end }}
+      {{ end }}
+    </div>
+
+    {{ if not .Params.showFullContent }}
+    <div>
+      <a class="read-more button"
+        href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore }} →</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ partial "pagination.html" . }}
+</div>
+{{ end }}

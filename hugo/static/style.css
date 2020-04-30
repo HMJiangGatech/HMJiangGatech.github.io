@@ -1,0 +1,11 @@
+.nopadding-child{
+    padding: 0 0;
+}
+
+.nomargin-child{
+    margin: 0 auto;
+}
+
+.noborder-child{
+    border: 0;
+}

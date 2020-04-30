@@ -1,0 +1,11 @@
+<p>
+<span style="color:white;font-weight:bold;">{{.Get `title`}}</span> <span style="float:right;font-weight:bold;">{{.Get `year`}}</span><br/>
+<span style="color:LightGrey">{{.Get `author`}}</span>
+{{ if .Get `arxiv` }} <a href="{{.Get `arxiv`}}">[arXiv]</a>{{end}}
+{{ if .Get `pdf` }} <a href="{{.Get `pdf`}}">[PDF]</a>{{end}}
+{{ if .Get `code` }} <a href="{{.Get `code`}}">[Code]</a>{{end}}
+{{ if .Get `r` }} <a href="{{.Get `r`}}">[R Package]</a>{{end}}
+{{ if .Get `python` }} <a href="{{.Get `python`}}">[Python Package]</a>{{end}}
+{{ if .Get `proce` }} <br/> <strong><em style="color:LightGrey">{{.Get `proce`}}</em></strong>, {{.Get `year`}}{{end}}
+{{ if .Get `other` }} <br/> {{.Get `other` | safeHTML}}  {{end}}
+</p>

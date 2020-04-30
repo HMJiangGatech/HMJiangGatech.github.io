@@ -15,6 +15,6 @@ draft: false
 
 - **ESMOTE**: Efficient Synthetic Minority Over-sampling Technique [[R Package](https://github.com/HMJiangGatech/ESmote)]
 
-- **Setup Toolkits**: A quick setup toolkit for vim,tmux,zsh on linux server [[zip](/files/atom_vim_zsh_tmux_configs.zip)]
+- **Setup Toolkits**: A quick setup toolkit for vim,tmux,zsh on linux server [[zip](https://hmjianggatech.github.io/files/atom_vim_zsh_tmux_configs.zip)]
 
 - **FlashPythonToolbox**: A few ready-to use python tools for machine learning [[Github](https://github.com/Gatech-Flash/FlashPythonToolbox)]

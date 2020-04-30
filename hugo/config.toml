@@ -6,6 +6,7 @@ paginate = 5
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "news"
+  showNews = true
 
   # ["orange", "blue", "red", "green", "pink"]
   themeColor = "orange"
@@ -28,6 +29,11 @@ paginate = 5
   # set all headings to their default size (depending on browser settings)
   # it's set to `true` by default
   # oneHeadingSize = false
+
+[params.news]
+  name = "News"
+  url = "/news"
+
 
 [params.twitter]
   # set Twitter handles for Twitter cards

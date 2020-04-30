@@ -47,7 +47,7 @@ paginate = 5
   [languages.en]
     languageName = "English"
     title = "Haoming Jiang"
-    subtitle = "A simple, retro theme for Hugo"
+    subtitle = "Machine Learning; Optimization; NLP"
     owner = ""
     keywords = ""
     copyright = ""

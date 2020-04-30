@@ -5,20 +5,20 @@ date: 2020-04-30T01:12:16-04:00
 draft: false
 ---
 
-- DeepMind Interview Questions [[Table](/files/questionlist.xlsx)]
+- DeepMind Interview Questions [[Table](https://hmjianggatech.github.io/files/questionlist.xlsx)]
 - Risk Adjusted Surgeon Score Card Development for Emory Hospital
-- Innovative SMOTE for High Dimensional and Large Scaled Imbalanced Data [[R Package](https://github.com/HMJiangGatech/ESmote)] [[Chinese Dissertation](/files/FSMOTE.pdf)]
-- Data Driven Approach for Deploying Charging Station for Electric Vehicles [[Chinese Dissertation](/files/ChargingStation.pdf)]
-- Analyzing Tweets Sentiment via Machine Learning Approach [[Report](/files/BHAMProject/SentimentAnalysis.pdf)] [[Tokenizer](/files/BHAMProject/ReadACleanT.py)] [[Extra Unlabeled Data](/files/BHAMProject/Tweets_Unlabeled.csv)] [[Tweets Vectors](http://pan.baidu.com/s/1qYGQpJm)]
-- Deep Reinforcement Learning For Raiden Game [[Report](files/HCK.pdf)] [[Demo](/files/HCKdemo.mp4)]
+- Innovative SMOTE for High Dimensional and Large Scaled Imbalanced Data [[R Package](https://github.com/HMJiangGatech/ESmote)] [[Chinese Dissertation](https://hmjianggatech.github.io/files/FSMOTE.pdf)]
+- Data Driven Approach for Deploying Charging Station for Electric Vehicles [[Chinese Dissertation](https://hmjianggatech.github.io/files/ChargingStation.pdf)]
+- Analyzing Tweets Sentiment via Machine Learning Approach [[Report](https://hmjianggatech.github.io/files/BHAMProject/SentimentAnalysis.pdf)] [[Tokenizer](https://hmjianggatech.github.io/files/BHAMProject/ReadACleanT.py)] [[Extra Unlabeled Data](https://hmjianggatech.github.io/files/BHAMProject/Tweets_Unlabeled.csv)] [[Tweets Vectors](http://pan.baidu.com/s/1qYGQpJm)]
+- Deep Reinforcement Learning For Raiden Game [[Report](https://hmjianggatech.github.io/files/HCK.pdf)] [[Demo](https://hmjianggatech.github.io/files/HCKdemo.mp4)]
 - GeoLab, an open source 3D model processing system [[GeoLab](http://gcl.ustc.edu.cn/index.php?s=/Home/Geolab/index.html)]
 - Development of body interactive game based on Kinect  [[Report](http://staff.ustc.edu.cn/~lgliu/Courses/ComputerGraphics_2015_spring-summer/Projects/index3.html)] [[Video](http://v.youku.com/v_show/id_XMTI2NTUyNTYzNg==.html)]
 
 ### Notes
 
 {{<p>}}
-<a href="/files/T5.pdf">T5</a>,
-<a href="/files/Small BERT.pdf">Small BERT</a>,
+<a href="https://hmjianggatech.github.io/files/T5.pdf">T5</a>,
+<a href="https://hmjianggatech.github.io/files/Small BERT.pdf">Small BERT</a>,
 <a href="https://hmjianggatech.github.io/MTDA/">MTDA</a>,
 <a href="notes/Distributed Optimization Seminar Note.pdf">Distributed Optimization</a>,
     Introduction to Data Mining (

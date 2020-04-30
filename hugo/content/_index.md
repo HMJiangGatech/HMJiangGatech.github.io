@@ -1,6 +1,8 @@
 ---
 title: "Haoming Jiang"
 email: jianghm@gatech.edu
+github: HMJiangGatech
+cover: images/bojack.png
 date: 2020-04-29T22:36:35-04:00
 draft: false
 ---

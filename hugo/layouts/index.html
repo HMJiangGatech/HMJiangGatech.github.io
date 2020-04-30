@@ -1,9 +1,11 @@
 {{ define "main" }}
 
+
 <div class="posts">
 
 
-  <div class="post nopadding-child nomargin-child ">
+  <div class="post nopadding-child nomargin-child row">
+
     <div class="home-sidebar">
 
           {{ with .Params.Cover }}
@@ -16,14 +18,17 @@
           {{ with .Params.email  }}
           <span class="subtitle"><b>Email: </b> <a href="mailto:{{.}}">{{.}}</a></span>
           {{ end  }}
+          {{ with .Params.github  }}
+          <span class="subtitle"><b>Github: </b> <a href="https://github.com/{{.}}/">{{.}}</a></span>
+          {{ end  }}
     </div>
-    <div class="home-main">
-      {{- with .Content -}}
-        <div>
-          {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
-        </div>
-      {{- end -}}
-    </div>
+
+    {{- with .Content -}}
+      <div class="home-main">
+        {{ . | replaceRE "(<h[1-9] id=\"([^\"]+)\".+)(</h[1-9]+>)" `${1}<a href="#${2}" class="hanchor" ariaLabel="Anchor">&#8983;</a> ${3}` | safeHTML }}
+      </div>
+    {{- end -}}
+
   </div>
 
   {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}

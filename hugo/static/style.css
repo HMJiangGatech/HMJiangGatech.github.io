@@ -20,6 +20,7 @@
 .column {
   float: left;
   width: 25%;
+  padding: 0px 10px;
 }
 
 /* Clear floats */
@@ -33,6 +34,7 @@
 .home-sidebar {
   float: left;
   width: 20%;
+  padding: 0px 20px 0px 0px;
 }
 .home-main {
   float: left;

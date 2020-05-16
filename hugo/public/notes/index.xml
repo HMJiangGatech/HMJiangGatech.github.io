@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/notes/</link>
+    <description>Recent content in Notes on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 May 2020 00:15:48 -0400</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Cheatsheet</title>
+      <link>https://hmjianggatech.github.io/notes/docker/</link>
+      <pubDate>Sat, 16 May 2020 00:15:48 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/docker/</guid>
+      <description>Docker Introduction from docker.com
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash  -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems)  Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root.</description>
+    </item>
+    
+  </channel>
+</rss>

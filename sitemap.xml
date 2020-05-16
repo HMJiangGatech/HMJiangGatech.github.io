@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmjianggatech.github.io/notes/docker/</loc>
+    <lastmod>2020-05-16T00:15:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/notes/</loc>
+    <lastmod>2020-05-16T00:15:48-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmjianggatech.github.io/tags/bert/</loc>
     <lastmod>2020-05-15T22:54:07-04:00</lastmod>
   </url>

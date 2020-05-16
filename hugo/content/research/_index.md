@@ -40,6 +40,14 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 ### Publications
 
+
+- {{<paper
+title="BOND: Bert-Assisted Open-Domain Named Entity Recognition with Distant Supervision"
+year="2020"
+author="Chen Liang*, Yue Yu*, Haoming Jiang*, Siawpeng Er, Ruijia Wang, Tuo Zhao and Chao Zhang (* Equal Contribution)"
+proce="The 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)"
+>}}
+
 - {{<paper
 title="SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization"
 year="2020"

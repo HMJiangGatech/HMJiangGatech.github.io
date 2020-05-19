@@ -5,3 +5,5 @@ draft: false
 ---
 
 {{<galleryimg src="https://hmjianggatech.github.io/images/G0.PNG">}}
+
+{{<galleryimg src="https://hmjianggatech.github.io/images/G1.png">}}

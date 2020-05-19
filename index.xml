@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Google Cloud CheatSheet</title>
+      <link>https://hmjianggatech.github.io/notes/google_cloud/</link>
+      <pubDate>Mon, 18 May 2020 15:02:12 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/google_cloud/</guid>
+      <description>See more in link
+Step 1: install nd setup gcloud SDK tutorial
+Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME </description>
+    </item>
+    
+    <item>
       <title>Docker Cheatsheet</title>
       <link>https://hmjianggatech.github.io/notes/docker/</link>
       <pubDate>Sat, 16 May 2020 00:15:48 -0400</pubDate>

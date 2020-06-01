@@ -9,20 +9,6 @@ subtitle: My research focuses on deep Learning, adversarial machine learning, na
 
 
 - {{<paper
-title="Deep Reinforcement Learning with Smooth Policy"
-year="2020"
-author="Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao"
-arxiv="https://arxiv.org/pdf/2003.09534.pdf"
->}}
-
-- {{<paper
-title="Transformer Hawkes Process"
-year="2020"
-author="Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha"
-arxiv="https://arxiv.org/pdf/2002.09291.pdf"
->}}
-
-- {{<paper
 title="Learning to Defense by Learning to Attack"
 year="2019"
 author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
@@ -40,6 +26,23 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 ### Publications
 
+
+
+- {{<paper
+title="Deep Reinforcement Learning with Smooth Policy"
+year="2020"
+author="Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao"
+proce="International Conference on Machine Learning (ICML)"
+arxiv="https://arxiv.org/pdf/2003.09534.pdf"
+>}}
+
+- {{<paper
+title="Transformer Hawkes Process"
+year="2020"
+author="Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha"
+proce="International Conference on Machine Learning (ICML)"
+arxiv="https://arxiv.org/pdf/2002.09291.pdf"
+>}}
 
 - {{<paper
 title="BOND: Bert-Assisted Open-Domain Named Entity Recognition with Distant Supervision"

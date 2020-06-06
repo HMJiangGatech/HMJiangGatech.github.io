@@ -8,6 +8,7 @@ Description: "Our recent work on distantly supervised NER is accepted by KDD2020
 
 > Our recent work on distantly supervised NER is accepted by KDD2020.
 > We are closing the GAP between full supervision and no supervision!
+> See our code here: https://github.com/cliang1453/BOND
 
 
 The reuslts (F1 score) are summerized as follows:

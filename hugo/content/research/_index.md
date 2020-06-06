@@ -49,6 +49,7 @@ title="BOND: Bert-Assisted Open-Domain Named Entity Recognition with Distant Sup
 year="2020"
 author="Chen Liang*, Yue Yu*, Haoming Jiang*, Siawpeng Er, Ruijia Wang, Tuo Zhao and Chao Zhang (* Equal Contribution)"
 proce="The 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)"
+code="https://github.com/cliang1453/BOND"
 >}}
 
 - {{<paper

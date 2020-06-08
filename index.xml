@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Two Papers are Accepted by ICML 2020</title>
+      <link>https://hmjianggatech.github.io/news/icml2020/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/icml2020/</guid>
+      <description> Two papers are accepted by ICML 2020!
+ One is about transformer-based point process model.
+The other one is about using smooth policy to improve reinforcement learning in continuous environment.
+Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv]  International Conference on Machine Learning (ICML), 2020    Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv]  International Conference on Machine Learning (ICML), 2020   </description>
+    </item>
+    
+    <item>
       <title>Google Cloud CheatSheet</title>
       <link>https://hmjianggatech.github.io/notes/google_cloud/</link>
       <pubDate>Mon, 18 May 2020 15:02:12 -0400</pubDate>
@@ -51,7 +63,7 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
       <guid>https://hmjianggatech.github.io/news/acl2020/</guid>
       <description> Two papers are accepted by ACL 2020!
  One is about multidomain NMT using word level mixing model.
-The other one is SMART model, leaderboad wining model on GLEU.
+The other one is SMART model, leaderboad wining model on GLUE.
 Reference    SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization 2020 Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao [arXiv] [Code]  Annual Conference of the Association for Computational Linguistics (ACL), 2020    Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing 2020 Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao [arXiv]  Annual Conference of the Association for Computational Linguistics (ACL), 2020   </description>
     </item>
     

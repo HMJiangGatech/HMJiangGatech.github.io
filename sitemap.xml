@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmjianggatech.github.io/tags/icml/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/point-process/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/rl/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/smooth/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/transformer/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/icml2020/</loc>
+    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmjianggatech.github.io/notes/google_cloud/</loc>
     <lastmod>2020-05-18T15:02:12-04:00</lastmod>
   </url>
@@ -43,17 +83,7 @@
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/news/</loc>
-    <lastmod>2020-05-15T22:54:07-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hmjianggatech.github.io/tags/nlp/</loc>
-    <lastmod>2020-05-15T22:54:07-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmjianggatech.github.io/tags/</loc>
     <lastmod>2020-05-15T22:54:07-04:00</lastmod>
   </url>
   
@@ -113,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/tags/gleu/</loc>
+    <loc>https://hmjianggatech.github.io/tags/glue/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url>
   

@@ -19,7 +19,7 @@
       <guid>https://hmjianggatech.github.io/news/acl2020/</guid>
       <description> Two papers are accepted by ACL 2020!
  One is about multidomain NMT using word level mixing model.
-The other one is SMART model, leaderboad wining model on GLEU.
+The other one is SMART model, leaderboad wining model on GLUE.
 Reference    SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization 2020 Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao [arXiv] [Code]  Annual Conference of the Association for Computational Linguistics (ACL), 2020    Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing 2020 Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao [arXiv]  Annual Conference of the Association for Computational Linguistics (ACL), 2020   </description>
     </item>
     

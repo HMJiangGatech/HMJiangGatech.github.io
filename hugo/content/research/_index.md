@@ -68,6 +68,7 @@ year="2020"
 author="Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao"
 proce="Annual Conference of the Association for Computational Linguistics (ACL)"
 arxiv="https://arxiv.org/pdf/1911.02692.pdf"
+code="https://github.com/HMJiangGatech/MD_NMT_mixing_model"
 >}}
 
 - {{<paper

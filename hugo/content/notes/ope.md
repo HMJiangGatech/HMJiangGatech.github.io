@@ -6,7 +6,7 @@ toc: true
 toctitle: "Overview"
 latex: true
 description: "Introduction of offline policy evaluation (ope)"
-publishdate: 2020-12-31
+publishdate: 2019-12-31
 ---
 
 

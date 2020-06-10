@@ -45,8 +45,9 @@ where \\(d^\pi (s,a)=d^\pi (s)\pi(a|s)\\),  \\(w\_{\pi/\mu}(s,a)=\frac{d^\pi (s,
 **\\(\mu\\)  may be not available**: 1.) Estimate old policy by \\(\hat\mu\\), which is not reliable. 2). Estimate \\(w\_{\pi/\mu}\\) 
 
 #### Learning Correction
-**TD Method** (temporal difference) estimates the correction based on stationary distribution. TD method is very limited. 
-**Dual Dice** Turn the problem into a minimax problem is a better approach for OPE. 
+
+- **TD Method** (temporal difference) estimates the correction based on stationary distribution. TD method is very limited. 
+- **Dual Dice** Turn the problem into a minimax problem is a better approach for OPE. 
 
 ## Doubly Robust Estimation
 

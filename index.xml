@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
+      <link>https://hmjianggatech.github.io/notes/ope/</link>
+      <pubDate>Tue, 09 Jun 2020 17:00:11 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/ope/</guid>
+      <description>Problem Setting  Problem Definition: Evaluate a policy without interaction with environment.
+What do we have:
+(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
+(ii) A target policy \(\pi\) (optional) Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.</description>
+    </item>
+    
+    <item>
       <title>Two Papers are Accepted by ICML 2020</title>
       <link>https://hmjianggatech.github.io/news/icml2020/</link>
       <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>

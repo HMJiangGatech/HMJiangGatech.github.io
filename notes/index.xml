@@ -6,10 +6,22 @@
     <description>Recent content in Notes on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 May 2020 15:02:12 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 17:00:11 -0400</lastBuildDate>
     
 	<atom:link href="https://hmjianggatech.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
+      <link>https://hmjianggatech.github.io/notes/ope/</link>
+      <pubDate>Tue, 09 Jun 2020 17:00:11 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/ope/</guid>
+      <description>Problem Setting  Problem Definition: Evaluate a policy without interaction with environment.
+What do we have:
+(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
+(ii) A target policy \(\pi\) (optional) Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.</description>
+    </item>
     
     <item>
       <title>Google Cloud CheatSheet</title>

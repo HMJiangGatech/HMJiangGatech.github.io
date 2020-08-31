@@ -50,6 +50,7 @@ year="2020"
 author="Chen Liang*, Yue Yu*, Haoming Jiang*, Siawpeng Er, Ruijia Wang, Tuo Zhao and Chao Zhang (* Equal Contribution)"
 proce="The 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)"
 code="https://github.com/cliang1453/BOND"
+arxiv="https://arxiv.org/abs/2006.15509"
 >}}
 
 - {{<paper

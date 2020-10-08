@@ -27,6 +27,13 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 ### Publications
 
 
+- {{<paper
+title="Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing"
+year="2020"
+author="Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
 
 - {{<paper
 title="Deep Reinforcement Learning with Smooth Policy"

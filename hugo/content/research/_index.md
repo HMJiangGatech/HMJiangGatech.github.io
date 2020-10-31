@@ -7,6 +7,12 @@ subtitle: My research focuses on deep Learning, adversarial machine learning, na
 
 ### Preprints And Working Papers
 
+- {{<paper
+title="Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrastive-Regularized Self-Training Approach"
+year="2020"
+author="Yue Yu, Simiao Zuo, Haoming Jiang, Wendi Ren, Tuo Zhao and Chao Zhang"
+arxiv="https://arxiv.org/pdf/2010.07835.pdf"
+>}}
 
 - {{<paper
 title="Learning to Defense by Learning to Attack"

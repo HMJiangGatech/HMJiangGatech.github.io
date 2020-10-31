@@ -6,11 +6,7 @@
     <description>Recent content on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
       <link>https://hmjianggatech.github.io/notes/ope/</link>
@@ -19,7 +15,7 @@
       <guid>https://hmjianggatech.github.io/notes/ope/</guid>
       <description>Problem Setting  Problem Definition: Evaluate a policy without interaction with environment.
 What do we have:
-(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
+(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&#39;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
 (ii) A target policy \(\pi\) (optional) Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.</description>
     </item>
     

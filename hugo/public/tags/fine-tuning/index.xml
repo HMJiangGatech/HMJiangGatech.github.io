@@ -6,11 +6,7 @@
     <description>Recent content in fine-tuning on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/fine-tuning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>State-of-the-art Results on GLUE Benchmark</title>
       <link>https://hmjianggatech.github.io/news/smart/</link>

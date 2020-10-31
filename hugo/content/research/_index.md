@@ -32,6 +32,7 @@ title="Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoot
 year="2020"
 author="Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+arxiv="https://arxiv.org/pdf/2010.11506.pdf"
 >}}
 
 

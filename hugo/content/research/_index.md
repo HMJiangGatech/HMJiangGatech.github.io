@@ -15,14 +15,6 @@ arxiv="https://arxiv.org/pdf/2010.07835.pdf"
 >}}
 
 - {{<paper
-title="Learning to Defense by Learning to Attack"
-year="2019"
-author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
-proce="International Conference on Learning Representations (ICLR), Workshop DeepGenStruct"
-arxiv="https://arxiv.org/pdf/1811.01213.pdf"
->}}
-
-- {{<paper
 title="Boosting Pathwise Coordiante Optimization: Sequential Screening and Proximal Subsampled Newton Subroutine"
 year="2018"
 author="Haoming Jiang, Xingguo Li, Jason Ge, Mengdi Wang, Mingyi Hong and Tuo Zhao"
@@ -32,6 +24,13 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 ### Publications
 
+- {{<paper
+title="Learning to Defense by Learning to Attack"
+year="2021"
+author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
+proce="The 24th International Conference on Artificial Intelligence and Statistics (AISTATS)"
+arxiv="https://arxiv.org/pdf/1811.01213.pdf"
+>}}
 
 - {{<paper
 title="Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing"

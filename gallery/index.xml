@@ -6,6 +6,10 @@
     <description>Recent content in GALLERY on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 30 Apr 2020 00:13:32 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 30 Apr 2020 00:13:32 -0400</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
   </channel>
 </rss>

@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmjianggatech.github.io/tags/adversarial/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/aistats/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/aistats2021/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/</loc>
+    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/bert/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/bert-nlp/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/calibration/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/emnlp/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/emnlp2020/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/smooth/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/transformer/</loc>
+    <lastmod>2020-12-23T22:49:01-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmjianggatech.github.io/notes/</loc>
     <lastmod>2020-06-09T17:00:11-04:00</lastmod>
   </url>
@@ -18,32 +83,12 @@
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/news/</loc>
-    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hmjianggatech.github.io/tags/point-process/</loc>
     <lastmod>2020-06-07T22:49:01-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://hmjianggatech.github.io/tags/rl/</loc>
-    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmjianggatech.github.io/tags/smooth/</loc>
-    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmjianggatech.github.io/tags/</loc>
-    <lastmod>2020-06-07T22:49:01-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmjianggatech.github.io/tags/transformer/</loc>
     <lastmod>2020-06-07T22:49:01-04:00</lastmod>
   </url>
   
@@ -58,13 +103,13 @@
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/notes/docker/</loc>
-    <lastmod>2020-05-16T00:15:48-04:00</lastmod>
+    <loc>https://hmjianggatech.github.io/notes/hack_wic/</loc>
+    <lastmod>2020-05-16T23:50:07-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/tags/bert/</loc>
-    <lastmod>2020-05-15T22:54:07-04:00</lastmod>
+    <loc>https://hmjianggatech.github.io/notes/docker/</loc>
+    <lastmod>2020-05-16T00:15:48-04:00</lastmod>
   </url>
   
   <url>

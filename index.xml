@@ -6,7 +6,31 @@
     <description>Recent content on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Our Adversarial Training Paper has been Accepted by AISTATS 2021</title>
+      <link>https://hmjianggatech.github.io/news/aistats2021/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/aistats2021/</guid>
+      <description>Our Adversarial Training Paper has been Accepted by AISTATS 2021. We propose a learning-to-learn method to improve adversarial training on a variety of tasks.
+Reference   Learning to Defense by Learning to Attack 2021 Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution) [arXiv]  The 24th International Conference on Artificial Intelligence and Statistics (AISTATS), 2021   </description>
+    </item>
+    
+    <item>
+      <title>Our BERT Calibration Paper has been Accepted by EMNLP 2020</title>
+      <link>https://hmjianggatech.github.io/news/emnlp2020/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/emnlp2020/</guid>
+      <description>We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.
+Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv]  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020   </description>
+    </item>
+    
     <item>
       <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
       <link>https://hmjianggatech.github.io/notes/ope/</link>
@@ -15,7 +39,7 @@
       <guid>https://hmjianggatech.github.io/notes/ope/</guid>
       <description>Problem Setting  Problem Definition: Evaluate a policy without interaction with environment.
 What do we have:
-(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&#39;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
+(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
 (ii) A target policy \(\pi\) (optional) Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.</description>
     </item>
     
@@ -40,6 +64,16 @@ Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Ya
       <description>See more in link
 Step 1: install nd setup gcloud SDK tutorial
 Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME </description>
+    </item>
+    
+    <item>
+      <title>Hack WiC Leaderboard</title>
+      <link>https://hmjianggatech.github.io/notes/hack_wic/</link>
+      <pubDate>Sat, 16 May 2020 23:50:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/hack_wic/</guid>
+      <description>WiC dataset is to identify the intended meaning of words. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. link Leaderboard
+ WiC is a rather small dataset and can be somwhow hacked.</description>
     </item>
     
     <item>

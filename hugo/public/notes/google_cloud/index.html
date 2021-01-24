@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   
-    <title>Google Cloud CheatSheet :: Haoming Jiang</title>
+    <title>Google Cloud CheatSheet :: Haoming Jiang — Machine Learning; Optimization; NLP</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="See more in link
 Step 1: install nd setup gcloud SDK tutorial
 Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME " />
@@ -23,7 +23,7 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 <link rel="stylesheet" href="https://hmjianggatech.github.io/style.css">
 
 
-<link rel="apple-touch-icon" href="https://hmjianggatech.github.io/img/apple-touch-icon-192x192.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://hmjianggatech.github.io/img/apple-touch-icon-144-precomposed.png">
 
   <link rel="shortcut icon" href="https://hmjianggatech.github.io/favicon.ico">
 
@@ -31,21 +31,19 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 
 <meta name="twitter:card" content="summary" />
 
-  
-    <meta name="twitter:site" content="" />
-  
-    <meta name="twitter:creator" content="" />
+  <meta name="twitter:site" content="" />
 
+<meta name="twitter:creator" content="" />
 
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Google Cloud CheatSheet">
+<meta property="og:title" content="Google Cloud CheatSheet :: Haoming Jiang">
 <meta property="og:description" content="See more in link
 Step 1: install nd setup gcloud SDK tutorial
 Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME " />
 <meta property="og:url" content="https://hmjianggatech.github.io/notes/google_cloud/" />
-<meta property="og:site_name" content="Haoming Jiang" />
+<meta property="og:site_name" content="Google Cloud CheatSheet" />
 
   
     <meta property="og:image" content="https://hmjianggatech.github.io/favicon.ico">
@@ -69,7 +67,7 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 
 
 </head>
-<body class="orange">
+<body class="">
 
 
 <div class="container full headings--one-size">
@@ -177,15 +175,13 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
   <h1 class="post-title">
     <a href="https://hmjianggatech.github.io/notes/google_cloud/">Google Cloud CheatSheet</a></h1>
   <div class="post-meta">
-    
-      <span class="post-date">
-        2020-05-18 
-      </span>
+      
+    <span class="post-date">
+      2020-05-18
+    </span>
     
     
   </div>
-
-  
 
   
 
@@ -251,7 +247,7 @@ gcloud compute instances create $INSTANCE_NAME <span style="color:#ae81ff">\
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2020 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2021 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>
@@ -260,8 +256,6 @@ gcloud compute instances create $INSTANCE_NAME <span style="color:#ae81ff">\
 
 <script src="https://hmjianggatech.github.io/assets/main.js"></script>
 <script src="https://hmjianggatech.github.io/assets/prism.js"></script>
-
-
 
 
 <script src="https://www.w3counter.com/tracker.js?id=129052"></script>

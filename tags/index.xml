@@ -6,7 +6,92 @@
     <description>Recent content in Tags on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2020 22:49:01 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Jan 2021 22:49:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>adversarial</title>
+      <link>https://hmjianggatech.github.io/tags/adversarial/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aistats</title>
+      <link>https://hmjianggatech.github.io/tags/aistats/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/aistats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning-to-learn robustness</title>
+      <link>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bert</title>
+      <link>https://hmjianggatech.github.io/tags/bert/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bert nlp</title>
+      <link>https://hmjianggatech.github.io/tags/bert-nlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calibration</title>
+      <link>https://hmjianggatech.github.io/tags/calibration/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/calibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emnlp</title>
+      <link>https://hmjianggatech.github.io/tags/emnlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smooth</title>
+      <link>https://hmjianggatech.github.io/tags/smooth/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/smooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformer</title>
+      <link>https://hmjianggatech.github.io/tags/transformer/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>icml</title>
       <link>https://hmjianggatech.github.io/tags/icml/</link>
@@ -31,33 +116,6 @@
       <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
       
       <guid>https://hmjianggatech.github.io/tags/rl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>smooth</title>
-      <link>https://hmjianggatech.github.io/tags/smooth/</link>
-      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/tags/smooth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transformer</title>
-      <link>https://hmjianggatech.github.io/tags/transformer/</link>
-      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/tags/transformer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bert</title>
-      <link>https://hmjianggatech.github.io/tags/bert/</link>
-      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
       <description></description>
     </item>
     

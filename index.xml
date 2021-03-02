@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>My tool for Viewing arXiv Papers</title>
+      <link>https://hmjianggatech.github.io/news/arxivviewer/</link>
+      <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
+      <description>Hunreads of machine learning comes out each day. Don&amp;rsquo;t want to be outdated? You need a modern app to manage them.
+See the viewer app here https://arxiv.gtflashlab.com/ .
+Powered by arXiv.com, Mendeley, Sematic Scholar, Google Scholar, arXiv Vanity, Sci-Hub python api</description>
+    </item>
+    
+    <item>
       <title>Our Adversarial Training Paper has been Accepted by AISTATS 2021</title>
       <link>https://hmjianggatech.github.io/news/aistats2021/</link>
       <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
@@ -64,16 +75,6 @@ Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Ya
       <description>See more in link
 Step 1: install nd setup gcloud SDK tutorial
 Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME </description>
-    </item>
-    
-    <item>
-      <title>Hack WiC Leaderboard</title>
-      <link>https://hmjianggatech.github.io/notes/hack_wic/</link>
-      <pubDate>Sat, 16 May 2020 23:50:07 -0400</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/notes/hack_wic/</guid>
-      <description>WiC dataset is to identify the intended meaning of words. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. link Leaderboard
- WiC is a rather small dataset and can be somwhow hacked.</description>
     </item>
     
     <item>

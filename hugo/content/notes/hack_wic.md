@@ -2,7 +2,7 @@
 title: "Hack WiC Leaderboard"
 date: 2020-05-16T23:50:07-04:00
 draft: true
-publishdate: 2020-12-31
+publishdate: 2025-12-31
 ---
 
 > WiC dataset is to identify the intended meaning of words. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. [link](https://pilehvar.github.io/wic/) [Leaderboard](https://competitions.codalab.org/competitions/20010)

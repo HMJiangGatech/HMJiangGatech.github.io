@@ -78,16 +78,6 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
     </item>
     
     <item>
-      <title>Hack WiC Leaderboard</title>
-      <link>https://hmjianggatech.github.io/notes/hack_wic/</link>
-      <pubDate>Sat, 16 May 2020 23:50:07 -0400</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/notes/hack_wic/</guid>
-      <description>WiC dataset is to identify the intended meaning of words. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. link Leaderboard
- WiC is a rather small dataset and can be somwhow hacked.</description>
-    </item>
-    
-    <item>
       <title>Docker Cheatsheet</title>
       <link>https://hmjianggatech.github.io/notes/docker/</link>
       <pubDate>Sat, 16 May 2020 00:15:48 -0400</pubDate>

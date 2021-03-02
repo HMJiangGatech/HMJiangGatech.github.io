@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/tags/</link>
+    <description>Recent content in Tags on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>arxiv</title>
+      <link>https://hmjianggatech.github.io/tags/arxiv/</link>
+      <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/arxiv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webapp</title>
+      <link>https://hmjianggatech.github.io/tags/webapp/</link>
+      <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/webapp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>adversarial</title>
+      <link>https://hmjianggatech.github.io/tags/adversarial/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aistats</title>
+      <link>https://hmjianggatech.github.io/tags/aistats/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/aistats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning-to-learn robustness</title>
+      <link>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bert</title>
+      <link>https://hmjianggatech.github.io/tags/bert/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bert nlp</title>
+      <link>https://hmjianggatech.github.io/tags/bert-nlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert-nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calibration</title>
+      <link>https://hmjianggatech.github.io/tags/calibration/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/calibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emnlp</title>
+      <link>https://hmjianggatech.github.io/tags/emnlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smooth</title>
+      <link>https://hmjianggatech.github.io/tags/smooth/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/smooth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transformer</title>
+      <link>https://hmjianggatech.github.io/tags/transformer/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>icml</title>
+      <link>https://hmjianggatech.github.io/tags/icml/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>point process</title>
+      <link>https://hmjianggatech.github.io/tags/point-process/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/point-process/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rl</title>
+      <link>https://hmjianggatech.github.io/tags/rl/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distant supervision</title>
+      <link>https://hmjianggatech.github.io/tags/distant-supervision/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/distant-supervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kdd</title>
+      <link>https://hmjianggatech.github.io/tags/kdd/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/kdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ner</title>
+      <link>https://hmjianggatech.github.io/tags/ner/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/ner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://hmjianggatech.github.io/tags/nlp/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>weak supervision</title>
+      <link>https://hmjianggatech.github.io/tags/weak-supervision/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/weak-supervision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>acl</title>
+      <link>https://hmjianggatech.github.io/tags/acl/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nmt</title>
+      <link>https://hmjianggatech.github.io/tags/nmt/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/nmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smart</title>
+      <link>https://hmjianggatech.github.io/tags/smart/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/smart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fine-tuning</title>
+      <link>https://hmjianggatech.github.io/tags/fine-tuning/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/fine-tuning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GLUE</title>
+      <link>https://hmjianggatech.github.io/tags/glue/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/glue/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

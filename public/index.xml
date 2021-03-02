@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/</link>
+    <description>Recent content on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My tool for Viewing arXiv Papers</title>
+      <link>https://hmjianggatech.github.io/news/arxivviewer/</link>
+      <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
+      <description>Hunreads of machine learning comes out each day. Don&amp;rsquo;t want to be outdated? You need a modern app to manage them.
+See the viewer app here https://arxiv.gtflashlab.com/ .
+Powered by arXiv.com, Mendeley, Sematic Scholar, Google Scholar, arXiv Vanity, Sci-Hub python api</description>
+    </item>
+    
+    <item>
+      <title>Our Adversarial Training Paper has been Accepted by AISTATS 2021</title>
+      <link>https://hmjianggatech.github.io/news/aistats2021/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/aistats2021/</guid>
+      <description>Our Adversarial Training Paper has been Accepted by AISTATS 2021. We propose a learning-to-learn method to improve adversarial training on a variety of tasks.
+Reference   Learning to Defense by Learning to Attack 2021 Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution) [arXiv]  The 24th International Conference on Artificial Intelligence and Statistics (AISTATS), 2021   </description>
+    </item>
+    
+    <item>
+      <title>Our BERT Calibration Paper has been Accepted by EMNLP 2020</title>
+      <link>https://hmjianggatech.github.io/news/emnlp2020/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/emnlp2020/</guid>
+      <description>We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.
+Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv]  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020   </description>
+    </item>
+    
+    <item>
+      <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
+      <link>https://hmjianggatech.github.io/notes/ope/</link>
+      <pubDate>Tue, 09 Jun 2020 17:00:11 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/ope/</guid>
+      <description>Problem Setting  Problem Definition: Evaluate a policy without interaction with environment.
+What do we have:
+(i) historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment.
+(ii) A target policy \(\pi\) (optional) Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.</description>
+    </item>
+    
+    <item>
+      <title>Two Papers are Accepted by ICML 2020</title>
+      <link>https://hmjianggatech.github.io/news/icml2020/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/icml2020/</guid>
+      <description> Two papers are accepted by ICML 2020!
+ One is about transformer-based point process model.
+The other one is about using smooth policy to improve reinforcement learning in continuous environment.
+Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv]  International Conference on Machine Learning (ICML), 2020    Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv]  International Conference on Machine Learning (ICML), 2020   </description>
+    </item>
+    
+    <item>
+      <title>Google Cloud CheatSheet</title>
+      <link>https://hmjianggatech.github.io/notes/google_cloud/</link>
+      <pubDate>Mon, 18 May 2020 15:02:12 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/google_cloud/</guid>
+      <description>See more in link
+Step 1: install nd setup gcloud SDK tutorial
+Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZONE=&amp;#34;us-west1-b&amp;#34; export INSTANCE_NAME=&amp;#34;my-new-instance&amp;#34; export INSTANCE_TYPE=&amp;#34;n1-standard-8&amp;#34; export DISKSIZE=&amp;#34;120GB&amp;#34; gcloud compute instances create $INSTANCE_NAME \  --zone=$ZONE \  --image-family=$IMAGE_FAMILY \  --image-project=deeplearning-platform-release \  --maintenance-policy=TERMINATE \  --accelerator=&amp;#34;type=nvidia-tesla-v100,count=8&amp;#34; \  --machine-type=$INSTANCE_TYPE \  --boot-disk-size=$DISKSIZE \  --metadata=&amp;#34;install-nvidia-driver=True&amp;#34; Step 3: control your vm  list vm:  gcloud compute instances list  vm status  gcloud compute instances describe $INSTANCE_NAME  access vm  gcloud compute ssh $INSTANCE_NAME  stop vm  gcloud compute instances stop $INSTANCE_NAME  start vm  gcloud compute instances start $INSTANCE_NAME  delete vm  gcloud compute instances delete $INSTANCE_NAME </description>
+    </item>
+    
+    <item>
+      <title>Hack WiC Leaderboard</title>
+      <link>https://hmjianggatech.github.io/notes/hack_wic/</link>
+      <pubDate>Sat, 16 May 2020 23:50:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/hack_wic/</guid>
+      <description>WiC dataset is to identify the intended meaning of words. Each instance in WiC has a target word w, either a verb or a noun, for which two contexts are provided. Each of these contexts triggers a specific meaning of w. The task is to identify if the occurrences of w in the two contexts correspond to the same meaning or not. link Leaderboard
+ WiC is a rather small dataset and can be somwhow hacked.</description>
+    </item>
+    
+    <item>
+      <title>Docker Cheatsheet</title>
+      <link>https://hmjianggatech.github.io/notes/docker/</link>
+      <pubDate>Sat, 16 May 2020 00:15:48 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/docker/</guid>
+      <description>Docker Introduction from docker.com
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash  -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems)  Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root.</description>
+    </item>
+    
+    <item>
+      <title>BOND is Accepted by KDD 2020</title>
+      <link>https://hmjianggatech.github.io/news/bond/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/bond/</guid>
+      <description>Our recent work on distantly supervised NER is accepted by KDD2020. We are closing the GAP between full supervision and no supervision! See our code here: https://github.com/cliang1453/BOND
+ The reuslts (F1 score) are summerized as follows:
+   Method CoNLL03 Tweet OntoNote5.0 Webpage Wikigold     Full Supervision 91.21 52.19 86.20 72.39 86.43   Previous SOTA 76.00 26.10 67.69 51.39 47.54   BOND 81.48 48.</description>
+    </item>
+    
+    <item>
+      <title>Two Papers are Accepted by ACL 2020</title>
+      <link>https://hmjianggatech.github.io/news/acl2020/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/acl2020/</guid>
+      <description> Two papers are accepted by ACL 2020!
+ One is about multidomain NMT using word level mixing model.
+The other one is SMART model, leaderboad wining model on GLUE.
+Reference    SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization 2020 Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao [arXiv] [Code]  Annual Conference of the Association for Computational Linguistics (ACL), 2020    Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing 2020 Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao [arXiv]  Annual Conference of the Association for Computational Linguistics (ACL), 2020   </description>
+    </item>
+    
+    <item>
+      <title>State-of-the-art Results on GLUE Benchmark</title>
+      <link>https://hmjianggatech.github.io/news/smart/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/news/smart/</guid>
+      <description>Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (paper, code) achieves state-of-the-art results in 5 of 9 GLUE benchmark tasks and an overall GLUE task performance 89.9, which outperforms all existing models.
+ The reuslts are summerized as follows:
+   Method CoLA SST MRPC STS-B QQP MNLI-m/mm QNLI RTE WNLI AX Score #params     Previous SOTA 70.8 97.1 91.9/89.2 92.</description>
+    </item>
+    
+  </channel>
+</rss>

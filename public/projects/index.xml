@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PROJECTS on Haoming Jiang</title>
+    <link>https://hmjianggatech.github.io/projects/</link>
+    <description>Recent content in PROJECTS on Haoming Jiang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Apr 2020 00:12:54 -0400</lastBuildDate>
+    
+	<atom:link href="https://hmjianggatech.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

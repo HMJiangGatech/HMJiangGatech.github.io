@@ -7,6 +7,7 @@ draft: false
 
 ### MISC
 
+- Checkout the webapp for daily arxiv papers: [Arxiv Viewer](http://arxiv.jhaoming.com/)
 - Innovative SMOTE for High Dimensional and Large Scaled Imbalanced Data [[R Package](https://github.com/HMJiangGatech/ESmote)] [[Chinese Dissertation](https://hmjianggatech.github.io/files/FSMOTE.pdf)]
 - Data Driven Approach for Deploying Charging Station for Electric Vehicles [[Chinese Dissertation](https://hmjianggatech.github.io/files/ChargingStation.pdf)]
 - Analyzing Tweets Sentiment via Machine Learning Approach [[Report](https://hmjianggatech.github.io/files/BHAMProject/SentimentAnalysis.pdf)] [[Tokenizer](https://hmjianggatech.github.io/files/BHAMProject/ReadACleanT.py)] [[Extra Unlabeled Data](https://hmjianggatech.github.io/files/BHAMProject/Tweets_Unlabeled.csv)] [[Tweets Vectors](http://pan.baidu.com/s/1qYGQpJm)]

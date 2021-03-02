@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hmjianggatech.github.io/tags/arxiv/</loc>
+    <lastmod>2021-02-24T18:53:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/arxivviewer/</loc>
+    <lastmod>2021-02-24T18:53:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/news/</loc>
+    <lastmod>2021-02-24T18:53:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/</loc>
+    <lastmod>2021-02-24T18:53:26-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hmjianggatech.github.io/tags/webapp/</loc>
+    <lastmod>2021-02-24T18:53:26-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hmjianggatech.github.io/tags/adversarial/</loc>
     <lastmod>2021-01-23T22:49:12-05:00</lastmod>
   </url>
@@ -18,17 +43,7 @@
   </url>
   
   <url>
-    <loc>https://hmjianggatech.github.io/news/</loc>
-    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://hmjianggatech.github.io/news/aistats2021/</loc>
-    <lastmod>2021-01-23T22:49:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hmjianggatech.github.io/tags/</loc>
     <lastmod>2021-01-23T22:49:12-05:00</lastmod>
   </url>
   

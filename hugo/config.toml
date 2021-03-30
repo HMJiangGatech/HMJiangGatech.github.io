@@ -71,6 +71,11 @@ paginate = 5
         url = "/research"
         weight = 2
       [[languages.en.menu.main]]
+        identifier = "ArxivViewer"
+        name = "Arxiv Viewer"
+        url = "https://arxiv.gtflashlab.com/"
+        weight = 3
+      [[languages.en.menu.main]]
         identifier = "projects"
         name = "Projects"
         url = "/projects"

@@ -6,11 +6,7 @@
     <description>Recent content in webapp on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My tool for Viewing arXiv Papers</title>
       <link>https://hmjianggatech.github.io/news/arxivviewer/</link>
@@ -20,6 +16,27 @@
       <description>Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: https://arxiv.gtflashlab.com/ .
 It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way. It also provides some basic functions, that help me to manage these papers:
  Reading status: it tells me whether I have viewed the paper or not.</description>
+      <content>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
+It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reading status: it tells me whether I have viewed the paper or not.&lt;/li&gt;
+&lt;li&gt;Archive: I can archive papers that I don&amp;rsquo;t want to see anymore.&lt;/li&gt;
+&lt;li&gt;Star: Save my favorite papers.&lt;/li&gt;
+&lt;li&gt;Tagging: it allows me to add tags to categorize the papers.&lt;/li&gt;
+&lt;li&gt;Tagging from abstract/title: I can efficiently add tags from the title/abstract by simply selecting the text.&lt;/li&gt;
+&lt;li&gt;Filtering by Reading status/Archive status/Star/Tags&lt;/li&gt;
+&lt;li&gt;Read Abstract/PDF/HTML&lt;/li&gt;
+&lt;li&gt;PDF Annotation which can be saved on the server.&lt;/li&gt;
+&lt;li&gt;Search: Full-text-search on title and abstract (If you can&amp;rsquo;t find the paper, add &amp;ldquo;&amp;amp;&amp;amp;searchEngine=simple&amp;rdquo; to the URL. It will perform a case-insensitive exact-match search, which is kind of slow. Don&amp;rsquo;t blame me for the search experience, I am a newbie to the database. )
+Citation/Reference (based on semantic scholar)&lt;/li&gt;
+&lt;li&gt;View papers on your iPhone/iPad by saving the website as a bookmark on the homepage. (Although some things are still malfunctioning. /(ㄒoㄒ)/~~)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I want to share it with anyone who might find it useful for doing research.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Acknowledge&lt;/strong&gt;
+It is powered by arXiv API, semantic scholar API, arXiv Vanity, and Adobe PDF API. This project is still in an early stage and I only import the machine learning related papers.
+If you want to help me to improve it, visit my GitHub: &lt;a href=&#34;https://github.com/HMJiangGatech/ArxivRoller&#34;&gt;https://github.com/HMJiangGatech/ArxivRoller&lt;/a&gt;&lt;/p&gt;
+</content>
     </item>
     
   </channel>

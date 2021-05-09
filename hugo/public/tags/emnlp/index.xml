@@ -6,11 +6,7 @@
     <description>Recent content in emnlp on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Dec 2020 22:49:01 -0500</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/tags/emnlp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 23 Dec 2020 22:49:01 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/emnlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our BERT Calibration Paper has been Accepted by EMNLP 2020</title>
       <link>https://hmjianggatech.github.io/news/emnlp2020/</link>
@@ -19,6 +15,23 @@
       <guid>https://hmjianggatech.github.io/news/emnlp2020/</guid>
       <description>We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.
 Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv]  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020   </description>
+      <content>&lt;p&gt;We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/2010.11506.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Conference on Empirical Methods in Natural Language Processing (EMNLP)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>

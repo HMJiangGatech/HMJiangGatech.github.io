@@ -6,11 +6,7 @@
     <description>Recent content in Tags on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>arxiv</title>
       <link>https://hmjianggatech.github.io/tags/arxiv/</link>
@@ -18,6 +14,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/arxiv/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -27,6 +24,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/webapp/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -36,6 +34,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/adversarial/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -45,6 +44,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/aistats/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -54,15 +54,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>bert</title>
-      <link>https://hmjianggatech.github.io/tags/bert/</link>
-      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
-      
-      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
-      <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -72,6 +64,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/bert-nlp/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -81,6 +74,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/calibration/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -90,6 +84,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/emnlp/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -99,6 +94,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/smooth/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -108,6 +104,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/transformer/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -117,6 +114,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/icml/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -126,6 +124,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/point-process/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -135,6 +134,17 @@
       
       <guid>https://hmjianggatech.github.io/tags/rl/</guid>
       <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>bert</title>
+      <link>https://hmjianggatech.github.io/tags/bert/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
+      <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -144,6 +154,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/distant-supervision/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -153,6 +164,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/kdd/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -162,6 +174,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/ner/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -171,6 +184,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/nlp/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -180,6 +194,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/weak-supervision/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -189,6 +204,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/acl/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -198,6 +214,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/nmt/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -207,6 +224,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/smart/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -216,6 +234,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/fine-tuning/</guid>
       <description></description>
+      <content></content>
     </item>
     
     <item>
@@ -225,6 +244,7 @@
       
       <guid>https://hmjianggatech.github.io/tags/glue/</guid>
       <description></description>
+      <content></content>
     </item>
     
   </channel>

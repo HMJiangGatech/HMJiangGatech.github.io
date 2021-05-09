@@ -6,11 +6,7 @@
     <description>Recent content in learning-to-learn robustness on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 22:49:12 -0500</lastBuildDate>
-    
-	<atom:link href="https://hmjianggatech.github.io/tags/learning-to-learn-robustness/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 23 Jan 2021 22:49:12 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/learning-to-learn-robustness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Adversarial Training Paper has been Accepted by AISTATS 2021</title>
       <link>https://hmjianggatech.github.io/news/aistats2021/</link>
@@ -19,6 +15,24 @@
       <guid>https://hmjianggatech.github.io/news/aistats2021/</guid>
       <description>Our Adversarial Training Paper has been Accepted by AISTATS 2021. We propose a learning-to-learn method to improve adversarial training on a variety of tasks.
 Reference   Learning to Defense by Learning to Attack 2021 Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution) [arXiv]  The 24th International Conference on Artificial Intelligence and Statistics (AISTATS), 2021   </description>
+      <content>&lt;p&gt;Our Adversarial Training Paper has been Accepted by AISTATS 2021.
+We propose a learning-to-learn method to improve adversarial training on a variety of tasks.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Learning to Defense by Learning to Attack&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2021&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1811.01213.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;The 24th International Conference on Artificial Intelligence and Statistics (AISTATS)&lt;/em&gt;&lt;/strong&gt;, 2021
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     </item>
     
   </channel>

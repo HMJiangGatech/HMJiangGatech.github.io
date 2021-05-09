@@ -24,6 +24,21 @@ arxiv="https://arxiv.org/abs/2102.10242"
 
 ### Publications
 
+
+- {{<paper
+title="Named Entity Recognition with Small Strongly Labeled and Large Weakly Labeled Data"
+year="2021"
+author="Haoming Jiang, Danqing Zhang, Tianyu Cao, Bing Yin and Tuo Zhao"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
+- {{<paper
+title="Super Tickets in Pre-Trained Language Models: From Model Compression to Improving Generalization"
+year="2021"
+author="Chen Liang, Simiao Zuo, Minshuo Chen, Haoming Jiang, Xiaodong Liu, Pengcheng He, Tuo Zhao and Weizhu Chen"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
 - {{<paper
 title="Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrastive-Regularized Self-Training Approach"
 year="2021"

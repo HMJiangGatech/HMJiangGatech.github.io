@@ -29,6 +29,6 @@ My research focuses on deep learning, adversarial machine learning, natural lang
 
 ### Education
 
-- Ph.D. in Machine Learning (Expected), *Georgia Institue of Technology, ISyE*, 2017-2021
+- Ph.D. in Machine Learning, *Georgia Institue of Technology, ISyE*, 2017-2021
 
 - B.S. in Mathematics and Computer Science, *University of Science and Technology of China, ScGY*, 2013-2017

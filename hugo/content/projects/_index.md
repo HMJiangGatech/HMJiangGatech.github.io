@@ -7,6 +7,8 @@ draft: false
 
 ### Software
 
+- **Arxiv Viewer**: Checkout the webapp for daily arxiv papers: [Arxiv Viewer](http://arxiv.gtflashlab.com)
+
 - **PICASSO**: PathwIse CalibrAted Sparse Shooting algOrithm [[R Package](https://github.com/jasonge27/picasso/)] [[Python Package](https://hmjianggatech.github.io/picasso/)]
 
 - **HUGE**: High-Dimensional Undirected Graph Estimation [[R Package](https://github.com/HMJiangGatech/huge)]

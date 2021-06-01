@@ -37,6 +37,7 @@ title="Super Tickets in Pre-Trained Language Models: From Model Compression to I
 year="2021"
 author="Chen Liang, Simiao Zuo, Minshuo Chen, Haoming Jiang, Xiaodong Liu, Pengcheng He, Tuo Zhao and Weizhu Chen"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+arxiv="https://arxiv.org/abs/2105.12002"
 >}}
 
 - {{<paper
@@ -44,7 +45,7 @@ title="Fine-Tuning Pre-trained Language Model with Weak Supervision: A Contrasti
 year="2021"
 author="Yue Yu, Simiao Zuo, Haoming Jiang, Wendi Ren, Tuo Zhao and Chao Zhang"
 proce="Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
-arxiv="https://arxiv.org/pdf/2010.07835.pdf"
+arxiv="https://arxiv.org/abs/2010.07835"
 >}}
 
 - {{<paper
@@ -52,7 +53,7 @@ title="Learning to Defense by Learning to Attack"
 year="2021"
 author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
 proce="The 24th International Conference on Artificial Intelligence and Statistics (AISTATS)"
-arxiv="https://arxiv.org/pdf/1811.01213.pdf"
+arxiv="https://arxiv.org/abs/1811.01213"
 >}}
 
 - {{<paper
@@ -60,7 +61,7 @@ title="Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoot
 year="2020"
 author="Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
-arxiv="https://arxiv.org/pdf/2010.11506.pdf"
+arxiv="https://arxiv.org/abs/2010.11506"
 >}}
 
 
@@ -69,7 +70,7 @@ title="Deep Reinforcement Learning with Smooth Policy"
 year="2020"
 author="Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao"
 proce="International Conference on Machine Learning (ICML)"
-arxiv="https://arxiv.org/pdf/2003.09534.pdf"
+arxiv="https://arxiv.org/abs/2003.09534"
 >}}
 
 - {{<paper
@@ -77,7 +78,7 @@ title="Transformer Hawkes Process"
 year="2020"
 author="Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha"
 proce="International Conference on Machine Learning (ICML)"
-arxiv="https://arxiv.org/pdf/2002.09291.pdf"
+arxiv="https://arxiv.org/abs/2002.09291"
 >}}
 
 - {{<paper
@@ -94,7 +95,7 @@ title="SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language 
 year="2020"
 author="Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao"
 proce="Annual Conference of the Association for Computational Linguistics (ACL)"
-arxiv="https://arxiv.org/pdf/1911.03437.pdf"
+arxiv="https://arxiv.org/abs/1911.03437"
 code="https://github.com/namisan/mt-dnn"
 other="<strong>News (2019/12/05): <font color=\"red\">Rank #1 on <a href=\"https://gluebenchmark.com/leaderboard\">GLUE</a></font></strong>"
 >}}
@@ -104,7 +105,7 @@ title="Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wi
 year="2020"
 author="Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao"
 proce="Annual Conference of the Association for Computational Linguistics (ACL)"
-arxiv="https://arxiv.org/pdf/1911.02692.pdf"
+arxiv="https://arxiv.org/abs/1911.02692"
 code="https://github.com/HMJiangGatech/MD_NMT_mixing_model"
 >}}
 
@@ -113,7 +114,7 @@ title="On the Variance of the Adaptive Learning Rate and Beyond"
 year="2020"
 author="Liyuan Liu, Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Jiawei Han"
 proce="International Conference on Learning Representations (ICLR)"
-arxiv="https://arxiv.org/pdf/1908.03265.pdf"
+arxiv="https://arxiv.org/abs/1908.03265"
 code="https://github.com/LiyuanLucasLiu/RAdam"
 >}}
 
@@ -122,7 +123,7 @@ title="Efficient Approximation of Deep ReLU Networks for Functions on Low Dimens
 year="2019"
 author="Minshuo Chen, Haoming Jiang, Wenjing Liao and Tuo Zhao"
 proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
-arxiv="https://arxiv.org/pdf/1908.01842.pdf"
+arxiv="https://arxiv.org/abs/1908.01842"
 >}}
 
 - {{<paper
@@ -130,7 +131,7 @@ title="Meta Learning with Relational Information for Short Sequences"
 year="2019"
 author="Yujia Xie, Haoming Jiang, Feng Liu, Tuo Zhao and Hongyuan Zha"
 proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
-arxiv="https://arxiv.org/pdf/1909.02105.pdf"
+arxiv="https://arxiv.org/abs/1909.02105"
 >}}
 
 - {{<paper
@@ -138,7 +139,7 @@ title="On Fast Convergence of Proximal Algorithms for SQRT-Lasso Optimization: D
 year="2019"
 author="Xingguo Li, Haoming Jiang, Jarvis Haupt, Raman Arora, Han Liu, Mingyi Hong and Tuo Zhao"
 proce="Conference on Uncertainty in Artificial Intelligence (UAI)"
-arxiv="http://arxiv.org/pdf/1605.07950.pdf"
+arxiv="http://arxiv.org/abs/1605.07950"
 code="https://github.com/HMJiangGatech/flashMLbase"
 >}}
 
@@ -147,7 +148,7 @@ title="On Scalable and Efficient Computation of Large Scale Optimal Transport"
 year="2019"
 author="Yujia Xie, Minshuo Chen, Haoming Jiang, Tuo Zhao, Hongyuan Zha"
 proce="International Conference on Machine Learning (ICML)"
-arxiv="https://arxiv.org/pdf/1905.00158.pdf"
+arxiv="https://arxiv.org/abs/1905.00158"
 code="https://github.com/xieyujia/SPOT"
 >}}
 
@@ -156,7 +157,7 @@ title="On Computation and Generalization of Generative Adversarial Networks unde
 year="2019"
 author="Haoming Jiang, Zhehui Chen, Minshuo Chen, Feng Liu, Dingding Wang, Tuo Zhao"
 proce="International Conference on Learning Representations (ICLR)"
-arxiv="https://arxiv.org/pdf/1812.10912.pdf"
+arxiv="https://arxiv.org/abs/1812.10912"
 code="https://github.com/HMJiangGatech/spectral-control-GAN"
 >}}
 
@@ -176,7 +177,7 @@ title="Contextual Text Denoising with Masked Language Model"
 year="2019"
 author="Yifu Sun, Haoming Jiang"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Workshop W-NUT"
-arxiv="https://arxiv.org/pdf/1910.14080.pdf"
+arxiv="https://arxiv.org/abs/1910.14080"
 >}}
 
 

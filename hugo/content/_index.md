@@ -12,9 +12,10 @@ draft: false
 I am an applied research scientist at Amazon Search (A9.com).
 Before I joined Amazon, I obtained my Ph.D. degree in Machine Learning from the School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/))
 at [Georgia Tech](https://www.gatech.edu/). 
+I spent wonderful years with [Prof. Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/) in the FLASH (Foundations of LeArning Systems for alcHemy) research group.
 I received my B.S. degree in Computer Science and Mathematics from the School of the Gifted Young at University of Science and Technology of China ([USTC](http://en.ustc.edu.cn/)).
 
-My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. I am working with [Prof. Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/) in the FLASH (Foundations of LeArning Systems for alcHemy) research group.
+My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. 
 
 
 ### Professional Experience

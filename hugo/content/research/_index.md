@@ -30,6 +30,7 @@ title="Named Entity Recognition with Small Strongly Labeled and Large Weakly Lab
 year="2021"
 author="Haoming Jiang, Danqing Zhang, Tianyu Cao, Bing Yin and Tuo Zhao"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+arxiv="https://arxiv.org/abs/2106.08977"
 >}}
 
 - {{<paper

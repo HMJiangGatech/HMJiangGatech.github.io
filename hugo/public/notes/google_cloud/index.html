@@ -55,7 +55,7 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 <meta property="og:image:height" content="1024">
 
 
-  <meta property="article:published_time" content="2020-05-18 15:02:12 -0400 EDT" />
+  <meta property="article:published_time" content="2020-05-18 15:02:12 -0400 -0400" />
 
 
 
@@ -206,7 +206,7 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 <h2 id="step-1-install-nd-setup-gcloud-sdk">Step 1: install nd setup gcloud SDK<a href="#step-1-install-nd-setup-gcloud-sdk" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p><a href="https://cloud.google.com/compute/docs/gcloud-compute">tutorial</a></p>
 <h2 id="step-2-create-vm">Step 2: create vm<a href="#step-2-create-vm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export IMAGE_FAMILY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tf-latest-cu92&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export IMAGE_FAMILY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tf-latest-cu92&#34;</span>
 export ZONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;us-west1-b&#34;</span>
 export INSTANCE_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-new-instance&#34;</span>
 export INSTANCE_TYPE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;n1-standard-8&#34;</span>
@@ -224,27 +224,27 @@ gcloud compute instances create $INSTANCE_NAME <span style="color:#ae81ff">\
 <ul>
 <li>list vm:</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances list
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances list
 </code></pre></div><ul>
 <li>vm status</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances describe $INSTANCE_NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances describe $INSTANCE_NAME
 </code></pre></div><ul>
 <li>access vm</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute ssh $INSTANCE_NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute ssh $INSTANCE_NAME
 </code></pre></div><ul>
 <li>stop vm</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances stop $INSTANCE_NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances stop $INSTANCE_NAME
 </code></pre></div><ul>
 <li>start vm</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances start $INSTANCE_NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances start $INSTANCE_NAME
 </code></pre></div><ul>
 <li>delete vm</li>
 </ul>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances delete $INSTANCE_NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances delete $INSTANCE_NAME
 </code></pre></div>
       </div></div>
 

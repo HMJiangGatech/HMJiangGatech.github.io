@@ -15,14 +15,42 @@ author="Haoming Jiang, Xingguo Li, Jason Ge, Mengdi Wang, Mingyi Hong and Tuo Zh
 code="https://github.com/HMJiangGatech/BoostingExp"
 >}}
 
+### Publications
+
+
+
 - {{<paper
 title="Towards Automatic Evaluation of Dialog Systems: A Model-Free Off-Policy Evaluation Approach"
 year="2021"
 author="Haoming Jiang, Bo Dai, Mengjiao Yang, Tuo Zhao and Wei Wei"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 arxiv="https://arxiv.org/abs/2102.10242"
+code="https://github.com/google-research/google-research/tree/master/dialogue_ope"
+other="<strong>News: <font color=\"red\"> We are organizing <a href=\"https://sites.google.com/view/eancs/home\"> The First Workshop on Evaluations and Assessments of Neural Conversation Systems (EANCS) Co-located with EMNLP 2021</a></font></br> Share Task on Dialogue OPE: <a href=\"https://sites.google.com/view/eancs/shared-task\">Website</a></strong>"
 >}}
 
-### Publications
+
+- {{<paper
+title="Adversarial Regularization as Stackelberg Game: An Unrolled Optimization Approach"
+year="2021"
+author="Simiao Zuo, Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
+- {{<paper
+title="ARCH: Efficient Adversarial Regularized Training with Caching"
+year="2021"
+author="Simiao Zuo, Chen Liang, Haoming Jiang, Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
+>}}
+
+
+- {{<paper
+title="Token-wise Curriculum Learning for Neural Machine Translation"
+year="2021"
+author="Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao and Tuo Zhao"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
+>}}
 
 
 - {{<paper
@@ -31,6 +59,7 @@ year="2021"
 author="Haoming Jiang, Danqing Zhang, Tianyu Cao, Bing Yin and Tuo Zhao"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
 arxiv="https://arxiv.org/abs/2106.08977"
+code="https://github.com/amzn/amazon-weak-ner-needle"
 >}}
 
 - {{<paper
@@ -39,6 +68,7 @@ year="2021"
 author="Chen Liang, Simiao Zuo, Minshuo Chen, Haoming Jiang, Xiaodong Liu, Pengcheng He, Tuo Zhao and Weizhu Chen"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
 arxiv="https://arxiv.org/abs/2105.12002"
+code="https://github.com/cliang1453/super-structured-lottery-tickets"
 >}}
 
 - {{<paper
@@ -47,6 +77,7 @@ year="2021"
 author="Yue Yu, Simiao Zuo, Haoming Jiang, Wendi Ren, Tuo Zhao and Chao Zhang"
 proce="Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
 arxiv="https://arxiv.org/abs/2010.07835"
+code="https://github.com/yueyu1030/COSINE"
 >}}
 
 - {{<paper
@@ -55,6 +86,7 @@ year="2021"
 author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
 proce="The 24th International Conference on Artificial Intelligence and Statistics (AISTATS)"
 arxiv="https://arxiv.org/abs/1811.01213"
+code="https://github.com/YuyangShi/Learning-to-Defend-by-Learning-to-Attack"
 >}}
 
 - {{<paper
@@ -63,6 +95,7 @@ year="2020"
 author="Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 arxiv="https://arxiv.org/abs/2010.11506"
+code="https://github.com/Lingkai-Kong/Calibrated-BERT-Fine-Tuning"
 >}}
 
 
@@ -80,6 +113,7 @@ year="2020"
 author="Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha"
 proce="International Conference on Machine Learning (ICML)"
 arxiv="https://arxiv.org/abs/2002.09291"
+code="https://github.com/SimiaoZuo/Transformer-Hawkes-Process"
 >}}
 
 - {{<paper

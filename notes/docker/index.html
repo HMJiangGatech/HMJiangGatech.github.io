@@ -53,7 +53,7 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
 <meta property="og:image:height" content="1024">
 
 
-  <meta property="article:published_time" content="2020-05-16 00:15:48 -0400 EDT" />
+  <meta property="article:published_time" content="2020-05-16 00:15:48 -0400 -0400" />
 
 
 
@@ -202,29 +202,29 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
   <div class="post-content"><div>
         <h3 id="docker">Docker<a href="#docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p><a href="https://docs.docker.com/get-started/">Introduction from docker.com</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm <span style="color:#ae81ff">\
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>-v ~/project/MNLI:/work/MNLI <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>-v ~/.ssh:/root/.ssh <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>-v /mnt:/work/data <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>--privileged docker-image:tag bash
 </code></pre></div><h4 id="run-a-docker-image">Run a docker image<a href="#run-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
 </code></pre></div><ol>
 <li><code>-it</code>: interactive mode</li>
 <li><code>--rm</code>: clean up after exit</li>
 <li><code>-v</code>: volume (shared filesystems)</li>
 </ol>
 <h4 id="attach-to-a-running-docker-container">Attach to a running docker container<a href="#attach-to-a-running-docker-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker ps
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker ps
 docker exec -it container_name bash
 </code></pre></div><h4 id="file-permission-issue">File Permission Issue<a href="#file-permission-issue" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <p>All files created by the docker is owned by root.
 Solution: <a href="https://www.berthon.eu/2018/containers-volumes-and-file-permissions/">Using ACL</a>
 The following command grant use ACL to make read/write permissions of all files in <code>project</code> inherit from project and have the same access of the current host user.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">setfacl -dm <span style="color:#e6db74">&#34;u:username:rwx&#34;</span> ~/project
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">setfacl -dm <span style="color:#e6db74">&#34;u:username:rwx&#34;</span> ~/project
 </code></pre></div><h4 id="ssh-in-docker">SSH in docker<a href="#ssh-in-docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <p>Add this line to use the ssh key as the host</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">-v ~/.ssh:/root/.ssh
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">-v ~/.ssh:/root/.ssh
 </code></pre></div><h4 id="build-a-docker-image">Build a docker image<a href="#build-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <ol>
 <li>Get folder with everything you need in it.</li>
@@ -232,7 +232,7 @@ The following command grant use ACL to make read/write permissions of all files 
 <li><code>docker build --tag=docker-image .</code></li>
 </ol>
 <h4 id="cheatsheet">Cheatsheet<a href="#cheatsheet" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## List Docker CLI commands</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## List Docker CLI commands</span>
 docker
 docker container --help
 

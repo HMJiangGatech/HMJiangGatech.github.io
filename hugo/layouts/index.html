@@ -19,7 +19,10 @@
           <span class="subtitle"><b>Email: </b> <a href="mailto:{{.}}">{{.}}</a></span><br>
           {{ end  }}
           {{ with .Params.github  }}
-          <span class="subtitle"><b>Github: </b> <a href="https://github.com/{{.}}/">{{.}}</a></span>
+          <span class="subtitle"><b>Github: </b> <a href="https://github.com/{{.}}/">{{.}}</a></span><br>
+          {{ end  }}
+          {{ with .Params.twitter  }}
+          <span class="subtitle"><b>Twitter: </b> <a href="https://twitter.com/{{.}}/">{{.}}</a></span>
           {{ end  }}
     </div>
 

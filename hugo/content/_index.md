@@ -1,8 +1,9 @@
 ---
-title: "Haoming Jiang"
+title: "Haoming Jiang (姜昊茗)"
 email: jianghm@gatech.edu
 github: HMJiangGatech
 twitter: jiang_haoming
+zhihu: jiang-hao-ming
 cover: /profile.png
 date: 2020-04-29T22:36:35-04:00
 draft: false
@@ -18,7 +19,7 @@ I received my B.S. degree in Computer Science and Mathematics from the School of
 
 My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. 
 
-Research intern opportunities in NLP, Machine Learning, and Data Mining. See details in [Amazon QU team](https://amazonsearchqu.github.io/).
+**Hiring:** Research intern opportunities in NLP, Machine Learning, and Data Mining. See details in [Amazon QU team](https://amazonsearchqu.github.io/).
 
 ### Professional Experience
 

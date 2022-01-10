@@ -36,6 +36,7 @@ year="2021"
 author="Simiao Zuo, Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
 arxiv="https://arxiv.org/abs/2104.04886"
+code="https://github.com/SimiaoZuo/Stackelberg-Adv"
 >}}
 
 - {{<paper
@@ -44,6 +45,7 @@ year="2021"
 author="Simiao Zuo, Chen Liang, Haoming Jiang, Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
 arxiv="https://arxiv.org/abs/2109.07048"
+code="https://github.com/SimiaoZuo/Caching-Adv"
 >}}
 
 
@@ -53,6 +55,7 @@ year="2021"
 author="Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
 arxiv="https://arxiv.org/abs/2103.11088"
+code="https://github.com/cliang1453/token-wise-curriculum-learning"
 >}}
 
 
@@ -86,7 +89,7 @@ code="https://github.com/yueyu1030/COSINE"
 - {{<paper
 title="Learning to Defense by Learning to Attack"
 year="2021"
-author="Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
+author="Haoming Jiang*, Zhehui Chen*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution)"
 proce="The 24th International Conference on Artificial Intelligence and Statistics (AISTATS)"
 arxiv="https://arxiv.org/abs/1811.01213"
 code="https://github.com/YuyangShi/Learning-to-Defend-by-Learning-to-Attack"

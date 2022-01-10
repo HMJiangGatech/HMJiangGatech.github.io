@@ -95,6 +95,35 @@ Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold 
     </item>
     
     <item>
+      <title>Hack WiC Leaderboard</title>
+      <link>https://hmjianggatech.github.io/notes/secret_nmt/</link>
+      <pubDate>Wed, 16 Sep 2020 23:50:07 -0400</pubDate>
+      
+      <guid>https://hmjianggatech.github.io/notes/secret_nmt/</guid>
+      <description> Some tricks for reproduce WMT EN-DE
+ WMT EN-DE
+CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ --path $MODELDIR \ --batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \ --user-dir ../radam_fairseq &amp;gt; ${GEN} #GEN=raw_result SYS=$GEN.sys REF=$GEN.ref grep ^H $GEN | cut -f3- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $SYS grep ^T $GEN | cut -f2- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $REF fairseq-score --sys $SYS --ref $REF </description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;Some tricks for reproduce WMT EN-DE&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;WMT EN-DE&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \
+--path $MODELDIR \
+--batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \
+--user-dir ../radam_fairseq &amp;gt; ${GEN}
+
+#GEN=raw_result
+
+SYS=$GEN.sys
+REF=$GEN.ref
+
+grep ^H $GEN | cut -f3- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $SYS
+grep ^T $GEN | cut -f2- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $REF
+fairseq-score --sys $SYS --ref $REF
+&lt;/code&gt;&lt;/pre&gt;</content>
+    </item>
+    
+    <item>
       <title>Offline Policy Evaluation and a Case Study in Dialogue System</title>
       <link>https://hmjianggatech.github.io/notes/ope/</link>
       <pubDate>Tue, 09 Jun 2020 17:00:11 -0400</pubDate>

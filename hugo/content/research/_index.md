@@ -35,6 +35,7 @@ title="Adversarial Regularization as Stackelberg Game: An Unrolled Optimization 
 year="2021"
 author="Simiao Zuo, Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+arxiv="https://arxiv.org/abs/2104.04886"
 >}}
 
 - {{<paper
@@ -42,6 +43,7 @@ title="ARCH: Efficient Adversarial Regularized Training with Caching"
 year="2021"
 author="Simiao Zuo, Chen Liang, Haoming Jiang, Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
+arxiv="https://arxiv.org/abs/2109.07048"
 >}}
 
 
@@ -50,6 +52,7 @@ title="Token-wise Curriculum Learning for Neural Machine Translation"
 year="2021"
 author="Chen Liang, Haoming Jiang, Xiaodong Liu, Pengcheng He, Weizhu Chen, Jianfeng Gao and Tuo Zhao"
 proce="Conference on Empirical Methods in Natural Language Processing (EMNLP), Findings"
+arxiv="https://arxiv.org/abs/2103.11088"
 >}}
 
 

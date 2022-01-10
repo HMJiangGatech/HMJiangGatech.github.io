@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
   
-    <title>Categories :: Haoming Jiang</title>
+    <title>Hack WiC Leaderboard :: Haoming Jiang</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
+<meta name="description" content=" Some tricks for reproduce WMT EN-DE
+ WMT EN-DE
+CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ --path $MODELDIR \ --batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \ --user-dir ../radam_fairseq &amp;gt; ${GEN} #GEN=raw_result SYS=$GEN.sys REF=$GEN.ref grep ^H $GEN | cut -f3- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $SYS grep ^T $GEN | cut -f2- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $REF fairseq-score --sys $SYS --ref $REF " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://hmjianggatech.github.io/categories/" />
+<link rel="canonical" href="https://hmjianggatech.github.io/notes/secret_nmt/" />
 
 
 
@@ -37,10 +39,12 @@
 
 
 <meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Categories">
-<meta property="og:description" content="" />
-<meta property="og:url" content="https://hmjianggatech.github.io/categories/" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Hack WiC Leaderboard">
+<meta property="og:description" content=" Some tricks for reproduce WMT EN-DE
+ WMT EN-DE
+CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ --path $MODELDIR \ --batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \ --user-dir ../radam_fairseq &amp;gt; ${GEN} #GEN=raw_result SYS=$GEN.sys REF=$GEN.ref grep ^H $GEN | cut -f3- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $SYS grep ^T $GEN | cut -f2- | perl -ple &#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&#39; &amp;gt; $REF fairseq-score --sys $SYS --ref $REF " />
+<meta property="og:url" content="https://hmjianggatech.github.io/notes/secret_nmt/" />
 <meta property="og:site_name" content="Haoming Jiang" />
 
   
@@ -51,10 +55,10 @@
 <meta property="og:image:height" content="1024">
 
 
+  <meta property="article:published_time" content="2020-09-16 23:50:07 -0400 -0400" />
 
 
 
-  <link href="/categories/index.xml" rel="alternate" type="application/rss+xml" title="Haoming Jiang" />
 
 
 
@@ -179,13 +183,50 @@
 
   <div class="content">
     
-  <div class="terms">
-    <h1>Categories</h1>
-    <ul>
-      
-      
-    </ul>
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://hmjianggatech.github.io/notes/secret_nmt/">Hack WiC Leaderboard</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-09-16 
+      </span>
+    
+    
   </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <blockquote>
+<p>Some tricks for reproduce WMT EN-DE</p>
+</blockquote>
+<p>WMT EN-DE</p>
+<pre><code>CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \
+--path $MODELDIR \
+--batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \
+--user-dir ../radam_fairseq &gt; ${GEN}
+
+#GEN=raw_result
+
+SYS=$GEN.sys
+REF=$GEN.ref
+
+grep ^H $GEN | cut -f3- | perl -ple 's{(\S)-(\S)}{$1 ##AT##-##AT## $2}g' &gt; $SYS
+grep ^T $GEN | cut -f2- | perl -ple 's{(\S)-(\S)}{$1 ##AT##-##AT## $2}g' &gt; $REF
+fairseq-score --sys $SYS --ref $REF
+</code></pre>
+      </div></div>
+
+  
+
+  
+
+</div>
 
   </div>
 

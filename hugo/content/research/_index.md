@@ -173,6 +173,7 @@ year="2019"
 author="Yujia Xie, Haoming Jiang, Feng Liu, Tuo Zhao and Hongyuan Zha"
 proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
 arxiv="https://arxiv.org/abs/1909.02105"
+code="https://github.com/HMJiangGatech/harmless"
 >}}
 
 - {{<paper

@@ -5,7 +5,7 @@ draft: false
 subtitle: My research focuses on deep Learning, adversarial machine learning, natrual language processing and open source software development for scientific computing.
 ---
 
-### Preprints And Working Papers
+<!-- ### Preprints And Working Papers
 
 
 - {{<paper
@@ -13,10 +13,18 @@ title="Boosting Pathwise Coordiante Optimization: Sequential Screening and Proxi
 year="2018"
 author="Haoming Jiang, Xingguo Li, Jason Ge, Mengdi Wang, Mingyi Hong and Tuo Zhao"
 code="https://github.com/HMJiangGatech/BoostingExp"
->}}
+>}} -->
 
 ### Publications
 
+
+
+- {{<paper
+title="No Parameters Left Behind: Sensitivity Guided Adaptive Learning Rate for Training Large Transformer Models"
+year="2022"
+author="Chen Liang, Haoming Jiang, Simiao Zuo, Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
+proce="International Conference on Learning Representations (ICLR)"
+>}}
 
 
 - {{<paper

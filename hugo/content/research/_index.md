@@ -35,6 +35,14 @@ proce="International Conference on Learning Representations (ICLR)"
 arxiv="https://arxiv.org/abs/2202.02664"
 >}}
 
+- {{<paper
+title="Nonparametric Regression on Low-Dimensional Manifolds using Deep ReLU Networks"
+year="2021+"
+author="Minshuo Chen, Haoming Jiang, Wenjing Liao and Tuo Zhao"
+proce="Information and Inference: A Journal of the IMA"
+arxiv="https://arxiv.org/abs/1908.01842"
+>}}
+
 
 - {{<paper
 title="Towards Automatic Evaluation of Dialog Systems: A Model-Free Off-Policy Evaluation Approach"

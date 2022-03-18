@@ -20,10 +20,19 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 
 - {{<paper
+title="Multilingual knowledge graph completion with self-supervised adaptive graph alignment"
+year="2022"
+author="Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun, Wei Wang"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
+
+- {{<paper
 title="No Parameters Left Behind: Sensitivity Guided Adaptive Learning Rate for Training Large Transformer Models"
 year="2022"
 author="Chen Liang, Haoming Jiang, Simiao Zuo, Pengcheng He, Xiaodong Liu, Jianfeng Gao, Weizhu Chen and Tuo Zhao"
 proce="International Conference on Learning Representations (ICLR)"
+arxiv="https://arxiv.org/abs/2202.02664"
 >}}
 
 

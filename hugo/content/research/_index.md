@@ -34,6 +34,14 @@ arxiv="https://arxiv.org/abs/2205.07381"
 >}}
 
 - {{<paper
+title="Self-Training with Differentiable Teacher"
+year="2022"
+author="Simiao Zuo*, Yue Yu*, Chen Liang, Haoming Jiang, Siawpeng Er, Chao Zhang, Tuo Zhao and Hongyuan Zha"
+proce="Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
+arxiv="https://arxiv.org/abs/2109.07049"
+>}}
+
+- {{<paper
 title="Multilingual knowledge graph completion with self-supervised adaptive graph alignment"
 year="2022"
 author="Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun, Wei Wang"

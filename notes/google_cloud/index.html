@@ -206,46 +206,46 @@ Step 2: create vm export IMAGE_FAMILY=&amp;#34;tf-latest-cu92&amp;#34; export ZO
 <h2 id="step-1-install-nd-setup-gcloud-sdk">Step 1: install nd setup gcloud SDK<a href="#step-1-install-nd-setup-gcloud-sdk" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <p><a href="https://cloud.google.com/compute/docs/gcloud-compute">tutorial</a></p>
 <h2 id="step-2-create-vm">Step 2: create vm<a href="#step-2-create-vm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">export IMAGE_FAMILY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tf-latest-cu92&#34;</span>
-export ZONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;us-west1-b&#34;</span>
-export INSTANCE_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-new-instance&#34;</span>
-export INSTANCE_TYPE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;n1-standard-8&#34;</span>
-export DISKSIZE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;120GB&#34;</span>
-gcloud compute instances create $INSTANCE_NAME <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --zone<span style="color:#f92672">=</span>$ZONE <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --image-family<span style="color:#f92672">=</span>$IMAGE_FAMILY <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --image-project<span style="color:#f92672">=</span>deeplearning-platform-release <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --maintenance-policy<span style="color:#f92672">=</span>TERMINATE <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --accelerator<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;type=nvidia-tesla-v100,count=8&#34;</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --machine-type<span style="color:#f92672">=</span>$INSTANCE_TYPE <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --boot-disk-size<span style="color:#f92672">=</span>$DISKSIZE <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>        --metadata<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;install-nvidia-driver=True&#34;</span>
-</code></pre></div><h2 id="step-3-control-your-vm">Step 3: control your vm<a href="#step-3-control-your-vm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>export IMAGE_FAMILY<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;tf-latest-cu92&#34;</span>
+</span></span><span style="display:flex;"><span>export ZONE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;us-west1-b&#34;</span>
+</span></span><span style="display:flex;"><span>export INSTANCE_NAME<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;my-new-instance&#34;</span>
+</span></span><span style="display:flex;"><span>export INSTANCE_TYPE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;n1-standard-8&#34;</span>
+</span></span><span style="display:flex;"><span>export DISKSIZE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;120GB&#34;</span>
+</span></span><span style="display:flex;"><span>gcloud compute instances create $INSTANCE_NAME <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --zone<span style="color:#f92672">=</span>$ZONE <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --image-family<span style="color:#f92672">=</span>$IMAGE_FAMILY <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --image-project<span style="color:#f92672">=</span>deeplearning-platform-release <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --maintenance-policy<span style="color:#f92672">=</span>TERMINATE <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --accelerator<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;type=nvidia-tesla-v100,count=8&#34;</span> <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --machine-type<span style="color:#f92672">=</span>$INSTANCE_TYPE <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --boot-disk-size<span style="color:#f92672">=</span>$DISKSIZE <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>        --metadata<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;install-nvidia-driver=True&#34;</span>
+</span></span></code></pre></div><h2 id="step-3-control-your-vm">Step 3: control your vm<a href="#step-3-control-your-vm" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
 <ul>
 <li>list vm:</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances list
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute instances list
+</span></span></code></pre></div><ul>
 <li>vm status</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances describe $INSTANCE_NAME
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute instances describe $INSTANCE_NAME
+</span></span></code></pre></div><ul>
 <li>access vm</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute ssh $INSTANCE_NAME
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute ssh $INSTANCE_NAME
+</span></span></code></pre></div><ul>
 <li>stop vm</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances stop $INSTANCE_NAME
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute instances stop $INSTANCE_NAME
+</span></span></code></pre></div><ul>
 <li>start vm</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances start $INSTANCE_NAME
-</code></pre></div><ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute instances start $INSTANCE_NAME
+</span></span></code></pre></div><ul>
 <li>delete vm</li>
 </ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">gcloud compute instances delete $INSTANCE_NAME
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gcloud compute instances delete $INSTANCE_NAME
+</span></span></code></pre></div>
       </div></div>
 
   

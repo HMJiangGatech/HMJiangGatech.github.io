@@ -18,12 +18,27 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 ### Publications
 
 
+- {{<paper
+title="Condensing Graphs via One-Step Gradient Matching"
+year="2022"
+author="Wei Jin, Xianfeng Tang, Haoming Jiang, Zheng Li, Danqing Zhang, Jiliang Tang, Ying Bin "
+proce="Proceedings of 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)"
+>}}
+
+- {{<paper
+title="SeqZero: Few-shot Compositional Semantic Parsing with Sequential Prompts and Zero-shot Models"
+year="2022"
+author="Jingfeng Yang, Haoming Jiang, Qingyu Yin, Danqing Zhang, Bing Yin, Diyi Yang"
+proce="Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)"
+arxiv="https://arxiv.org/abs/2205.07381"
+>}}
 
 - {{<paper
 title="Multilingual knowledge graph completion with self-supervised adaptive graph alignment"
 year="2022"
 author="Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun, Wei Wang"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+arxiv="https://arxiv.org/abs/2203.14987"
 >}}
 
 

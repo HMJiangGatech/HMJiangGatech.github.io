@@ -19,7 +19,8 @@ I received my B.S. degree in Computer Science and Mathematics from the School of
 
 My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. 
 
-**Hiring:** Research intern opportunities in NLP, Machine Learning, and Data Mining. See details in [Amazon QU team](https://amazonsearchqu.github.io/).
+### **Hiring**
+We have research intern oppenings in NLP, Machine Learning, and Data Mining. If you are interested, shoot me an [email](mailto:jhaoming@amazon.com). Meet out team in [Amazon QU team](https://amazonsearchqu.github.io/).
 
 ### Professional Experience
 

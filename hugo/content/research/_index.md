@@ -47,6 +47,7 @@ year="2022"
 author="Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun, Wei Wang"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
 arxiv="https://arxiv.org/abs/2203.14987"
+other="<strong>News: <font color=\"red\"> We will present our findings in <a href=\"https://www.meetup.com/knowledge-graph-meetup-group/events/286286895/\"> Knowledge Graph Meetup, June 23 2022</a></font></strong>"
 >}}
 
 

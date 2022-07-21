@@ -17,6 +17,12 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 ### Publications
 
+- {{<paper
+title="Query Attribute Recommendation at Amazon Search"
+year="2022"
+author="Chen Luo, William Headean, Neela Avudaiappan, Haoming Jiang, Tianyu Cao, Qingyu Yin, Yifan Gao, Zheng Li, Rahul Goutam, Haiyang Zhang, Bing Yin"
+proce="The ACM Conference on Recommender System (RecSys)"
+>}}
 
 - {{<paper
 title="Condensing Graphs via One-Step Gradient Matching"

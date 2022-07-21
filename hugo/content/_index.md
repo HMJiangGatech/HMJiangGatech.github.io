@@ -24,7 +24,7 @@ We have research intern oppenings in NLP, Machine Learning, and Data Mining. If 
 
 ### Professional Experience
 
-- Applied Scientist, *Amazon*, 2021-present
+- Sr. Applied Scientist, *Amazon*, 2021-present
 
 - Research Intern, *Amazon*, 2020 Fall
 

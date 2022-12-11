@@ -7,7 +7,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content=" Some tricks for reproduce WMT EN-DE
- WMT EN-DE
+WMT EN-DE
 CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ --path $MODELDIR \ --batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \ --user-dir ../radam_fairseq &amp;gt; ${GEN} #GEN=raw_result SYS=$GEN.sys REF=$GEN.ref grep ^H $GEN | cut -f3- | perl -ple &amp;#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&amp;#39; &amp;gt; $SYS grep ^T $GEN | cut -f2- | perl -ple &amp;#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&amp;#39; &amp;gt; $REF fairseq-score --sys $SYS --ref $REF " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
@@ -42,7 +42,7 @@ CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ -
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Hack WiC Leaderboard">
 <meta property="og:description" content=" Some tricks for reproduce WMT EN-DE
- WMT EN-DE
+WMT EN-DE
 CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \ --path $MODELDIR \ --batch-size 128 --beam 10 --lenpen 0.6 --remove-bpe \ --user-dir ../radam_fairseq &amp;gt; ${GEN} #GEN=raw_result SYS=$GEN.sys REF=$GEN.ref grep ^H $GEN | cut -f3- | perl -ple &amp;#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&amp;#39; &amp;gt; $SYS grep ^T $GEN | cut -f2- | perl -ple &amp;#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&amp;#39; &amp;gt; $REF fairseq-score --sys $SYS --ref $REF " />
 <meta property="og:url" content="https://hmjianggatech.github.io/notes/secret_nmt/" />
 <meta property="og:site_name" content="Haoming Jiang" />

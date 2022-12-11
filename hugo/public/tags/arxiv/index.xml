@@ -15,7 +15,7 @@
       <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
       <description>Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: https://arxiv.gtflashlab.com/ .
 It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way. It also provides some basic functions, that help me to manage these papers:
- Reading status: it tells me whether I have viewed the paper or not.</description>
+Reading status: it tells me whether I have viewed the paper or not.</description>
       <content>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
 It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;

@@ -5,10 +5,31 @@ draft: false
 subtitle: My research focuses on deep Learning, adversarial machine learning, natrual language processing and open source software development for scientific computing.
 ---
 
-<!-- ### Preprints And Working Papers
+### Preprints And Working Papers
 
 
 - {{<paper
+title="Short Text Pre-training with Extended Token Classification for E-commerce Query Understanding"
+year="2022"
+author="Haoming Jiang, Tianyu Cao, Zheng Li, Chen Luo, Xianfeng Tang, Qingyu Yin, Danqing Zhang, Rahul Goutam, Bing Yin"
+arxiv="https://arxiv.org/abs/2210.03915"
+>}}
+
+- {{<paper
+title="Context-Aware Query Rewriting for Improving Users' Search Experience on E-commerce Websites"
+year="2022"
+author="Simiao Zuo, Qingyu Yin, Haoming Jiang, Shaohui Xi, Bing Yin, Chao Zhang, Tuo Zhao"
+arxiv="https://arxiv.org/abs/2209.07584"
+>}}
+
+- {{<paper
+title="DiP-GNN: Discriminative Pre-Training of Graph Neural Networks"
+year="2022"
+author="Simiao Zuo, Haoming Jiang, Qingyu Yin, Xianfeng Tang, Bing Yin, Tuo Zhao"
+arxiv="https://arxiv.org/abs/2209.07499"
+>}}
+
+<!-- - {{<paper
 title="Boosting Pathwise Coordiante Optimization: Sequential Screening and Proximal Subsampled Newton Subroutine"
 year="2018"
 author="Haoming Jiang, Xingguo Li, Jason Ge, Mengdi Wang, Mingyi Hong and Tuo Zhao"
@@ -17,11 +38,21 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 ### Publications
 
+
+- {{<paper
+title="AutoGDA: Automated Graph Data Augmentation for Node Classification"
+year="2022"
+author="Tong Zhao, Xianfeng Tang, Danqing Zhang, Haoming Jiang, Nikhil Rao, Yiwei Song, Pallav Agrawal, Karthik Subbian, Bing Yin, and Meng Jiang"
+proce="The Learning on Graphs Conference (LoG)"
+pdf="https://openreview.net/pdf?id=RqN8W3R76J"
+>}}
+
 - {{<paper
 title="Query Attribute Recommendation at Amazon Search"
 year="2022"
 author="Chen Luo, William Headean, Neela Avudaiappan, Haoming Jiang, Tianyu Cao, Qingyu Yin, Yifan Gao, Zheng Li, Rahul Goutam, Haiyang Zhang, Bing Yin"
 proce="The ACM Conference on Recommender System (RecSys)"
+pdf="https://dl.acm.org/doi/abs/10.1145/3523227.3547395"
 >}}
 
 - {{<paper
@@ -29,6 +60,7 @@ title="Condensing Graphs via One-Step Gradient Matching"
 year="2022"
 author="Wei Jin, Xianfeng Tang, Haoming Jiang, Zheng Li, Danqing Zhang, Jiliang Tang, Ying Bin "
 proce="Proceedings of 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD)"
+arxiv="https://arxiv.org/abs/2206.07746"
 >}}
 
 - {{<paper

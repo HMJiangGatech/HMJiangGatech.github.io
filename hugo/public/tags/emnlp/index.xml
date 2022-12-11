@@ -14,7 +14,7 @@
       
       <guid>https://hmjianggatech.github.io/news/emnlp2020/</guid>
       <description>We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.
-Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv]  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020   </description>
+Reference Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv] Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020 </description>
       <content>&lt;p&gt;We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;

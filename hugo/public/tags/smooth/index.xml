@@ -14,7 +14,7 @@
       
       <guid>https://hmjianggatech.github.io/news/emnlp2020/</guid>
       <description>We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.
-Reference Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv] Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020 </description>
+Reference   Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Smoothing 2020 Lingkai Kong, Haoming Jiang, Yuchen Zhuang, Jie Lyu, Tuo Zhao and Chao Zhang [arXiv]  Conference on Empirical Methods in Natural Language Processing (EMNLP), 2020   </description>
       <content>&lt;p&gt;We propose to improve BERT model calibration via on-manifold smoothing and off-manifold smoothing.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -41,9 +41,9 @@ Reference Calibrated Fine-Tuning for Pre-trained Language Models via Manifold Sm
       
       <guid>https://hmjianggatech.github.io/news/icml2020/</guid>
       <description> Two papers are accepted by ICML 2020!
-One is about transformer-based point process model.
+ One is about transformer-based point process model.
 The other one is about using smooth policy to improve reinforcement learning in continuous environment.
-Reference Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv] International Conference on Machine Learning (ICML), 2020 Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv] International Conference on Machine Learning (ICML), 2020 </description>
+Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv]  International Conference on Machine Learning (ICML), 2020    Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv]  International Conference on Machine Learning (ICML), 2020   </description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
 &lt;/blockquote&gt;

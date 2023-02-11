@@ -1,6 +1,7 @@
 ---
 title: "Haoming Jiang (姜昊茗)"
 email: jianghm@gatech.edu
+googleScholar: XaFhuG8AAAAJ
 github: HMJiangGatech
 twitter: jiang_haoming
 zhihu: jiang-hao-ming

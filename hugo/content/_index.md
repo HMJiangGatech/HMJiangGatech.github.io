@@ -20,8 +20,16 @@ I received my B.S. degree in Computer Science and Mathematics from the School of
 
 My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. 
 
-### **Hiring**
+### **KDD CUP 2023**
+We are now hosting the [KDD Cup 2023](https://www.aicrowd.com/challenges/amazon-kdd-cup-23-multilingual-recommendation-challenge/). 
+
+A new dataset called "Multilingual Shopping Session Dataset" has been introduced for session-based recommendation in e-commerce stores. The dataset contains millions of user sessions from six different locales, and the competition aims to encourage the development of multilingual recommendation systems to enhance personalization and understanding of global trends and preferences.
+
+Join US!!
+
+### **Hiring Intern**
 We have research intern oppenings in NLP, Machine Learning, and Data Mining. If you are interested, shoot me an [email](mailto:jhaoming@amazon.com). Meet out team in [Amazon QU team](https://amazonsearchqu.github.io/).
+
 
 ### Professional Experience
 

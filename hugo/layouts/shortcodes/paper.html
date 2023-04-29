@@ -8,4 +8,8 @@
 {{ if .Get `python` }} <a href="{{.Get `python`}}">[Python Package]</a>{{end}}
 {{ if .Get `proce` }} <br/> <strong><em style="color:LightGrey">{{.Get `proce`}}</em></strong>, {{.Get `year`}}{{end}}
 {{ if .Get `other` }} <br/> {{.Get `other` | safeHTML}}  {{end}}
+{{ if .Get `img` }} 
+    <br/><br/> <img src="{{.Get `img`}}" style="width:30%;margin-left: auto;margin-right: auto;"/> 
+    {{ if .Get `img_caption` }} <p style="color:LightGrey;"><center>{{.Get `img_caption` | safeHTML}}</center></p> {{end}}
+{{end}}
 </p>

@@ -18,7 +18,7 @@ at [Georgia Tech](https://www.gatech.edu/).
 I spent wonderful years with [Prof. Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/) in the FLASH (Foundations of LeArning Systems for alcHemy) research group.
 I received my B.S. degree in Computer Science and Mathematics from the School of the Gifted Young at University of Science and Technology of China ([USTC](http://en.ustc.edu.cn/)).
 
-My research focuses on deep learning, adversarial machine learning, natural language processing, and open-source software for data analysis. 
+My research focuses on large language modeling, natural language processing, deep learning and open-source software for data analysis. 
 
 ### **KDD CUP 2023**
 We are now hosting the [KDD Cup 2023](https://www.aicrowd.com/challenges/amazon-kdd-cup-23-multilingual-recommendation-challenge/). 

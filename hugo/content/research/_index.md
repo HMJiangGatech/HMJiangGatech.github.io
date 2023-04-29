@@ -9,6 +9,16 @@ subtitle: My research focuses on deep Learning, adversarial machine learning, na
 
 
 - {{<paper
+title="Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond"
+year="2023"
+author="Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu"
+arxiv="https://arxiv.org/pdf/2304.13712"
+code="https://github.com/Mooler0410/LLMsPracticalGuide"
+img="https://raw.githubusercontent.com/Mooler0410/LLMsPracticalGuide/main/imgs/models-colorgrey.jpg"
+img_caption="Evolutionary Tree of LLMs (credits to Hongye Jin) <a href=\"https://github.com/Mooler0410/LLMsPracticalGuide\">[Github]</a>"
+>}}
+
+- {{<paper
 title="Short Text Pre-training with Extended Token Classification for E-commerce Query Understanding"
 year="2022"
 author="Haoming Jiang, Tianyu Cao, Zheng Li, Chen Luo, Xianfeng Tang, Qingyu Yin, Danqing Zhang, Rahul Goutam, Bing Yin"
@@ -37,6 +47,23 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 >}} -->
 
 ### Publications
+
+
+
+- {{<paper
+title="SMURF-THP: Score Matching-based UnceRtainty quantiFication for Transformer Hawkes Process"
+year="2023"
+author="Zichong Li, Yanbo Xu, Simiao Zuo‡, Haoming Jiang, Chao Zhang, Tuo Zhao and Hongyuan Zha"
+proce="International Conference on Machine Learning (ICML)"
+>}}
+
+- {{<paper
+title="HomoDistil: Homotopic Task-Agnostic Distillation of Pre-trained Transformers"
+year="2023"
+author="Chen Liang, Haoming Jiang, Zheng Li, Xianfeng Tang, Bing Yin, and Tuo Zhao"
+proce="International Conference on Learning Representations (ICLR)"
+arxiv="https://openreview.net/forum?id=D7srTrGhAs"
+>}}
 
 
 - {{<paper

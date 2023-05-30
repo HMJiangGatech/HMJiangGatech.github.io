@@ -51,9 +51,23 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 
 - {{<paper
+title="Graph Reasoning for Question Answering with Triplet Retrieval"
+year="2023"
+author="Shiyang Li, Yifan Gao, Haoming Jiang, Qingyu Yin, Zheng Li, Xifen Yan, Chao Zhang and Bing Yin"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
+- {{<paper
+title="LightToken: a Task and Model-agnostic Lightweight Token Embedding Framework for Pre-trained Language Models"
+year="2023"
+author="Haoyu Wang, Ruirui Li, Haoming Jiang, Zhengyang Wang, Xianfeng Tang, Bin Bi, Monica Cheng, Bing Yin, Yaqing Wang, Tuo Zhao, Jing Gao"
+proce="SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)"
+>}}
+
+- {{<paper
 title="SMURF-THP: Score Matching-based UnceRtainty quantiFication for Transformer Hawkes Process"
 year="2023"
-author="Zichong Li, Yanbo Xu, Simiao Zuo‡, Haoming Jiang, Chao Zhang, Tuo Zhao and Hongyuan Zha"
+author="Zichong Li, Yanbo Xu, Simiao Zuo, Haoming Jiang, Chao Zhang, Tuo Zhao and Hongyuan Zha"
 proce="International Conference on Machine Learning (ICML)"
 >}}
 

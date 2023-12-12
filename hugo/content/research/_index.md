@@ -18,7 +18,7 @@ img="https://raw.githubusercontent.com/Mooler0410/LLMsPracticalGuide/main/imgs/m
 img_caption="Evolutionary Tree of LLMs (credits to Hongye Jin) <a href=\"https://github.com/Mooler0410/LLMsPracticalGuide\">[Github]</a>"
 >}}
 
-- {{<paper
+<!-- - {{<paper
 title="Short Text Pre-training with Extended Token Classification for E-commerce Query Understanding"
 year="2022"
 author="Haoming Jiang, Tianyu Cao, Zheng Li, Chen Luo, Xianfeng Tang, Qingyu Yin, Danqing Zhang, Rahul Goutam, Bing Yin"
@@ -37,7 +37,7 @@ title="DiP-GNN: Discriminative Pre-Training of Graph Neural Networks"
 year="2022"
 author="Simiao Zuo, Haoming Jiang, Qingyu Yin, Xianfeng Tang, Bing Yin, Tuo Zhao"
 arxiv="https://arxiv.org/abs/2209.07499"
->}}
+>}} -->
 
 <!-- - {{<paper
 title="Boosting Pathwise Coordiante Optimization: Sequential Screening and Proximal Subsampled Newton Subroutine"
@@ -49,12 +49,39 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 ### Publications
 
 
+- {{<paper
+title="Knowledge-selective pretraining for attribute value extraction"
+year="2023"
+author="Hui Liu, Qingyu Yin, Zhengyang Wang, Chenwei Zhang, Haoming Jiang, Yifan Gao, Zheng Li, Xian Li, Chao Zhang, Bing Yin, William Wang, Xiaodan Zhu"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
+- {{<paper
+title="SST: Semantic and structural transformers for hierarchy-aware language models in e-commerce"
+year="2023"
+author="Karan Samel, Houyu Zhang, Jun Ma, Haoming Jiang, Qing Ping, sheng wang, Yi Xu, Belinda Zeng, Trishul Chilimbi"
+proce="IEEE BigData"
+>}}
 
 - {{<paper
 title="Graph Reasoning for Question Answering with Triplet Retrieval"
 year="2023"
 author="Shiyang Li, Yifan Gao, Haoming Jiang, Qingyu Yin, Zheng Li, Xifen Yan, Chao Zhang and Bing Yin"
 proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
+- {{<paper
+title="Context-Aware Query Rewriting for Improving Users' Search Experience on E-commerce Websites"
+year="2023"
+author="Simiao Zuo, Qingyu Yin, Haoming Jiang, Shaohui Xi, Bing Yin, Chao Zhang and Tuo Zhao"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL)"
+>}}
+
+- {{<paper
+title="Amazon-m2: A multilingual multi-locale shopping session dataset for recommendation and text generation"
+year="2023"
+author="Wei Jin, Haitao Mao, Zheng Li, Haoming Jiang, Chen Luo, Hongzhi Wen, Haoyu Han, Hanqing Lu, Zhengyang Wang, Ruirui Li, Zhen Li, Monica Xiao Cheng, Rahul Goutam, Haiyang Zhang, Karthik Subbian, Suhang Wang, Yizhou Sun, Jiliang Tang, Bing Yin, Xianfeng Tang"
+proce="KDD Cup"
 >}}
 
 - {{<paper

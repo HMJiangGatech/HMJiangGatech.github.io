@@ -2,7 +2,7 @@
 title: "RESEARCH"
 date: 2020-04-30T00:12:12-04:00
 draft: false
-subtitle: My research focuses on deep Learning, adversarial machine learning, natrual language processing and open source software development for scientific computing.
+subtitle: My research focuses on generative AI, natrual language processing, deep Learning, adversarial machine learning, and open source software development for scientific computing.
 ---
 
 ### Preprints And Working Papers

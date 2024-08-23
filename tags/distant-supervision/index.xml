@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>distant supervision on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/distant-supervision/</link>
-    <description>Recent content in distant supervision on Haoming Jiang</description>
+    <title>Distant Supervision on Haoming Jiang</title>
+    <link>http://localhost:1313/tags/distant-supervision/</link>
+    <description>Recent content in Distant Supervision on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2020 22:54:07 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/distant-supervision/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Fri, 15 May 2020 22:54:07 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/distant-supervision/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>BOND is Accepted by KDD 2020</title>
-      <link>https://hmjianggatech.github.io/news/bond/</link>
+      <link>http://localhost:1313/news/bond/</link>
       <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/news/bond/</guid>
-      <description>Our recent work on distantly supervised NER is accepted by KDD2020. We are closing the GAP between full supervision and no supervision! See our code here: https://github.com/cliang1453/BOND
- The reuslts (F1 score) are summerized as follows:
-   Method CoNLL03 Tweet OntoNote5.0 Webpage Wikigold     Full Supervision 91.21 52.19 86.20 72.39 86.43   Previous SOTA 76.00 26.10 67.69 51.39 47.54   BOND 81.48 48.</description>
+      <guid>http://localhost:1313/news/bond/</guid>
+      <description> Our recent work on distantly supervised NER is accepted by KDD2020. We are closing the GAP between full supervision and no supervision! See our code here: https://github.com/cliang1453/BOND
+The reuslts (F1 score) are summerized as follows:
+Method CoNLL03 Tweet OntoNote5.0 Webpage Wikigold Full Supervision 91.21 52.19 86.20 72.39 86.43 Previous SOTA 76.00 26.10 67.69 51.39 47.54 BOND 81.48 48.01 68.35 65.74 60.07 Full Supervision: Roberta Finetuning/BiLSTM CRF Previous SOTA: BiLSTM-CRF/AutoNER/LR-CRF/KALM/CONNET Reference BOND: Bert-Assisted Open-Domain Named Entity Recognition with Distant Supervision 2020 Chen Liang*, Yue Yu*, Haoming Jiang*, Siawpeng Er, Ruijia Wang, Tuo Zhao and Chao Zhang (* Equal Contribution) The 26th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2020 </description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Our recent work on distantly supervised NER is accepted by KDD2020.
 We are closing the GAP between full supervision and no supervision!

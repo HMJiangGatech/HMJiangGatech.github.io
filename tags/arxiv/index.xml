@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>arxiv on Haoming Jiang</title>
+    <title>Arxiv on Haoming Jiang</title>
     <link>https://hmjianggatech.github.io/tags/arxiv/</link>
-    <description>Recent content in arxiv on Haoming Jiang</description>
+    <description>Recent content in Arxiv on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/arxiv/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My tool for Viewing arXiv Papers</title>
@@ -15,7 +15,7 @@
       <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
       <description>Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: https://arxiv.gtflashlab.com/ .
 It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way. It also provides some basic functions, that help me to manage these papers:
- Reading status: it tells me whether I have viewed the paper or not.</description>
+Reading status: it tells me whether I have viewed the paper or not.</description>
       <content>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
 It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;

@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   
     <title>Docker Cheatsheet :: Haoming Jiang</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Docker Introduction from docker.com
-docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash  -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems)  Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="https://hmjianggatech.github.io/notes/docker/" />
+<link rel="canonical" href="http://localhost:1313/notes/docker/" />
+
+
+  
 
 
 
 
-<link rel="stylesheet" href="https://hmjianggatech.github.io/assets/style.css">
+<link rel="stylesheet" href="http://localhost:1313/assets/style.css">
 
 
 
-<link rel="stylesheet" href="https://hmjianggatech.github.io/style.css">
+<link rel="stylesheet" href="http://localhost:1313/style.css">
 
 
-<link rel="apple-touch-icon" href="https://hmjianggatech.github.io/img/apple-touch-icon-192x192.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/img/apple-touch-icon-192x192.png">
 
-  <link rel="shortcut icon" href="https://hmjianggatech.github.io/favicon.ico">
+  <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
 
 
 
@@ -41,12 +44,12 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Docker Cheatsheet">
 <meta property="og:description" content="Docker Introduction from docker.com
-docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash  -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems)  Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
-<meta property="og:url" content="https://hmjianggatech.github.io/notes/docker/" />
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
+<meta property="og:url" content="http://localhost:1313/notes/docker/" />
 <meta property="og:site_name" content="Haoming Jiang" />
 
   
-    <meta property="og:image" content="https://hmjianggatech.github.io/favicon.ico">
+    <meta property="og:image" content="http://localhost:1313/favicon.ico">
   
 
 <meta property="og:image:width" content="2048">
@@ -183,7 +186,7 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
     
 <div class="post">
   <h1 class="post-title">
-    <a href="https://hmjianggatech.github.io/notes/docker/">Docker Cheatsheet</a></h1>
+    <a href="http://localhost:1313/notes/docker/">Docker Cheatsheet</a></h1>
   <div class="post-meta">
     
       <span class="post-date">
@@ -202,56 +205,56 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
   <div class="post-content"><div>
         <h3 id="docker">Docker<a href="#docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h3>
 <p><a href="https://docs.docker.com/get-started/">Introduction from docker.com</a></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>-v ~/project/MNLI:/work/MNLI <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>-v ~/.ssh:/root/.ssh <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>-v /mnt:/work/data <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>--privileged docker-image:tag bash
-</code></pre></div><h4 id="run-a-docker-image">Run a docker image<a href="#run-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
-</code></pre></div><ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-v ~/project/MNLI:/work/MNLI <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-v ~/.ssh:/root/.ssh <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>-v /mnt:/work/data <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>--privileged docker-image:tag bash
+</span></span></code></pre></div><h4 id="run-a-docker-image">Run a docker image<a href="#run-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -it --rm  -v /local_dir:/docker_dir docker-image:tag bash
+</span></span></code></pre></div><ol>
 <li><code>-it</code>: interactive mode</li>
 <li><code>--rm</code>: clean up after exit</li>
 <li><code>-v</code>: volume (shared filesystems)</li>
 </ol>
 <h4 id="attach-to-a-running-docker-container">Attach to a running docker container<a href="#attach-to-a-running-docker-container" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">docker ps
-docker exec -it container_name bash
-</code></pre></div><h4 id="file-permission-issue">File Permission Issue<a href="#file-permission-issue" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker ps
+</span></span><span style="display:flex;"><span>docker exec -it container_name bash
+</span></span></code></pre></div><h4 id="file-permission-issue">File Permission Issue<a href="#file-permission-issue" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <p>All files created by the docker is owned by root.
 Solution: <a href="https://www.berthon.eu/2018/containers-volumes-and-file-permissions/">Using ACL</a>
 The following command grant use ACL to make read/write permissions of all files in <code>project</code> inherit from project and have the same access of the current host user.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">setfacl -dm <span style="color:#e6db74">&#34;u:username:rwx&#34;</span> ~/project
-</code></pre></div><h4 id="ssh-in-docker">SSH in docker<a href="#ssh-in-docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>setfacl -dm <span style="color:#e6db74">&#34;u:username:rwx&#34;</span> ~/project
+</span></span></code></pre></div><h4 id="ssh-in-docker">SSH in docker<a href="#ssh-in-docker" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <p>Add this line to use the ssh key as the host</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">-v ~/.ssh:/root/.ssh
-</code></pre></div><h4 id="build-a-docker-image">Build a docker image<a href="#build-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>-v ~/.ssh:/root/.ssh
+</span></span></code></pre></div><h4 id="build-a-docker-image">Build a docker image<a href="#build-a-docker-image" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
 <ol>
 <li>Get folder with everything you need in it.</li>
 <li>Write a <code>Dockerfile</code></li>
 <li><code>docker build --tag=docker-image .</code></li>
 </ol>
 <h4 id="cheatsheet">Cheatsheet<a href="#cheatsheet" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h4>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## List Docker CLI commands</span>
-docker
-docker container --help
-
-<span style="color:#75715e">## Display Docker version and info</span>
-docker --version
-docker version
-docker info
-
-<span style="color:#75715e">## Execute Docker image</span>
-docker run hello-world
-
-<span style="color:#75715e">## List Docker images</span>
-docker image ls
-
-<span style="color:#75715e">## List Docker containers (running, all, all in quiet mode)</span>
-docker container ls
-docker container ls --all
-docker container ls -aq
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">## List Docker CLI commands</span>
+</span></span><span style="display:flex;"><span>docker
+</span></span><span style="display:flex;"><span>docker container --help
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Display Docker version and info</span>
+</span></span><span style="display:flex;"><span>docker --version
+</span></span><span style="display:flex;"><span>docker version
+</span></span><span style="display:flex;"><span>docker info
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## Execute Docker image</span>
+</span></span><span style="display:flex;"><span>docker run hello-world
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## List Docker images</span>
+</span></span><span style="display:flex;"><span>docker image ls
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">## List Docker containers (running, all, all in quiet mode)</span>
+</span></span><span style="display:flex;"><span>docker container ls
+</span></span><span style="display:flex;"><span>docker container ls --all
+</span></span><span style="display:flex;"><span>docker container ls -aq
+</span></span></code></pre></div>
       </div></div>
 
   
@@ -274,8 +277,8 @@ docker container ls -aq
   </div>
 </footer>
 
-<script src="https://hmjianggatech.github.io/assets/main.js"></script>
-<script src="https://hmjianggatech.github.io/assets/prism.js"></script>
+<script src="http://localhost:1313/assets/main.js"></script>
+<script src="http://localhost:1313/assets/prism.js"></script>
 
 
 

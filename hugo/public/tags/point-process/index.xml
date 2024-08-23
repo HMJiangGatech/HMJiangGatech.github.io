@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>point process on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/point-process/</link>
-    <description>Recent content in point process on Haoming Jiang</description>
+    <title>Point Process on Haoming Jiang</title>
+    <link>http://localhost:1313/tags/point-process/</link>
+    <description>Recent content in Point Process on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 07 Jun 2020 22:49:01 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/point-process/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2020 22:49:01 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/point-process/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two Papers are Accepted by ICML 2020</title>
-      <link>https://hmjianggatech.github.io/news/icml2020/</link>
+      <link>http://localhost:1313/news/icml2020/</link>
       <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/news/icml2020/</guid>
+      <guid>http://localhost:1313/news/icml2020/</guid>
       <description> Two papers are accepted by ICML 2020!
- One is about transformer-based point process model.
+One is about transformer-based point process model.
 The other one is about using smooth policy to improve reinforcement learning in continuous environment.
-Reference    Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv]  International Conference on Machine Learning (ICML), 2020    Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv]  International Conference on Machine Learning (ICML), 2020   </description>
+Reference Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv] International Conference on Machine Learning (ICML), 2020 Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv] International Conference on Machine Learning (ICML), 2020 </description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
 &lt;/blockquote&gt;

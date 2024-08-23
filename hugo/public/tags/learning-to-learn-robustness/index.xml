@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>learning-to-learn robustness on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/learning-to-learn-robustness/</link>
-    <description>Recent content in learning-to-learn robustness on Haoming Jiang</description>
+    <title>Learning-to-Learn Robustness on Haoming Jiang</title>
+    <link>http://localhost:1313/tags/learning-to-learn-robustness/</link>
+    <description>Recent content in Learning-to-Learn Robustness on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 23 Jan 2021 22:49:12 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/learning-to-learn-robustness/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Jan 2021 22:49:12 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/learning-to-learn-robustness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Our Adversarial Training Paper has been Accepted by AISTATS 2021</title>
-      <link>https://hmjianggatech.github.io/news/aistats2021/</link>
+      <link>http://localhost:1313/news/aistats2021/</link>
       <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
       
-      <guid>https://hmjianggatech.github.io/news/aistats2021/</guid>
+      <guid>http://localhost:1313/news/aistats2021/</guid>
       <description>Our Adversarial Training Paper has been Accepted by AISTATS 2021. We propose a learning-to-learn method to improve adversarial training on a variety of tasks.
-Reference   Learning to Defense by Learning to Attack 2021 Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution) [arXiv]  The 24th International Conference on Artificial Intelligence and Statistics (AISTATS), 2021   </description>
+Reference Learning to Defense by Learning to Attack 2021 Zhehui Chen*, Haoming Jiang*, Yuyang Shi, Bo Dai, and Tuo Zhao (* Equal Contribution) [arXiv] The 24th International Conference on Artificial Intelligence and Statistics (AISTATS), 2021 </description>
       <content>&lt;p&gt;Our Adversarial Training Paper has been Accepted by AISTATS 2021.
 We propose a learning-to-learn method to improve adversarial training on a variety of tasks.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;

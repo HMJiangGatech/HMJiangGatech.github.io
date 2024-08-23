@@ -12,7 +12,7 @@ draft: false
 
 ### About Me
 
-I am an applied research scientist at Amazon Generative Foundation Modeling Team.
+I am principle scientist at Amazon Generative Foundation Modeling Team.
 Before I joined Amazon, I obtained my Ph.D. degree in Machine Learning from the School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/))
 at [Georgia Tech](https://www.gatech.edu/). 
 I spent wonderful years with [Prof. Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/) in the FLASH (Foundations of LeArning Systems for alcHemy) research group.
@@ -26,7 +26,7 @@ We have research intern / fulltime oppenings in Generative AI. If you are intere
 
 ### Professional Experience
 
-- Sr. Applied Scientist, *Amazon*, 2021-present
+- Principle Applied Scientist, *Amazon*, 2021-present
 
 - Research Intern, *Amazon*, 2020 Fall
 

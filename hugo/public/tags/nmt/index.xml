@@ -13,10 +13,41 @@
       <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/news/acl2020/</guid>
-      <description> Two papers are accepted by ACL 2020!
-One is about multidomain NMT using word level mixing model.
-The other one is SMART model, leaderboad wining model on GLUE.
-Reference SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization 2020 Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao [arXiv] [Code] Annual Conference of the Association for Computational Linguistics (ACL), 2020 Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing 2020 Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao [arXiv] Annual Conference of the Association for Computational Linguistics (ACL), 2020 </description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
+&lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+ &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;[Code]&lt;/a&gt;
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.02692.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
 &lt;/blockquote&gt;

@@ -5,18 +5,8 @@ draft: false
 subtitle: My research focuses on generative AI, natrual language processing, deep Learning, adversarial machine learning, and open source software development for scientific computing.
 ---
 
-### Preprints And Working Papers
+<!-- ### Preprints And Working Papers -->
 
-
-- {{<paper
-title="Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond"
-year="2023"
-author="Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu"
-arxiv="https://arxiv.org/pdf/2304.13712"
-code="https://github.com/Mooler0410/LLMsPracticalGuide"
-img="https://raw.githubusercontent.com/Mooler0410/LLMsPracticalGuide/main/imgs/models-colorgrey.jpg"
-img_caption="Evolutionary Tree of LLMs (credits to Hongye Jin) <a href=\"https://github.com/Mooler0410/LLMsPracticalGuide\">[Github]</a>"
->}}
 
 <!-- - {{<paper
 title="Short Text Pre-training with Extended Token Classification for E-commerce Query Understanding"
@@ -47,6 +37,71 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 >}} -->
 
 ### Publications
+
+
+- {{<paper
+title="Adaptive Preference Scaling for Reinforcement Learning with Human Feedback"
+year="2024"
+author="Ilgee Hong, Zichong Li, Alexander Bukharin, Yixiao Li, Haoming Jiang, Tianbao Yang, Tuo Zhao"
+proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
+>}}
+
+
+- {{<paper
+title="Robust Reinforcement Learning from Corrupted Human Feedback"
+year="2024"
+author="Alexander Bukharin, Ilgee Hong, Haoming Jiang, Zichong Li, Qingru Zhang, Zixuan Zhang, Tuo Zhao"
+proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
+>}}
+
+- {{<paper
+title="BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering"
+year="2024"
+author="Haoyu Wang, Ruirui Li, Haoming Jiang, Jinjin Tian, Zhengyang Wang, Chen Luo, Xianfeng Tang, Monica Xiao Cheng, Tuo Zhao, Jing Gao"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
+
+- {{<paper
+title="Large Language Models in the Clinic: A Comprehensive Benchmark"
+year="2024"
+author="Fenglin Liu, Zheng Li, Hongjian Zhou, Qingyu Yin, Jingfeng Yang, Xianfeng Tang, Chen Luo, Ming Zeng, Haoming Jiang, Yifan Gao, Priyanka Nigam, Sreyashi Nag, Bing Yin, Yining Hua, Xuan Zhou, Omid Rohanian, Anshul Thakur, Lei Clifton, David A. Clifton"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
+- {{<paper
+title="Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs"
+year="2024"
+author="Alexander Bukharin, Kuan Wang, Haoming Jiang, Qingyu Yin, Zhengyang Wang, Tuo Zhao, Jingbo Shang, Chao Zhang, Bing Yin, Xian Li, Jianshu Chen, Shiyang Li"
+proce="Annual Meeting of the Association for Computational Linguistics (ACL) NLRSE Workshop"
+>}}
+
+
+- {{<paper
+title="Memoryllm: Towards self-updatable large language models"
+year="2024"
+author="Yu Wang, Yifan Gao, Xiusi Chen, Haoming Jiang, Shiyang Li, Jingfeng Yang, Qingyu Yin, Zheng Li, Xian Li, Bing Yin, Jingbo Shang, Julian McAuley"
+proce="International Conference on Machine Learning (ICML)"
+>}}
+
+- {{<paper
+title="RNR: Teaching Large Language Models to Follow Roles and Rules"
+year="2024"
+author="Alexander Bukharin, Kuan Wang, Haoming Jiang, Qingyu Yin, Zhengyang Wang, Tuo Zhao, Jingbo Shang, Chao Zhang, Bing Yin, Xian Li, Jianshu Chen, Shiyang Li"
+proce="International Conference on Machine Learning (ICML) Workshop on Foundation Models"
+>}}
+
+
+- {{<paper
+title="Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond"
+year="2024"
+author="Jingfeng Yang, Hongye Jin, Ruixiang Tang, Xiaotian Han, Qizhang Feng, Haoming Jiang, Bing Yin, Xia Hu"
+proce="ACM Transactions on Knowledge Discovery from Data"
+arxiv="https://arxiv.org/pdf/2304.13712"
+code="https://github.com/Mooler0410/LLMsPracticalGuide"
+img="https://raw.githubusercontent.com/Mooler0410/LLMsPracticalGuide/main/imgs/models-colorgrey.jpg"
+img_caption="Evolutionary Tree of LLMs (credits to Hongye Jin) <a href=\"https://github.com/Mooler0410/LLMsPracticalGuide\">[Github]</a>"
+>}}
 
 
 - {{<paper

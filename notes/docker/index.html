@@ -7,13 +7,11 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Docker Introduction from docker.com
-docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root. Solution: Using ACL The following command grant use ACL to make read/write permissions of all files in project inherit from project and have the same access of the current host user.
+" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="http://localhost:1313/notes/docker/" />
-
-
-  
 
 
 
@@ -44,7 +42,8 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Docker Cheatsheet">
 <meta property="og:description" content="Docker Introduction from docker.com
-docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root." />
+docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /mnt:/work/data \ --privileged docker-image:tag bash Run a docker image docker run -it --rm -v /local_dir:/docker_dir docker-image:tag bash -it: interactive mode --rm: clean up after exit -v: volume (shared filesystems) Attach to a running docker container docker ps docker exec -it container_name bash File Permission Issue All files created by the docker is owned by root. Solution: Using ACL The following command grant use ACL to make read/write permissions of all files in project inherit from project and have the same access of the current host user.
+" />
 <meta property="og:url" content="http://localhost:1313/notes/docker/" />
 <meta property="og:site_name" content="Haoming Jiang" />
 
@@ -116,7 +115,7 @@ docker run -it --rm \ -v ~/project/MNLI:/work/MNLI \ -v ~/.ssh:/root/.ssh \ -v /
       
       
         <ul class="menu__sub-inner">
-          <li class="menu__sub-inner-more-trigger">Show more ▾</li>
+          <li class="menu__sub-inner-more-trigger"> ▾</li>
 
           <ul class="menu__sub-inner-more hidden">
             
@@ -270,7 +269,7 @@ The following command grant use ACL to make read/write permissions of all files 
   <div class="footer__inner">
     
       <div class="copyright">
-        <span>© 2024 Powered by <a href="http://gohugo.io">Hugo</a></span>
+        <span>© 2025 Powered by <a href="http://gohugo.io">Hugo</a></span>
     
         <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
       </div>

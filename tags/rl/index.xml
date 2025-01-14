@@ -13,10 +13,41 @@
       <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
       
       <guid>http://localhost:1313/news/icml2020/</guid>
-      <description> Two papers are accepted by ICML 2020!
-One is about transformer-based point process model.
-The other one is about using smooth policy to improve reinforcement learning in continuous environment.
-Reference Deep Reinforcement Learning with Smooth Policy 2020 Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao [arXiv] International Conference on Machine Learning (ICML), 2020 Transformer Hawkes Process 2020 Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha [arXiv] International Conference on Machine Learning (ICML), 2020 </description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One is about transformer-based point process model.&lt;/p&gt;
+&lt;p&gt;The other one is about using smooth policy to improve reinforcement learning in continuous environment.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Deep Reinforcement Learning with Smooth Policy&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Qianli Shen, Yan Li, Haoming Jiang, Zhaoran Wang, Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/2003.09534.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;International Conference on Machine Learning (ICML)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Transformer Hawkes Process&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Simiao Zuo, Haoming Jiang, Zichong Li, Tuo Zhao, Hongyuan Zha&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/2002.09291.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;International Conference on Machine Learning (ICML)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
 &lt;/blockquote&gt;

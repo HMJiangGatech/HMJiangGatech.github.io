@@ -1,7 +1,9 @@
 baseurl = "https://hmjianggatech.github.io/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 5
+
+[pagination]
+  pagerSize = 10
 
 [params]
   # dir name of your blog content (default is `content/posts`)

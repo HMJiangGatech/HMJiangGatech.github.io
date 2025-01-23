@@ -13,23 +13,9 @@
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
       <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
-      <description>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
-&lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
-It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Reading status: it tells me whether I have viewed the paper or not.&lt;/li&gt;
-&lt;li&gt;Archive: I can archive papers that I don&amp;rsquo;t want to see anymore.&lt;/li&gt;
-&lt;li&gt;Star: Save my favorite papers.&lt;/li&gt;
-&lt;li&gt;Tagging: it allows me to add tags to categorize the papers.&lt;/li&gt;
-&lt;li&gt;Tagging from abstract/title: I can efficiently add tags from the title/abstract by simply selecting the text.&lt;/li&gt;
-&lt;li&gt;Filtering by Reading status/Archive status/Star/Tags&lt;/li&gt;
-&lt;li&gt;Read Abstract/PDF/HTML&lt;/li&gt;
-&lt;li&gt;PDF Annotation which can be saved on the server.&lt;/li&gt;
-&lt;li&gt;Search: Full-text-search on title and abstract (If you can&amp;rsquo;t find the paper, add &amp;ldquo;&amp;amp;&amp;amp;searchEngine=simple&amp;rdquo; to the URL. It will perform a case-insensitive exact-match search, which is kind of slow. Don&amp;rsquo;t blame me for the search experience, I am a newbie to the database. )
-Citation/Reference (based on semantic scholar)&lt;/li&gt;
-&lt;li&gt;View papers on your iPhone/iPad by saving the website as a bookmark on the homepage. (Although some things are still malfunctioning. /(ㄒoㄒ)/~~)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I want to share it with anyone who might find it useful for doing research.&lt;/p&gt;</description>
+      <description>Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: https://arxiv.gtflashlab.com/ .
+It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way. It also provides some basic functions, that help me to manage these papers:
+Reading status: it tells me whether I have viewed the paper or not.</description>
       <content>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
 It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;
@@ -59,132 +45,63 @@ If you want to help me to improve it, visit my GitHub: &lt;a href=&#34;https://g
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://hmjianggatech.github.io/news/smart/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Method&lt;/th&gt;
-          &lt;th&gt;CoLA&lt;/th&gt;
-          &lt;th&gt;SST&lt;/th&gt;
-          &lt;th&gt;MRPC&lt;/th&gt;
-          &lt;th&gt;STS-B&lt;/th&gt;
-          &lt;th&gt;QQP&lt;/th&gt;
-          &lt;th&gt;MNLI-m/mm&lt;/th&gt;
-          &lt;th&gt;QNLI&lt;/th&gt;
-          &lt;th&gt;RTE&lt;/th&gt;
-          &lt;th&gt;WNLI&lt;/th&gt;
-          &lt;th&gt;AX&lt;/th&gt;
-          &lt;th&gt;Score&lt;/th&gt;
-          &lt;th&gt;#params&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Previous SOTA&lt;/td&gt;
-          &lt;td&gt;70.8&lt;/td&gt;
-          &lt;td&gt;97.1&lt;/td&gt;
-          &lt;td&gt;91.9/89.2&lt;/td&gt;
-          &lt;td&gt;92.5/92.1&lt;/td&gt;
-          &lt;td&gt;74.6/90.4&lt;/td&gt;
-          &lt;td&gt;92.0/91.7&lt;/td&gt;
-          &lt;td&gt;96.7&lt;/td&gt;
-          &lt;td&gt;92.5&lt;/td&gt;
-          &lt;td&gt;93.2&lt;/td&gt;
-          &lt;td&gt;53.1&lt;/td&gt;
-          &lt;td&gt;89.7&lt;/td&gt;
-          &lt;td&gt;11,000M&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;MT-DNN-SMART&lt;/td&gt;
-          &lt;td&gt;69.5&lt;/td&gt;
-          &lt;td&gt;97.5&lt;/td&gt;
-          &lt;td&gt;93.7/91.6&lt;/td&gt;
-          &lt;td&gt;92.9/92.5&lt;/td&gt;
-          &lt;td&gt;73.9/90.2&lt;/td&gt;
-          &lt;td&gt;91.0/90.8&lt;/td&gt;
-          &lt;td&gt;99.2&lt;/td&gt;
-          &lt;td&gt;89.7&lt;/td&gt;
-          &lt;td&gt;94.5&lt;/td&gt;
-          &lt;td&gt;50.2&lt;/td&gt;
-          &lt;td&gt;89.9&lt;/td&gt;
-          &lt;td&gt;356M&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Previous SOTA&lt;/em&gt;: T5&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;
-&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
-&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao&lt;/span&gt;
- &lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;[arXiv]&lt;/a&gt;
-
- &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;[Code]&lt;/a&gt;
-
-
- &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
-
-
-&lt;/p&gt;</description>
+      <description>Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (paper, code) achieves state-of-the-art results in 5 of 9 GLUE benchmark tasks and an overall GLUE task performance 89.9, which outperforms all existing models.
+The reuslts are summerized as follows:
+Method CoLA SST MRPC STS-B QQP MNLI-m/mm QNLI RTE WNLI AX Score #params Previous SOTA 70.8 97.1 91.9/89.2 92.5/92.1 74.6/90.4 92.0/91.7 96.7 92.5 93.2 53.1 89.7 11,000M MT-DNN-SMART 69.</description>
       <content>&lt;blockquote&gt;
 &lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Method&lt;/th&gt;
-          &lt;th&gt;CoLA&lt;/th&gt;
-          &lt;th&gt;SST&lt;/th&gt;
-          &lt;th&gt;MRPC&lt;/th&gt;
-          &lt;th&gt;STS-B&lt;/th&gt;
-          &lt;th&gt;QQP&lt;/th&gt;
-          &lt;th&gt;MNLI-m/mm&lt;/th&gt;
-          &lt;th&gt;QNLI&lt;/th&gt;
-          &lt;th&gt;RTE&lt;/th&gt;
-          &lt;th&gt;WNLI&lt;/th&gt;
-          &lt;th&gt;AX&lt;/th&gt;
-          &lt;th&gt;Score&lt;/th&gt;
-          &lt;th&gt;#params&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;Previous SOTA&lt;/td&gt;
-          &lt;td&gt;70.8&lt;/td&gt;
-          &lt;td&gt;97.1&lt;/td&gt;
-          &lt;td&gt;91.9/89.2&lt;/td&gt;
-          &lt;td&gt;92.5/92.1&lt;/td&gt;
-          &lt;td&gt;74.6/90.4&lt;/td&gt;
-          &lt;td&gt;92.0/91.7&lt;/td&gt;
-          &lt;td&gt;96.7&lt;/td&gt;
-          &lt;td&gt;92.5&lt;/td&gt;
-          &lt;td&gt;93.2&lt;/td&gt;
-          &lt;td&gt;53.1&lt;/td&gt;
-          &lt;td&gt;89.7&lt;/td&gt;
-          &lt;td&gt;11,000M&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;MT-DNN-SMART&lt;/td&gt;
-          &lt;td&gt;69.5&lt;/td&gt;
-          &lt;td&gt;97.5&lt;/td&gt;
-          &lt;td&gt;93.7/91.6&lt;/td&gt;
-          &lt;td&gt;92.9/92.5&lt;/td&gt;
-          &lt;td&gt;73.9/90.2&lt;/td&gt;
-          &lt;td&gt;91.0/90.8&lt;/td&gt;
-          &lt;td&gt;99.2&lt;/td&gt;
-          &lt;td&gt;89.7&lt;/td&gt;
-          &lt;td&gt;94.5&lt;/td&gt;
-          &lt;td&gt;50.2&lt;/td&gt;
-          &lt;td&gt;89.9&lt;/td&gt;
-          &lt;td&gt;356M&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Method&lt;/th&gt;
+&lt;th&gt;CoLA&lt;/th&gt;
+&lt;th&gt;SST&lt;/th&gt;
+&lt;th&gt;MRPC&lt;/th&gt;
+&lt;th&gt;STS-B&lt;/th&gt;
+&lt;th&gt;QQP&lt;/th&gt;
+&lt;th&gt;MNLI-m/mm&lt;/th&gt;
+&lt;th&gt;QNLI&lt;/th&gt;
+&lt;th&gt;RTE&lt;/th&gt;
+&lt;th&gt;WNLI&lt;/th&gt;
+&lt;th&gt;AX&lt;/th&gt;
+&lt;th&gt;Score&lt;/th&gt;
+&lt;th&gt;#params&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Previous SOTA&lt;/td&gt;
+&lt;td&gt;70.8&lt;/td&gt;
+&lt;td&gt;97.1&lt;/td&gt;
+&lt;td&gt;91.9/89.2&lt;/td&gt;
+&lt;td&gt;92.5/92.1&lt;/td&gt;
+&lt;td&gt;74.6/90.4&lt;/td&gt;
+&lt;td&gt;92.0/91.7&lt;/td&gt;
+&lt;td&gt;96.7&lt;/td&gt;
+&lt;td&gt;92.5&lt;/td&gt;
+&lt;td&gt;93.2&lt;/td&gt;
+&lt;td&gt;53.1&lt;/td&gt;
+&lt;td&gt;89.7&lt;/td&gt;
+&lt;td&gt;11,000M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MT-DNN-SMART&lt;/td&gt;
+&lt;td&gt;69.5&lt;/td&gt;
+&lt;td&gt;97.5&lt;/td&gt;
+&lt;td&gt;93.7/91.6&lt;/td&gt;
+&lt;td&gt;92.9/92.5&lt;/td&gt;
+&lt;td&gt;73.9/90.2&lt;/td&gt;
+&lt;td&gt;91.0/90.8&lt;/td&gt;
+&lt;td&gt;99.2&lt;/td&gt;
+&lt;td&gt;89.7&lt;/td&gt;
+&lt;td&gt;94.5&lt;/td&gt;
+&lt;td&gt;50.2&lt;/td&gt;
+&lt;td&gt;89.9&lt;/td&gt;
+&lt;td&gt;356M&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Previous SOTA&lt;/em&gt;: T5&lt;/li&gt;

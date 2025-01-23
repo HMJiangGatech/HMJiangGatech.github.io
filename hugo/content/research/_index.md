@@ -40,6 +40,20 @@ code="https://github.com/HMJiangGatech/BoostingExp"
 
 
 - {{<paper
+title="Hephaestus: Improving Fundamental Agent Capabilities of Large Language Models through Continual Pre-Training"
+year="2025"
+author="Yuchen Zhuang, Jingfeng Yang, Haoming Jiang, Xin Liu, Kewei Cheng, Sanket Lokegaonkar, Yifan Gao, Qing Ping, Tianyi Liu, Binxuan Huang, Zheng Li, Zhengyang Wang, Pei Chen, Ruijie Wang, Rongzhi Zhang, Nasser Zalmout, Priyanka Nigam, Bing Yin, Chao Zhang"
+proce="Annual Conference of the Nations of the Americas Chapter of the ACL (NAACL)"
+>}}
+
+- {{<paper
+title="IHEval: Evaluating Language Models on Following the Instruction Hierarchy"
+year="2025"
+author="Zhihan Zhang, Shiyang Li, Zixuan Zhang, Xin Liu, Haoming Jiang, Xianfeng Tang, Yifan Gao, Zheng Li, Haodong Wang, Zhaoxuan Tan, Yichuan Li, Qingyu Yin, Bing Yin, Meng Jiang"
+proce="Annual Conference of the Nations of the Americas Chapter of the ACL (NAACL)"
+>}}
+
+- {{<paper
 title="Adaptive Preference Scaling for Reinforcement Learning with Human Feedback"
 year="2024"
 author="Ilgee Hong, Zichong Li, Alexander Bukharin, Yixiao Li, Haoming Jiang, Tianbao Yang, Tuo Zhao"

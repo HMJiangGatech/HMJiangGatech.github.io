@@ -69,6 +69,13 @@ proce="Annual Conference on Neural Information Processing Systems (NeurIPS)"
 >}}
 
 - {{<paper
+title="Data Diversity Matters for Robust Instruction Tuning"
+year="2024"
+author="Alexander Bukharin, Shiyang Li, Zhengyang Wang, Jingfeng Yang, Bing Yin, Xian Li, Chao Zhang, Tuo Zhao, Haoming Jiang"
+proce="Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+>}}
+
+- {{<paper
 title="BlendFilter: Advancing Retrieval-Augmented Large Language Models via Query Generation Blending and Knowledge Filtering"
 year="2024"
 author="Haoyu Wang, Ruirui Li, Haoming Jiang, Jinjin Tian, Zhengyang Wang, Chen Luo, Xianfeng Tang, Monica Xiao Cheng, Tuo Zhao, Jing Gao"

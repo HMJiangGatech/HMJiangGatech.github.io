@@ -12,7 +12,7 @@ draft: false
 
 ### About Me
 
-I am researcher at OpenAI. My job is to feed our AI. Before that, I was a principle scientist at Amazon Generative Foundation Modeling Team.
+I am a researcher at OpenAI. My job is to feed our AI. Before that, I was a principle scientist at Amazon Generative Foundation Modeling Team.
 Before I joined Amazon, I obtained my Ph.D. degree in Machine Learning from the School of Industrial and Systems Engineering ([ISyE](https://www.isye.gatech.edu/))
 at [Georgia Tech](https://www.gatech.edu/). 
 I spent wonderful years with [Prof. Tuo Zhao](https://www2.isye.gatech.edu/~tzhao80/) in the FLASH (Foundations of LeArning Systems for alcHemy) research group.

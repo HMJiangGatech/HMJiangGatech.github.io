@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Webapp on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/webapp/</link>
+    <link>http://localhost:1313/tags/webapp/</link>
     <description>Recent content in Webapp on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/webapp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My tool for Viewing arXiv Papers</title>
-      <link>https://hmjianggatech.github.io/news/arxivviewer/</link>
+      <link>http://localhost:1313/news/arxivviewer/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
+      <guid>http://localhost:1313/news/arxivviewer/</guid>
       <description>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
 It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;

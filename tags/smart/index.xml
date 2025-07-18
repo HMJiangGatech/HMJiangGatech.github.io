@@ -2,20 +2,99 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Smart on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/smart/</link>
+    <link>http://localhost:1313/tags/smart/</link>
     <description>Recent content in Smart on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/smart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two Papers are Accepted by ACL 2020</title>
+      <link>http://localhost:1313/news/acl2020/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/news/acl2020/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
+&lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+ &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;[Code]&lt;/a&gt;
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.02692.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;</description>
+      <content>&lt;blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
+&lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;SMART: Robust and Efficient Fine-Tuning for Pre-trained Natural Language Models through Principled Regularized Optimization&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Pengcheng He, Weizhu Chen, Xiaodong Liu, Jianfeng Gao and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+ &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;[Code]&lt;/a&gt;
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;span style=&#34;color:white;font-weight:bold;&#34;&gt;Multi-Domain Neural Machine Translation with Word-Level Adaptive Layer-wise Domain Mixing&lt;/span&gt; &lt;span style=&#34;float:right;font-weight:bold;&#34;&gt;2020&lt;/span&gt;&lt;br/&gt;
+&lt;span style=&#34;color:LightGrey&#34;&gt;Haoming Jiang, Chen Liang, Chong Wang and Tuo Zhao&lt;/span&gt;
+ &lt;a href=&#34;https://arxiv.org/pdf/1911.02692.pdf&#34;&gt;[arXiv]&lt;/a&gt;
+
+
+
+
+ &lt;br/&gt; &lt;strong&gt;&lt;em style=&#34;color:LightGrey&#34;&gt;Annual Conference of the Association for Computational Linguistics (ACL)&lt;/em&gt;&lt;/strong&gt;, 2020
+
+
+&lt;/p&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
     <item>
       <title>State-of-the-art Results on GLUE Benchmark</title>
-      <link>https://hmjianggatech.github.io/news/smart/</link>
+      <link>http://localhost:1313/news/smart/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hmjianggatech.github.io/news/smart/</guid>
+      <guid>http://localhost:1313/news/smart/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -86,8 +165,7 @@
 
 &lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;

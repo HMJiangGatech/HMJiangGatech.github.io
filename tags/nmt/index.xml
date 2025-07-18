@@ -14,8 +14,7 @@
       
       <guid>http://localhost:1313/news/acl2020/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
 &lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
@@ -49,8 +48,7 @@
 
 &lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
 &lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;

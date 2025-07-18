@@ -2,77 +2,247 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Haoming Jiang</title>
-    <link>https://hmjianggatech.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arxiv</title>
-      <link>https://hmjianggatech.github.io/tags/arxiv/</link>
+      <link>http://localhost:1313/tags/arxiv/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/arxiv/</guid>
+      <guid>http://localhost:1313/tags/arxiv/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Webapp</title>
-      <link>https://hmjianggatech.github.io/tags/webapp/</link>
+      <link>http://localhost:1313/tags/webapp/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/webapp/</guid>
+      <guid>http://localhost:1313/tags/webapp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Adversarial</title>
+      <link>http://localhost:1313/tags/adversarial/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/adversarial/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Aistats</title>
+      <link>http://localhost:1313/tags/aistats/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/aistats/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Learning-to-Learn Robustness</title>
+      <link>http://localhost:1313/tags/learning-to-learn-robustness/</link>
+      <pubDate>Sat, 23 Jan 2021 22:49:12 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/learning-to-learn-robustness/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Bert Nlp</title>
+      <link>http://localhost:1313/tags/bert-nlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/bert-nlp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Calibration</title>
+      <link>http://localhost:1313/tags/calibration/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/calibration/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Emnlp</title>
+      <link>http://localhost:1313/tags/emnlp/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/emnlp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Smooth</title>
+      <link>http://localhost:1313/tags/smooth/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/smooth/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Transformer</title>
+      <link>http://localhost:1313/tags/transformer/</link>
+      <pubDate>Wed, 23 Dec 2020 22:49:01 -0500</pubDate>
+      
+      <guid>http://localhost:1313/tags/transformer/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Icml</title>
+      <link>http://localhost:1313/tags/icml/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/icml/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Point Process</title>
+      <link>http://localhost:1313/tags/point-process/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/point-process/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Rl</title>
+      <link>http://localhost:1313/tags/rl/</link>
+      <pubDate>Sun, 07 Jun 2020 22:49:01 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/rl/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Bert</title>
-      <link>https://hmjianggatech.github.io/tags/bert/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/tags/bert/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
+      <guid>http://localhost:1313/tags/bert/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
-      <title>Fine-Tuning</title>
-      <link>https://hmjianggatech.github.io/tags/fine-tuning/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Distant Supervision</title>
+      <link>http://localhost:1313/tags/distant-supervision/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/fine-tuning/</guid>
+      <guid>http://localhost:1313/tags/distant-supervision/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
-      <title>GLUE</title>
-      <link>https://hmjianggatech.github.io/tags/glue/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <title>Kdd</title>
+      <link>http://localhost:1313/tags/kdd/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/glue/</guid>
+      <guid>http://localhost:1313/tags/kdd/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Ner</title>
+      <link>http://localhost:1313/tags/ner/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/ner/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Nlp</title>
-      <link>https://hmjianggatech.github.io/tags/nlp/</link>
-      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      <link>http://localhost:1313/tags/nlp/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/nlp/</guid>
+      <guid>http://localhost:1313/tags/nlp/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Weak Supervision</title>
+      <link>http://localhost:1313/tags/weak-supervision/</link>
+      <pubDate>Fri, 15 May 2020 22:54:07 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/weak-supervision/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Acl</title>
+      <link>http://localhost:1313/tags/acl/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/acl/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Nmt</title>
+      <link>http://localhost:1313/tags/nmt/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/nmt/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Smart</title>
-      <link>https://hmjianggatech.github.io/tags/smart/</link>
+      <link>http://localhost:1313/tags/smart/</link>
+      <pubDate>Sun, 12 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/smart/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Fine-Tuning</title>
+      <link>http://localhost:1313/tags/fine-tuning/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://hmjianggatech.github.io/tags/smart/</guid>
+      <guid>http://localhost:1313/tags/fine-tuning/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>GLUE</title>
+      <link>http://localhost:1313/tags/glue/</link>
+      <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/glue/</guid>
       <description></description>
       <content></content>
     </item>

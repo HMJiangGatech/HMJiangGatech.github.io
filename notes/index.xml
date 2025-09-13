@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on Haoming Jiang</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>https://hmjianggatech.github.io/notes/</link>
     <description>Recent content in Notes on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Mar 2021 06:09:47 -0500</lastBuildDate><atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 06:09:47 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

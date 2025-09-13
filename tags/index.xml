@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Haoming Jiang</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://hmjianggatech.github.io/tags/</link>
     <description>Recent content in Tags on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Feb 2021 18:53:26 -0500</lastBuildDate><atom:link href="https://hmjianggatech.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arxiv</title>
-      <link>http://localhost:1313/tags/arxiv/</link>
+      <link>https://hmjianggatech.github.io/tags/arxiv/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/arxiv/</guid>
+      <guid>https://hmjianggatech.github.io/tags/arxiv/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Webapp</title>
-      <link>http://localhost:1313/tags/webapp/</link>
+      <link>https://hmjianggatech.github.io/tags/webapp/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>http://localhost:1313/tags/webapp/</guid>
+      <guid>https://hmjianggatech.github.io/tags/webapp/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Bert</title>
-      <link>http://localhost:1313/tags/bert/</link>
+      <link>https://hmjianggatech.github.io/tags/bert/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/bert/</guid>
+      <guid>https://hmjianggatech.github.io/tags/bert/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Fine-Tuning</title>
-      <link>http://localhost:1313/tags/fine-tuning/</link>
+      <link>https://hmjianggatech.github.io/tags/fine-tuning/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/fine-tuning/</guid>
+      <guid>https://hmjianggatech.github.io/tags/fine-tuning/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>GLUE</title>
-      <link>http://localhost:1313/tags/glue/</link>
+      <link>https://hmjianggatech.github.io/tags/glue/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/glue/</guid>
+      <guid>https://hmjianggatech.github.io/tags/glue/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Nlp</title>
-      <link>http://localhost:1313/tags/nlp/</link>
+      <link>https://hmjianggatech.github.io/tags/nlp/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/nlp/</guid>
+      <guid>https://hmjianggatech.github.io/tags/nlp/</guid>
       <description></description>
       <content></content>
     </item>
     
     <item>
       <title>Smart</title>
-      <link>http://localhost:1313/tags/smart/</link>
+      <link>https://hmjianggatech.github.io/tags/smart/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/smart/</guid>
+      <guid>https://hmjianggatech.github.io/tags/smart/</guid>
       <description></description>
       <content></content>
     </item>

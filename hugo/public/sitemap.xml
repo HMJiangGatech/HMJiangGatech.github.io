@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://hmjianggatech.github.io/notes/</loc>
     <lastmod>2021-03-03T06:09:47-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/arxiv/</loc>
+    <loc>https://hmjianggatech.github.io/tags/arxiv/</loc>
     <lastmod>2021-02-24T18:53:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/arxivviewer/</loc>
+    <loc>https://hmjianggatech.github.io/news/arxivviewer/</loc>
     <lastmod>2021-02-24T18:53:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>https://hmjianggatech.github.io/news/</loc>
     <lastmod>2021-02-24T18:53:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://hmjianggatech.github.io/tags/</loc>
     <lastmod>2021-02-24T18:53:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/webapp/</loc>
+    <loc>https://hmjianggatech.github.io/tags/webapp/</loc>
     <lastmod>2021-02-24T18:53:26-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/others/</loc>
+    <loc>https://hmjianggatech.github.io/others/</loc>
     <lastmod>2020-04-30T01:12:16-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gallery/</loc>
+    <loc>https://hmjianggatech.github.io/gallery/</loc>
     <lastmod>2020-04-30T00:13:32-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://hmjianggatech.github.io/projects/</loc>
     <lastmod>2020-04-30T00:12:54-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
+    <loc>https://hmjianggatech.github.io/research/</loc>
     <lastmod>2020-04-30T00:12:12-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://hmjianggatech.github.io/</loc>
     <lastmod>2020-04-29T22:36:35-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/bert/</loc>
+    <loc>https://hmjianggatech.github.io/tags/bert/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fine-tuning/</loc>
+    <loc>https://hmjianggatech.github.io/tags/fine-tuning/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/glue/</loc>
+    <loc>https://hmjianggatech.github.io/tags/glue/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nlp/</loc>
+    <loc>https://hmjianggatech.github.io/tags/nlp/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/smart/</loc>
+    <loc>https://hmjianggatech.github.io/tags/smart/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/smart/</loc>
+    <loc>https://hmjianggatech.github.io/news/smart/</loc>
     <lastmod>2019-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://hmjianggatech.github.io/categories/</loc>
   </url>
 </urlset>

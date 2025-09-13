@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Haoming Jiang (姜昊茗) on Haoming Jiang</title>
-    <link>http://localhost:1313/</link>
+    <link>https://hmjianggatech.github.io/</link>
     <description>Recent content in Haoming Jiang (姜昊茗) on Haoming Jiang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Apr 2020 22:36:35 -0400</lastBuildDate><atom:link href="https://hmjianggatech.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My tool for Viewing arXiv Papers</title>
-      <link>http://localhost:1313/news/arxivviewer/</link>
+      <link>https://hmjianggatech.github.io/news/arxivviewer/</link>
       <pubDate>Wed, 24 Feb 2021 18:53:26 -0500</pubDate>
       
-      <guid>http://localhost:1313/news/arxivviewer/</guid>
+      <guid>https://hmjianggatech.github.io/news/arxivviewer/</guid>
       <description>&lt;p&gt;Recently, the hundreds of daily updates from arXiv make me feel overwhelmed. To help me better digest new machine learning papers, I developed an arXiv paper reading web app: &lt;a href=&#34;https://arxiv.gtflashlab.com/&#34;&gt;https://arxiv.gtflashlab.com/&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;It gives me an Outlook-like user experience. It allows me to view the latest papers in an efficient, manageable, personalized way.
 It also provides some basic functions, that help me to manage these papers:&lt;/p&gt;
@@ -55,10 +55,10 @@ If you want to help me to improve it, visit my GitHub: &lt;a href=&#34;https://g
     
     <item>
       <title>State-of-the-art Results on GLUE Benchmark</title>
-      <link>http://localhost:1313/news/smart/</link>
+      <link>https://hmjianggatech.github.io/news/smart/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/news/smart/</guid>
+      <guid>https://hmjianggatech.github.io/news/smart/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
 &lt;/blockquote&gt;

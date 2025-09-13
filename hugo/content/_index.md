@@ -20,10 +20,6 @@ I received my B.S. degree in Computer Science and Mathematics from the School of
 
 My research focuses on generative AI, large language modeling, deep learning and open-source software for data analysis. 
 
-### **Hiring Intern and Full-time**
-We have research intern / fulltime oppenings in Generative AI. If you are interested, shoot me an [email](mailto:jhaoming@amazon.com). 
-
-
 ### Professional Experience
 
 - Principle Applied Scientist, *Amazon*, 2021-present

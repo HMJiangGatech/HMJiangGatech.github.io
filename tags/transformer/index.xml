@@ -57,7 +57,8 @@
       
       <guid>http://localhost:1313/news/icml2020/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;One is about transformer-based point process model.&lt;/p&gt;
 &lt;p&gt;The other one is about using smooth policy to improve reinforcement learning in continuous environment.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
@@ -91,7 +92,8 @@
 
 &lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ICML 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;One is about transformer-based point process model.&lt;/p&gt;
 &lt;p&gt;The other one is about using smooth policy to improve reinforcement learning in continuous environment.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;

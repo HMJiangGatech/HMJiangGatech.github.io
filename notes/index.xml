@@ -14,7 +14,8 @@
       
       <guid>http://localhost:1313/notes/secret_nmt/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Some tricks for reproduce WMT EN-DE&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Some tricks for reproduce WMT EN-DE&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;WMT EN-DE&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \
 --path $MODELDIR \
@@ -31,7 +32,8 @@ grep ^T $GEN | cut -f2- | perl -ple &amp;#39;s{(\S)-(\S)}{$1 ##AT##-##AT## $2}g&
 fairseq-score --sys $SYS --ref $REF
 &lt;/code&gt;&lt;/pre&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Some tricks for reproduce WMT EN-DE&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Some tricks for reproduce WMT EN-DE&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;WMT EN-DE&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;CUDA_VISIBLE_DEVICES=$GPUDEV fairseq-generate ../data-bin/wmt16_en_de_bpe32k \
 --path $MODELDIR \
@@ -68,7 +70,8 @@ fairseq-score --sys $SYS --ref $REF
 &lt;p&gt;&lt;strong&gt;What do we have&lt;/strong&gt;:&lt;br&gt;
 &lt;em&gt;(i)&lt;/em&gt; historical data \(\pi\): \( \mathcal{D}=\{s_i,a_i,r_i,s_i&amp;rsquo;\} \) (state, action, reward) pairs of one or more policies ( \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) ) interacting with environment. &lt;br&gt;
 &lt;em&gt;(ii)&lt;/em&gt; A target policy \(\pi\)
-&lt;em&gt;(optional)&lt;/em&gt; Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.g., human expert).&lt;/p&gt;&lt;/blockquote&gt;
+&lt;em&gt;(optional)&lt;/em&gt; Expert policies \( \mu_1, \mu_2, \mu_3, &amp;hellip; \) may or may not be accessible. In a more general setting, they are not accessible (e.g., human expert).&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;definition&#34;&gt;Definition&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;OPE target&lt;/strong&gt;:
 $$ \rho(\pi) = \mathbb{E}_{(s,a,r) \sim d^\pi}(r) $$

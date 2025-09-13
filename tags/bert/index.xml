@@ -16,7 +16,8 @@
       <description>&lt;blockquote&gt;
 &lt;p&gt;Our recent work on distantly supervised NER is accepted by KDD2020.
 We are closing the GAP between full supervision and no supervision!
-See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;https://github.com/cliang1453/BOND&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;https://github.com/cliang1453/BOND&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The reuslts (F1 score) are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -77,7 +78,8 @@ See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;ht
       <content>&lt;blockquote&gt;
 &lt;p&gt;Our recent work on distantly supervised NER is accepted by KDD2020.
 We are closing the GAP between full supervision and no supervision!
-See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;https://github.com/cliang1453/BOND&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;https://github.com/cliang1453/BOND&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The reuslts (F1 score) are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -147,7 +149,8 @@ See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;ht
       
       <guid>http://localhost:1313/news/acl2020/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
 &lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
@@ -181,7 +184,8 @@ See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;ht
 
 &lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Two papers are accepted by ACL 2020!&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;One is about multidomain NMT using word level mixing model.&lt;/p&gt;
 &lt;p&gt;The other one is &lt;strong&gt;SMART&lt;/strong&gt; model, leaderboad wining model on GLUE.&lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/h3&gt;
@@ -227,7 +231,8 @@ See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;ht
       
       <guid>http://localhost:1313/news/smart/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -298,7 +303,8 @@ See our code here: &lt;a href=&#34;https://github.com/cliang1453/BOND&#34;&gt;ht
 
 &lt;/p&gt;</description>
       <content>&lt;blockquote&gt;
-&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Our recent collabrative work with Microsoft Dynamics 365 AI and Microsoft Research AI (&lt;a href=&#34;https://arxiv.org/pdf/1911.03437.pdf&#34;&gt;paper&lt;/a&gt;, &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;code&lt;/a&gt;) achieves state-of-the-art results in 5 of 9 &lt;a href=&#34;https://github.com/namisan/mt-dnn&#34;&gt;GLUE benchmark tasks&lt;/a&gt; and an overall GLUE task performance &lt;strong&gt;89.9&lt;/strong&gt;, which outperforms all existing models.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;The reuslts are summerized as follows:&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
